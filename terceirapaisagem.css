@@ -215,7 +215,6 @@ figcaption {
   font-style: normal;
   background: white;
   color: var(--lightgreen);
-
 }
 figcaption p { margin: 0;}
 table{ font-size: inherit; display: none;}
