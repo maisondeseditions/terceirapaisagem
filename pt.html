@@ -6,19 +6,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Manifesto da terceira paisagem</title>
   <link rel="stylesheet" href="terceirapaisagem.css">
+  <!-- <link rel="stylesheet" href="paged/pagedjs.css"> -->
+  <link rel="stylesheet" href="print.css" media="print">
+  <script>paged = true</script>
+  <script src="script.js"></script>
+  <!-- <script src="paged/paged.polyfill.js"></script>
+  <script src="paged/handlers.js"></script> -->
 </head>
 <body>
 
+  <nav>
+    <button id="menu">
+      <span>menu</span>
+    </button>
+  </nav>
+
   <div class="intro">
     <header id="header">
-      <h1>Manifesto da terceira paisagem</h1>
+      <h1>Manifesto da <br>terceira paisagem</h1>
       <h2>Gilles Clément</h2>
       <p>Tradução de Lúcia Leistner</p>
+      <figure id="echo">
+        <span class="image">
+          <img src="echo.png" alt="Echo d’un tiers paysage">
+        </span>
+      </figure>
     </header>
   
     <blockquote id="blockquote">
       <p>“Fragmento indeciso do jardim planetário, a Terceira paisagem se compõe na soma dos espaços negligenciados pelos homens. Essas margens apresentam uma diversidade biológica que não é por ora reconhecida como sendo uma riqueza. Terceira paisagem refere-se a Terceiro Estado — e não a Terceiro Mundo; o espaço não expressando poder nem submissão ao poder. Ela faz menção ao panfleto de Sieyès, de 1789:</p>
-      <p><em>O que é o terceiro estado? Tudo<br>O que ele realizou até agora? Nada<br>O que ele almeja alcançar? Algo.</em>”</p>
+      <p><span class="sieyes"><em>O que é o terceiro estado? Tudo<br>O que ele realizou até agora? Nada<br>O que ele almeja alcançar? Algo.</em></span>”</p>
     </blockquote>
     
     <section id="index">
@@ -57,21 +74,33 @@
   <section class="text" id="origem">
     <h2><span class="enum">I </span>ORIGEM</h2>
     <p>A expressão Terceira paisagem vem de uma observação singular realizada na região do <em>Limousin</em>.</p>
-    <p>A análise da paisagem de Vassivière <span class="fn ndt">O “centro internacional de arte e da paisagem” (criado em 1983) de Vassivière é um centro de arte contemporânea criado em uma ilha, sobre um lago artificial, na região Limousin. Ele é a sede de uma renomada residência artística pluridisciplinar.</span> foi realizada em 2002, solicitada pelo <em>Centro de arte e da paisagem;</em> ela nos permitiu entrever o caráter artificial do que parece ser “naturalmente presente”: a superfície das águas represadas, as árvores de uma floresta manejada, os verdes pastos destinados aos bovinos… Um conjunto organizado segundo as facilidades do relevo, da exposição, dos acessos.</p>
+    <p>A análise da paisagem de Vassivière <span class="ndt">O “centro internacional de arte e da paisagem” (criado em 1983) de Vassivière é um centro de arte contemporânea criado em uma ilha, sobre um lago artificial, na região Limousin. Ele é a sede de uma renomada residência artística pluridisciplinar.</span> foi realizada em 2002, solicitada pelo <em>Centro de arte e da paisagem;</em> ela nos permitiu entrever o caráter artificial do que parece ser “naturalmente presente”: a superfície das águas represadas, as árvores de uma floresta manejada, os verdes pastos destinados aos bovinos… Um conjunto organizado segundo as facilidades do relevo, da exposição, dos acessos.</p>
     <p>O que percebe um pássaro — e que nosso olhar pode abraçar desde um topo — é um tapete tecido de formas sombrias e imperfeitas, as florestas, e de superfícies claras e bem delimitadas, as pastagens.</p>
-    <p>A alternância de árvores e pastos dá espessura à paisagem, a anima de perspectivas curvas, reveladas por um relevo gracioso e intenso. Esse equilíbrio de sombras e luzes deixa transparecer um dispositivo de ordem econômica. O imenso território que abrange esse equilíbrio pode enganar o viajante: trata-se de um projeto? De uma casualidade histórica? Desmembramento de parcelas, ‘habitat’ disperso, variações do relevo; tudo isso constitui um dispositivo arraigado na geografia e na sociedade, capaz de combater duravelmente as ferramentas de remembramento consideradas. Vestígio de uma policultura passada da qual poucas fisionomias permaneceram, sendo substituídas por apenas duas riquezas dominantes: as árvores e os pastos. Puros produtos da PAC <span class="fn ndt">A “PAC”, Política Agrícola Comum da União Europeia, é um sistema de subsídios à agricultura e programas de desenvolvimento em áreas afins; foi criada em 1957 e posta em prática em 1962. Fortemente criticada, a PAC pesa 40% do orçamento europeu; considerada complexa e injusta, ela é constantemente renegociada.</span> cujo poder de redução, portanto considerável, ainda não eliminou toda a diversidade.</p>
+    <p>A alternância de árvores e pastos dá espessura à paisagem, a anima de perspectivas curvas, reveladas por um relevo gracioso e intenso. Esse equilíbrio de sombras e luzes deixa transparecer um dispositivo de ordem econômica. O imenso território que abrange esse equilíbrio pode enganar o viajante: trata-se de um projeto? De uma casualidade histórica? Desmembramento de parcelas, ‘habitat’ disperso, variações do relevo; tudo isso constitui um dispositivo arraigado na geografia e na sociedade, capaz de combater duravelmente as ferramentas de remembramento consideradas. Vestígio de uma policultura passada da qual poucas fisionomias permaneceram, sendo substituídas por apenas duas riquezas dominantes: as árvores e os pastos. Puros produtos da PAC <span class="ndt">A “PAC”, Política Agrícola Comum da União Europeia, é um sistema de subsídios à agricultura e programas de desenvolvimento em áreas afins; foi criada em 1957 e posta em prática em 1962. Fortemente criticada, a PAC pesa 40% do orçamento europeu; considerada complexa e injusta, ela é constantemente renegociada.</span> cujo poder de redução, portanto considerável, ainda não eliminou toda a diversidade.</p>
     <p>Se cessarmos de ver a paisagem como um objeto da indústria, descobriremos bruscamente — seria isto um descuido do cartógrafo, uma negligência política? — uma quantidade de espaços indecisos, desprovidos de função, aos quais é difícil se atribuir uma definição. Esse conjunto não pertence nem ao território da sombra, nem ao da luz. Situa-se às margens. No limiar dos bosques, ao longo das estradas e rios, nos recantos esquecidos das culturas, lá onde as máquinas não passam. Ele cobre áreas de dimensões modestas, dispersadas como as arestas perdidas das culturas; ou então vastas, como as turfeiras, cerrados ou propriedades agrícolas recentemente alqueivadas.</p>
     <p>Em nada se assemelham formalmente esses fragmentos de paisagem. Porém, entre eles há um ponto em comum: todos constituem um refúgio para a diversidade que vem sendo rechaçada de qualquer outro lugar. Tudo isso nos leva a reuni-los em um termo comum. Proponho Terceira paisagem, terceiro termo originado por uma análise que dispôs os dados principais visíveis ou à sombra, ou bem à luz.</p>
-    <figure>
-      <img loading="lazy" src="images/Croquis-01.jpg" alt="">
-      <figcaption>
-        <p>Paisagem em periferia do limousin<br>Luz dominante</p>
-        <p>Paisagem dominante no limousin<br>Equilíbrio sombra/luz</p>
-        <p>Paisagem no entorno de vassiviere<br>Sombra dominante</p>
-      </figcaption>
+    <figure id="fig-1">
+      <span class="image">
+        <img loading="lazy" src="images-2/Croquis-01-a.png" alt="">
+        <figcaption>
+          <p>Paisagem em periferia do limousin<br>Luz dominante</p>
+        </figcaption>
+      </span>
+      <span class="image">
+        <img loading="lazy" src="images-2/Croquis-01-b.png" alt="">
+        <figcaption>
+          <p>Paisagem dominante no limousin<br>Equilíbrio sombra/luz</p>
+        </figcaption>
+      </span>
+      <span class="image">
+        <img loading="lazy" src="images-2/Croquis-01-c.png" alt="">
+        <figcaption>
+          <p>Paisagem no entorno de vassiviere<br>Sombra dominante</p>
+        </figcaption>
+      </span>
     </figure>    
-    <p>Terceira paisagem refere-se a Terceiro Estado — e não a Terceiro Mundo; o espaço não expressando poder nem submissão ao poder. Ela faz menção ao panfleto de Sieyès, de 1789 <span class="fn ndt">Inspirado no panfleto de Emmanuel-Joseph Sieyès, 1748 – 1836. Escritor, eclesiástico e político francês, ele foi teórico revolucionário e membro da Academia Francesa. No texto citado o autor evoca que o Terceiro Estado é uma nação completa e que não necessita dos outros dois estamentos: o clero e a nobreza.</span>:</p>
-    <p><em>O que é o terceiro estado? Tudo<br>O que ele realizou até agora? Nada<br>O que ele almeja alcançar? Algo.</em>”</p>
+    <p>Terceira paisagem refere-se a Terceiro Estado — e não a Terceiro Mundo; o espaço não expressando poder nem submissão ao poder. Ela faz menção ao panfleto de Sieyès, de 1789 <span class="ndt">Inspirado no panfleto de Emmanuel-Joseph Sieyès, 1748 – 1836. Escritor, eclesiástico e político francês, ele foi teórico revolucionário e membro da Academia Francesa. No texto citado o autor evoca que o Terceiro Estado é uma nação completa e que não necessita dos outros dois estamentos: o clero e a nobreza.</span>:</p>
+    <p><span class="sieyes"><em>O que é o terceiro estado? Tudo<br>O que ele realizou até agora? Nada<br>O que ele almeja alcançar? Algo.</em></span>”</p>
   </section>
 
   <section class="text" id="extensao">
@@ -84,19 +113,28 @@
     <p><span class="enum">6 </span>Nos setores urbanos eles correspondem aos terrenos à espera de um projeto ou de sua construção, de projetos suspensos à obtenção de orçamento ou de decisões político-administrativas. Sendo esse lapso temporal frequentemente longo, os baldios urbanos favorecem o desenvolvimento de bosques (“bosques dos baldios”<span class="fn">O estudo “bosques dos baldios”, dirigido por Patrick Bouchain, demonstra como um território abandonado se converte em riqueza.</span>).</p>
     <p><span class="enum">7 </span>A cidade produz baldios proporcionais à sua extensão. Os baldios no coração da cidade são menores e raros; nas periferias, vastos e abundantes.</p>
     <figure>
-      <img loading="lazy" src="images/Croquis-02.jpg" alt="">
-      <figcaption>
-        <p>Desenvolvimento concêntrico do tecido urbano</p>
-        <p>◼ Baldios</p>
-      </figcaption>
+      <span class="image">
+        <img loading="lazy" src="images/Croquis-02.jpg" alt="">
+        <figcaption>
+          <p>Desenvolvimento concêntrico do tecido urbano</p>
+          <p>◼ Baldios</p>
+        </figcaption>
+      </span>
     </figure>
     <p><span class="enum">8 </span>As zonas rurais apresentam baldios — e vegetação primária — mais significativos à medida que seu relevo é mais pronunciado. Eles se apresentam mais esparsos quando o relevo é tênue.</p>
     <figure>
-      <img loading="lazy" src="images/Croquis-03.jpg" alt="">
-      <figcaption>
-        <p>Baldios raros ou ausentes</p>
-        <p>Baldios abundantes e vastos</p>
-      </figcaption>
+      <span class="image">
+        <img loading="lazy" src="images-2/Croquis-03-a.png" alt="">
+        <figcaption>
+          <p>Baldios raros ou ausentes</p>
+        </figcaption>
+      </span>
+      <span class="image">
+        <img loading="lazy" src="images-2/Croquis-03-b.png" alt="">
+        <figcaption>
+          <p>Baldios abundantes e vastos</p>
+        </figcaption>
+      </span>
     </figure>
     <p><span class="enum">9 </span>A disponibilidade dos territórios de refúgio para a diversidade é diretamente ligada à possibilidade de:<br> — explorar mecanicamente o setor rural;<br> — ocupar o solo dos setores urbanos.</p>
     <p><span class="enum">10 </span>Em todos os casos — planificação das zonas urbanas ou rurais — o relevo contribui com o desenvolvimento da diversidade e, portanto, da Terceira paisagem.</p>
@@ -109,13 +147,30 @@
     <p>Os espaços de diversidade se originam de três fontes distintas: das áreas de vegetação primária, dos baldios e das reservas.</p>
     <p>As <em>áreas de vegetação primária</em> são territórios nunca explorados. Eles evoluem lentamente, ou simplesmente não mais evoluem. As espécies que lá se desenvolvem testemunham o apogeu da vida em uma determinada condição do meio ambiente (clímax). Algumas florestas primárias subsistem ainda em nosso mundo, as outras espécies ditas primárias se encontram repartidas nas pastagens alpinas, nos cerrados climácicos, nas tundras, etc. As áreas de vegetação primária apresentam um aspecto uniforme apesar de abrigarem usualmente uma forte diversidade.</p>
     <figure>
-      <img loading="lazy" src="images/Croquis-04.jpg" alt="">
-      <figcaption>
-        <p>52 espécies presentes nos espaços intocados </p>
-        <p>16 espécies presentes em uma plantação sem tratamentos</p>
-        <p>5 espécies presentes em uma plantação com tratamentos (por vezes 1)</p>
-        <p>Exemplo tirado de um fragmento de paisagem do limousin – Primavera 2003</p>
-      </figcaption>
+      <span class="image">
+        <img loading="lazy" src="images-2/Croquis-04-a.png" alt="">
+        <figcaption>
+          <p>52 espécies presentes nos espaços intocados </p>
+        </figcaption>
+      </span>
+      <span class="image">
+        <img loading="lazy" src="images-2/Croquis-04-b.png" alt="">
+        <figcaption>
+          <p>16 espécies presentes em uma plantação sem tratamentos</p>
+        </figcaption>
+      </span>
+      <span class="image">
+        <img loading="lazy" src="images-2/Croquis-04-c.png" alt="">
+        <figcaption>
+          <p>5 espécies presentes em uma plantação com tratamentos (por vezes 1)</p>
+        </figcaption>
+      </span>
+      <span class="image">
+        <img loading="lazy" src="images-2/Croquis-04-d.png" alt="">
+        <figcaption>
+          <p>Exemplo tirado de um fragmento de paisagem do limousin – Primavera 2003</p>
+        </figcaption>
+      </span>
     </figure>
     <p>Os baldios decorrem do abandono de uma atividade; eles evoluem naturalmente rumo a uma paisagem secundária.</p>
     <p>Uma floresta secundária pode surgir em um baldio. Ela se caracteriza por uma <em>forte dinâmica</em>. Um baldio recente acolhe rapidamente as espécies pioneiras, estas desaparecerão, dando lugar às espécies mais estáveis até que se alcance um equilíbrio. As paisagens secundarizadas são heterogêneas e caóticas.</p>
@@ -136,29 +191,41 @@
     <p><span class="enum">14 </span>Uma pangeia (continente único) abriga menos espécies que diversos continentes separados de mesma superfície. A Terra vivenciou várias derivas continentais mas também vários períodos de convergência, ao menos cinco.</p>
     <p><span class="enum">15 </span>A forma atual de nosso planeta corresponde a um pico em termos de diversidade.</p>
     <p><span class="enum">16 </span>As atividades humanas aceleram o processo de um movimento levando a uma situação análoga a uma nova pangeia, diminuindo assim a quantidade de espécies isoladas e, por conseguinte, a quantidade total de espécies.</p>
-    <figure>
-      <img loading="lazy" src="images/Croquis-05.jpg" alt="">
-      <figcaption>
-        <p>
-          Áreas de vegetação primaria e reservas<br>
-          — Grande diversidade específica<br>
-          — espécies estáveis<br>
-          — dinâmica lenta<br>
-          — forte endemismo
-        </p>
-        <p>
-          Baldios<br>
-          — Diversidade específica heterogênea (endógena e exógena)<br>
-          — espécies instáveis<br>
-          — fraco endemismo
-        </p>
-        <p>
-          Espaços controlados<br>
-          — Diversidade específica rara ou inexistente<br>
-          — espécies mantidas artificialmente graças á energia contrária<br>
-          — endemismo mínimo ou nulo
-        </p>
-      </figcaption>
+    <figure id="fig-5">
+      <span class="image">
+        <img loading="lazy" src="images-2/Croquis-05-a.png" alt="">
+        <figcaption>
+          <p>
+            Áreas de vegetação primaria e reservas<br>
+            — Grande diversidade específica<br>
+            — espécies estáveis<br>
+            — dinâmica lenta<br>
+            — forte endemismo
+          </p>
+        </figcaption>
+      </span>
+      <span class="image">
+        <img loading="lazy" src="images-2/Croquis-05-b.png" alt="">
+        <figcaption>
+          <p>
+            Baldios<br>
+            — Diversidade específica heterogênea (endógena e exógena)<br>
+            — espécies instáveis<br>
+            — fraco endemismo
+          </p>
+        </figcaption>
+      </span>
+      <span class="image">
+        <img loading="lazy" src="images-2/Croquis-05-c.png" alt="">
+        <figcaption>
+          <p>
+            Espaços controlados<br>
+            — Diversidade específica rara ou inexistente<br>
+            — espécies mantidas artificialmente graças á energia contrária<br>
+            — endemismo mínimo ou nulo
+          </p>
+        </figcaption>
+      </span>
     </figure>
     <p><span class="enum">17 </span>O desenvolvimento contínuo da antropização planetária leva à produção constante de baldios e à redução das áreas de vegetação primária.</p>
     <p><span class="enum">18 </span>A fase subsequente desse processo é a eliminação das áreas de vegetação primária e a generalização dos meios secundários. Nesse ponto o planeta pode se assimilar a um imenso baldio, funcionando a partir de um número reduzido de espécies em equilíbrio com a atividade humana.</p>
@@ -191,14 +258,11 @@
     <p><span class="enum">8 </span>A uniformização das práticas antrópicas leva à redução das variedades de comportamento.</p>
     <p><span class="enum">9 </span>Perante esta oscilação da quantidade, a Terceira paisagem se posiciona enquanto território de refúgio (situação passiva) e enquanto espaço de inventividade possível (situação ativa).</p>
     <p><span class="enum">10 </span>Enquanto reservatório das inúmeras configurações genéticas planetárias, a Terceira paisagem representa o porvir biológico.</p>
-    <figure>
-      <img loading="lazy" src="images/Croquis-06.jpg" alt="">
+    <figure id="fig-6">
+      <span class="image">
+        <img loading="lazy" src="images/Croquis-06.jpg" alt="">
+      </span>
       <figcaption>
-        <p>
-          O continente teórico<br>
-          Segundo a “carta dos biomas” de C. Troll<br>
-          em “les végétaux dans la biosphère” de P. Ozenda
-        </p>
         <p>
           Floresta decícua temperada<br>
           Vegetação mediterrânea<br>
@@ -220,6 +284,11 @@
           Floresta tropical úmida<br>
           Pampas<br>
           Estepes frias
+        </p>
+        <p>
+          O continente teórico<br>
+          Segundo a “carta dos biomas” de C. Troll<br>
+          em “les végétaux dans la biosphère” de P. Ozenda<br>
         </p>
       </figcaption>
     </figure>
@@ -243,33 +312,40 @@
     <h2><span class="enum">VI </span>MOBILIDADE</h2>
     <p>Por ser a sede de fortes dinâmicas, a Terceira paisagem muda de aspecto no tempo.</p>
     <p><span class="enum">1 </span>Em decorrência dos intercâmbios internos: <br>— dinâmica natural rumo ao clímax florestal.</p>
-    <figure>
-      <img loading="lazy" src="images/Croquis-07.jpg" alt="">
+    <figure id="fig-7">
+      <span class="image">
+        <img loading="lazy" src="images/Croquis-07.jpg" alt="">
+      </span>
       <figcaption>
-        <p>Devoluto jovem</p><p>Diversidade média</p>
-        <p>Devoluto guarnecido</p><p>Pico de diversidade</p>
-        <p>Floresta</p><p>Diversidade média</p>
+        <div><p>Devoluto jovem</p><p>Diversidade média</p></div>
+        <p>→</p>
+        <div><p>Devoluto guarnecido</p><p>Pico de diversidade</p></div>
+        <p>→</p>
+        <div><p>Floresta</p><p>Diversidade média</p></div>
       </figcaption>
     </figure>
     <p><span class="enum">2 </span>Em decorrência dos intercâmbios com o meio: <br>— uma pressão intensa do entorno do território antropizado (práticas poluentes) conduz à perda de diversidade da Terceira paisagem. <br>— uma pressão tênue do entorno do território antropizado (práticas não poluentes) mantém uma diversidade equilibrada da Terceira paisagem que pode influenciar positivamente o meio ambiente.</p>
-    <figure>
-      <img loading="lazy" src="images/Croquis-08.jpg" alt="">
+    <figure id="fig-8">
+      <span class="image">
+        <img loading="lazy" src="images/Croquis-08.jpg" alt="">
+      </span>
       <figcaption>
-        <p>Intercâmbios com o meio circunvizinho<br>Influências “naturais”</p>
-        <p>T.P. = Terceira paisagem<br>T.A. = Território antropizado</p>
         <p>Equilíbrio terceira paisagem<br>E território antropizado<br>(limousin)</p>
         <p>Pressão do território antropizado<br>Sobre a terceira paisagem<br>Efeitos de esterilização e<br>Perda de diversidade</p>
         <p>Leve pressão do<br>Território antropizado<br>Efeitos de propagação e<br>Acréscimo da diversidade</p>
+        <p>Intercâmbios com o meio circunvizinho<br>Influências “naturais”</p>
+        <p>T.P. = Terceira paisagem<br>T.A. = Território antropizado</p>
       </figcaption>
     </figure>
     <p><span class="enum">3 </span>A Terceira paisagem adapta sua forma e constituição segundo as necessidades do mercado e da atualidade política.</p>
-    <figure>
-      <img loading="lazy" src="images/Croquis-09.jpg" alt="">
-      <figcaption>
-        <p>Flexibilidade da relação T.P. / T.A.<br>de acordo com o estímulo do mercado<br>e das manobras políticas</p>
-        <p>Devoluto</p>
+    <figure id="fig-9">
+      <span class="image">
+        <img loading="lazy" src="images/Croquis-09.jpg" alt="">
+      </span>
+      <figcaption>        
         <p>Desbravamento<br>perda de diversidade</p>
-        <p>Renaturalização<br>acréscimo da diversidade</p>
+        <p>(Devoluto) Renaturalização<br>acréscimo da diversidade</p>
+        <p>Flexibilidade da relação T.P. / T.A.<br>de acordo com o estímulo do mercado<br>e das manobras políticas</p>
       </figcaption>
     </figure>
   </section>
@@ -281,27 +357,33 @@
     <p><span class="enum">3 </span>O incremento da quantidade de baldios produzidos pela planificação territorial nem sempre conduz ao acréscimo da superfície global da Terceira paisagem, mas frequentemente à sua fragmentação.</p>
     <p><span class="enum">4 </span>A multiplicação de fragmentos da Terceira paisagem é um fator seletivo de sua diversidade. Sobrevivem somente as espécies cujo território biológico é compatível com a superfície disponível no fragmento.</p>
     <p><span class="enum">5 </span>A planificação a partir do desenvolvimento produz uma trama territorial, o tecido urbano.</p>
-    <figure>
-      <img loading="lazy" src="images/Croquis-10-A.jpg" alt="">
+    <figure id="fig-10">
+      <span class="image">
+        <img loading="lazy" src="images/Croquis-10-A.jpg" alt="">
+      </span>
       <figcaption>
         <p>Baldio compacto<br>Estabilidade da quantidade de espécies</p>
         <p>Baldio fragmentado<br>Redução da quantidade de espécies</p>
       </figcaption>
     </figure>
-    <figure>
-      <img loading="lazy" src="images/Croquis-10-B.jpg" alt="">
+    <figure id="fig-11">
+      <span class="image">
+        <img loading="lazy" src="images/Croquis-10-B.jpg" alt="">
+      </span>
       <figcaption>
         <p>Malha aberta</p>
         <p>Malha fechada</p>
-        <p>Vias de comunicação</p>
-        <p>Tecido urbano</p>
-        <p>Espaços não construídos</p>
+        <p>Vias de comunicação<br>
+        Tecido urbano<br>
+        Espaços não construídos</p>
       </figcaption>
     </figure>
     <p><span class="enum">6 </span>A malha dessa trama se contrai junto às grandes cidades. À medida que nos afastamos das aglomerações urbanas a malha se alarga.</p>
     <p><span class="enum">7 </span>As possibilidades de continuidade biológica se reduzem quando a malha se contrai. Em consequência a diversidade diminui.</p>
     <figure>
-      <img loading="lazy" src="images/Croquis-11.jpg" alt="">
+      <span class="image">
+        <img loading="lazy" src="images/Croquis-11.jpg" alt="">
+      </span>
       <figcaption>
         <p>Tecido urbano</p>
         <p>Terceira paisagem fragmentada</p>
@@ -323,7 +405,9 @@
     <p><span class="enum">5 </span>A análise das informações coletadas por satélites fornece, em particular, dados da atividade da biomassa de uma região e traduz a expressão de uma infinidade de ecossistemas interligados.</p>
     <p><span class="enum">6 </span>A análise das informações coletadas por microscópios descreve, em particular, os seres mais simples vivendo dentro de um ecossistema.</p>
     <figure>
-      <img loading="lazy" src="images/Croquis-12.jpg" alt="">
+      <span class="image">
+        <img loading="lazy" src="images/Croquis-12.jpg" alt="">
+      </span>
       <figcaption>
         <p>Do  satélite  ao  microscópio</p>
       </figcaption>
@@ -336,7 +420,9 @@
     <p><span class="enum">1 </span>A representação da Terceira paisagem depende das possibilidades de estabelecer os limites geográficos.</p>
     <p><span class="enum">2 </span>Os limites surgem nas fronteiras dos baldios com os territórios explorados: <br>— limiar floresta / agricultura ou cidade; <br>— limite cerrado / agricultura ou cidade; <br>— limite agreste / agricultura ou cidade; <br>— limite pantanal / agricultura ou cidade; <br>— limite baldio / agricultura ou cidade.</p>
     <figure>
-      <img loading="lazy" src="images/Croquis-13.jpg" alt="">
+      <span class="image">
+        <img loading="lazy" src="images/Croquis-13.jpg" alt="">
+      </span>
     </figure>
     <p><span class="enum">3 </span>Os limites situados entre os baldios recentes ou antigos (bosques provenientes de baldios) não são visíveis. Do ponto de vista da Terceira paisagem eles não existem.</p>
     <p><span class="enum">4 </span>Um baldio evolui rumo a uma floresta (salvo algumas exceções, como os cerrados climácicos, pastagens de altitude, pântanos, etc.). Seus limites podem ser confundidos com os de uma floresta manejada. Do ponto de vista da Terceira paisagem eles existem.</p>
@@ -346,13 +432,17 @@
     <p><span class="enum">8 </span>O encadeamento das zonas primárias e dos baldios oferece à diversidade uma continuidade territorial.</p>
     <p><span class="enum">9 </span>A continuidade territorial aparece abundantemente no caso das “reservas” bem constituídas ou no caso da contiguidade destas com os baldios. Nos outros casos ela aparece de forma sequencial (corredores biológicos: sebes, bordas de campos cultivados, beiras de estrada, vegetação ribeirinha), ou ainda sob forma de ilhas.</p>
     <figure>
-      <img loading="lazy" src="images/Croquis-14.jpg" alt="">
+      <span class="image">
+        <img loading="lazy" src="images/Croquis-14.jpg" alt="">
+      </span>
     </figure>
     <p><span class="enum">10 </span>A dimensão do território de acolhimento da diversidade é um fator de limitação da quantidade de espécies.</p>
     <p><span class="enum">11 </span>As fronteiras — <em>interface</em>, dossel florestal, limiares, bordas, orlas — constituem uma espessura biológica. Suas riquezas são frequentemente superiores às dos meios que estas delimitam.</p>
     <p><span class="enum">12 </span>A representação das fronteiras da Terceira paisagem não traduz objetivamente sua espessura biológica, mas pode evocá-la.</p>    
     <figure>
-      <img loading="lazy" src="images/Croquis-15.jpg" alt="">
+      <span class="image">
+        <img loading="lazy" src="images/Croquis-15.jpg" alt="">
+      </span>
       <figcaption>
         <p>Limite administrativo <br>Limite biológico</p>
       </figcaption>
@@ -371,7 +461,9 @@
     <p><span class="enum">8 </span>A duração da <em>performance</em> é a duração da existência de cada ser.</p>
     <p><span class="enum">9 </span>A duração da existência de cada ser é tributária do sistema no qual ele se encontra e de sua própria configuração.</p>
     <figure>
-      <img loading="lazy" src="images/Croquis-16.jpg" alt="">
+      <span class="image">
+        <img loading="lazy" src="images/Croquis-16.jpg" alt="">
+      </span>
       <figcaption>
         <p>Evolução constante<br>Adaptação</p>
         <p>Evolução inconstante<br>Adaptações progressivas<br>Transformação</p>
@@ -382,7 +474,9 @@
     <p><span class="enum">12 </span>A impermanência temporal dos sistemas biológicos é a garantia de sua resistência no tempo.</p>
     <p><span class="enum">13 </span>Enquanto a evolução constante apresenta um risco de colapso, a evolução inconstante se desenvolve sem lacunas, por reabilitações sucessivas.</p>
     <figure>
-      <img loading="lazy" src="images/Croquis-17.jpg" alt="">
+      <span class="image">
+        <img loading="lazy" src="images/Croquis-17.jpg" alt="">
+      </span>
       <figcaption>
         <p>Colapso<br>Seleção</p>
         <p>Continuidade<br>Transformações evolutivas</p>
@@ -394,7 +488,9 @@
     <p><span class="enum">17 </span>O processo darwiniano corresponde à alterações bruscas e rápidas, o processo lamarckiano à alterações moduladas e lentas.</p>
     <p><span class="enum">18 </span>O processo global da evolução pode ser compreendido como uma sucessão de fenômenos curtos e lentos (darwinianos e lamarckianos) no que diz respeito aos sistemas.</p>
     <figure>
-      <img loading="lazy" src="images/Croquis-18.jpg" alt="">
+      <span class="image">
+        <img loading="lazy" src="images/Croquis-18.jpg" alt="">
+      </span>
     </figure>
     <p><span class="enum">19 </span>Esse processo é também relativo às espécies, tomadas individualmente. Em um sistema em evolução lenta podem existir casos isolados de evolução rápida, decorrentes da pressão seletiva exercida.</p>
     <p><span class="enum">20 </span>A dimensão temporal autorizada pelo processo lamarckiano permite que os seres confrontados com as transformações do meio ambiente busquem novas soluções de sobrevivência.</p>
@@ -515,7 +611,9 @@
     <p>Para mais informações, ver <a href="http://www.gillesclement.com/">site do autor</a>.</p>
     <p>O texto em versão português do Brasil é acessível sob os termos da licença Creative Commons “<a href="https://creativecommons.org/licenses/by-nc/4.0/deed.pt_BR">Atribuição-NãoComercial</a>”.</p>
   </footer>
-
+  
+  <script>paged = false</script>
   <script src="script.js"></script>
+
 </body>
 </html>
