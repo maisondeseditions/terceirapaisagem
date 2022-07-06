@@ -62,54 +62,21 @@
       observer.observe(section);
     });
 
-    const introobserver = new IntersectionObserver(entries => {
+    const contentobserver = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.intersectionRatio > 0) {
-          clone.classList.remove('visible');
-        } else {
           clone.classList.add('visible');
+        } else {
+          clone.classList.remove('visible');
         }
       });
     });
 
     // Track all sections that have an `id` applied
-    const intro = document.querySelector('.intro');
-    if(intro){
-      introobserver.observe(intro);
+    const content = document.querySelector('#content');
+    if(content){
+      contentobserver.observe(content);
     }
 
   });
 
-
-
-// paged js on demand
-
-// var scripts = [
-//   "paged/paged.polyfill.js",
-//   "paged/createToc.js",
-//   "paged/footNotes.js",
-//   "paged/reloadInPlace.js"
-// ] 
-
-// document.querySelector("#print").addEventListener('click', function(e){
-//   injectScriptFromStack();
-//   var headTag = document.getElementsByTagName('head')[0];
-//   var linkTag = document.createElement('link');
-//   linkTag.rel = "stylesheet";
-//   linkTag.href = "paged/pagedjs.css";
-//   headTag.appendChild(linkTag);
-// })
-
-// var injectScriptFromStack = function(){
-//   var nextScript = scripts.shift();
-//   if(nextScript){
-//     var headTag = document.getElementsByTagName('head')[0];
-//     var scriptTag = document.createElement('script');
-//     scriptTag.src = nextScript;
-//     scriptTag.onload = function(e){
-//       injectScriptFromStack();
-//       console.log("Injected " + nextScript);
-//     };    
-//     headTag.appendChild(scriptTag);
-//   }
-// }

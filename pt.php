@@ -30,45 +30,47 @@
 
   </nav>
 
-    <header id="header">
-      <div>
-        <h1>Manifesto da <br>terceira paisagem</h1>
-        <h2>Gilles Clément</h2>
-        <p>Tradução de Lúcia Leistner</p>
-      </div>
-      <figure id="echo">
-        <span class="">
-          <img src="images/echo.nb.png" alt="Echo d’un tiers paysage">
-        </span>
-      </figure>
-    </header>
+  <header id="header">
+    <div>
+      <h1>Manifesto da <br>terceira paisagem</h1>
+      <h2>Gilles Clément</h2>
+      <p>Tradução de Lúcia Leistner</p>
+    </div>
+    <figure id="echo">
+      <span class="">
+        <img src="images/echo.nb.png" alt="Echo d’un tiers paysage">
+      </span>
+    </figure>
+  </header>
+
+  <blockquote id="blockquote">
+    <p>“Fragmento indeciso do jardim planetário, a Terceira paisagem se compõe na soma dos espaços negligenciados pelos homens. Essas margens apresentam uma diversidade biológica que não é por ora reconhecida como sendo uma riqueza. Terceira paisagem refere-se a Terceiro Estado — e não a Terceiro Mundo; o espaço não expressando poder nem submissão ao poder. Ela faz menção ao panfleto de Sieyès, de 1789:</p>
+    <p><span class="sieyes"><em>O que é o terceiro estado? Tudo<br>O que ele realizou até agora? Nada<br>O que ele almeja alcançar? Algo.</em></span>”</p>
+  </blockquote>
   
-    <blockquote id="blockquote">
-      <p>“Fragmento indeciso do jardim planetário, a Terceira paisagem se compõe na soma dos espaços negligenciados pelos homens. Essas margens apresentam uma diversidade biológica que não é por ora reconhecida como sendo uma riqueza. Terceira paisagem refere-se a Terceiro Estado — e não a Terceiro Mundo; o espaço não expressando poder nem submissão ao poder. Ela faz menção ao panfleto de Sieyès, de 1789:</p>
-      <p><span class="sieyes"><em>O que é o terceiro estado? Tudo<br>O que ele realizou até agora? Nada<br>O que ele almeja alcançar? Algo.</em></span>”</p>
-    </blockquote>
-    
-    <section id="index">
-      <h2>Fragmento indeciso do jardim planetário</h2>
-      <h3>Índice</h3>
-      <ul>
-        <li><a href="#definicoes">Definições</a></li>
-        <li><a href="#origem"><span class="enum">I </span>Origem</a></li>
-        <li><a href="#extensao"><span class="enum">II </span>Extensão</a></li>
-        <li><a href="#caracteristicas"><span class="enum">III </span>Características</a></li>
-        <li><a href="#estatuto"><span class="enum">IV </span>Estatuto</a></li>
-        <li><a href="#desafios"><span class="enum">V </span>Desafios</a></li>
-        <li><a href="#mobilidade"><span class="enum">VI </span>Mobilidade</a></li>
-        <li><a href="#evolucao"><span class="enum">VII </span>Evolução</a></li>
-        <li><a href="#escala"><span class="enum">VIII </span>Escala</a></li>
-        <li><a href="#representacoes-e-limites"><span class="enum">IX </span>Representações e limites</a></li>
-        <li><a href="#quanto-ao-tempo"><span class="enum">X </span>Quanto ao tempo</a></li>
-        <li><a href="#quanto-a-sociedade"><span class="enum">XI </span>Quanto à sociedade</a></li>
-        <li><a href="#quanto-a-cultura"><span class="enum">XII </span>Quanto à cultura</a></li>
-        <li><a href="#manifesto"><span>Manifesto</span></a></li>
-      </ul>
-    </section>
+  <section id="index">
+    <h2>Fragmento indeciso do jardim planetário</h2>
+    <h3>Índice</h3>
+    <ul>
+      <li><a href="#definicoes">Definições</a></li>
+      <li><a href="#origem"><span class="enum">I </span>Origem</a></li>
+      <li><a href="#extensao"><span class="enum">II </span>Extensão</a></li>
+      <li><a href="#caracteristicas"><span class="enum">III </span>Características</a></li>
+      <li><a href="#estatuto"><span class="enum">IV </span>Estatuto</a></li>
+      <li><a href="#desafios"><span class="enum">V </span>Desafios</a></li>
+      <li><a href="#mobilidade"><span class="enum">VI </span>Mobilidade</a></li>
+      <li><a href="#evolucao"><span class="enum">VII </span>Evolução</a></li>
+      <li><a href="#escala"><span class="enum">VIII </span>Escala</a></li>
+      <li><a href="#representacoes-e-limites"><span class="enum">IX </span>Representações e limites</a></li>
+      <li><a href="#quanto-ao-tempo"><span class="enum">X </span>Quanto ao tempo</a></li>
+      <li><a href="#quanto-a-sociedade"><span class="enum">XI </span>Quanto à sociedade</a></li>
+      <li><a href="#quanto-a-cultura"><span class="enum">XII </span>Quanto à cultura</a></li>
+      <li><a href="#manifesto"><span>Manifesto</span></a></li>
+    </ul>
+  </section>
  
+  <div id="content">
+
 
   <section class="text" id="definicoes">
     <h2>Definições</h2>
@@ -90,19 +92,19 @@
     <p>Em nada se assemelham formalmente esses fragmentos de paisagem. Porém, entre eles há um ponto em comum: todos constituem um refúgio para a diversidade que vem sendo rechaçada de qualquer outro lugar. Tudo isso nos leva a reuni-los em um termo comum. Proponho Terceira paisagem, terceiro termo originado por uma análise que dispôs os dados principais visíveis ou à sombra, ou bem à luz.</p>
     <figure id="fig-1">
       <span class="image">
-        <img loading="lazy" src="images-2/Croquis-01-a.png" alt="">
+        <img loading="lazy" src="images/Croquis-01-a.png" alt="">
         <figcaption>
           <p>Paisagem em periferia do limousin<br>Luz dominante</p>
         </figcaption>
       </span>
       <span class="image">
-        <img loading="lazy" src="images-2/Croquis-01-b.png" alt="">
+        <img loading="lazy" src="images/Croquis-01-b.png" alt="">
         <figcaption>
           <p>Paisagem dominante no limousin<br>Equilíbrio sombra/luz</p>
         </figcaption>
       </span>
       <span class="image">
-        <img loading="lazy" src="images-2/Croquis-01-c.png" alt="">
+        <img loading="lazy" src="images/Croquis-01-c.png" alt="">
         <figcaption>
           <p>Paisagem no entorno de vassiviere<br>Sombra dominante</p>
         </figcaption>
@@ -133,13 +135,13 @@
     <p><span class="enum">8 </span>As zonas rurais apresentam baldios — e vegetação primária — mais significativos à medida que seu relevo é mais pronunciado. Eles se apresentam mais esparsos quando o relevo é tênue.</p>
     <figure id="fig-3">
       <span class="image">
-        <img loading="lazy" src="images-2/Croquis-03-a.png" alt="">
+        <img loading="lazy" src="images/Croquis-03-a.png" alt="">
         <figcaption>
           <p>Baldios raros ou ausentes</p>
         </figcaption>
       </span>
       <span class="image">
-        <img loading="lazy" src="images-2/Croquis-03-b.png" alt="">
+        <img loading="lazy" src="images/Croquis-03-b.png" alt="">
         <figcaption>
           <p>Baldios abundantes e vastos</p>
         </figcaption>
@@ -157,25 +159,25 @@
     <p>As <em>áreas de vegetação primária</em> são territórios nunca explorados. Eles evoluem lentamente, ou simplesmente não mais evoluem. As espécies que lá se desenvolvem testemunham o apogeu da vida em uma determinada condição do meio ambiente (clímax). Algumas florestas primárias subsistem ainda em nosso mundo, as outras espécies ditas primárias se encontram repartidas nas pastagens alpinas, nos cerrados climácicos, nas tundras, etc. As áreas de vegetação primária apresentam um aspecto uniforme apesar de abrigarem usualmente uma forte diversidade.</p>
     <figure id="fig-4">
       <span class="image">
-        <img loading="lazy" src="images-2/Croquis-04-a.png" alt="">
+        <img loading="lazy" src="images/Croquis-04-a.png" alt="">
         <figcaption>
           <p>52 espécies presentes nos espaços intocados </p>
         </figcaption>
       </span>
       <span class="image">
-        <img loading="lazy" src="images-2/Croquis-04-b.png" alt="">
+        <img loading="lazy" src="images/Croquis-04-b.png" alt="">
         <figcaption>
           <p>16 espécies presentes em uma plantação sem tratamentos</p>
         </figcaption>
       </span>
       <span class="image">
-        <img loading="lazy" src="images-2/Croquis-04-c.png" alt="">
+        <img loading="lazy" src="images/Croquis-04-c.png" alt="">
         <figcaption>
           <p>5 espécies presentes em uma plantação com tratamentos (por vezes 1)</p>
         </figcaption>
       </span>
       <span class="image">
-        <img loading="lazy" src="images-2/Croquis-04-d.png" alt="">
+        <img loading="lazy" src="images/Croquis-04-d.png" alt="">
         <figcaption>
           <p>Exemplo tirado de um fragmento de paisagem do limousin – Primavera 2003</p>
         </figcaption>
@@ -202,7 +204,7 @@
     <p><span class="enum">16 </span>As atividades humanas aceleram o processo de um movimento levando a uma situação análoga a uma nova pangeia, diminuindo assim a quantidade de espécies isoladas e, por conseguinte, a quantidade total de espécies.</p>
     <figure id="fig-5">
       <span class="image">
-        <img loading="lazy" src="images-2/Croquis-05-a.png" alt="">
+        <img loading="lazy" src="images/Croquis-05-a.png" alt="">
         <figcaption>
           <p>
             Áreas de vegetação primaria e reservas<br>
@@ -214,7 +216,7 @@
         </figcaption>
       </span>
       <span class="image">
-        <img loading="lazy" src="images-2/Croquis-05-b.png" alt="">
+        <img loading="lazy" src="images/Croquis-05-b.png" alt="">
         <figcaption>
           <p>
             Baldios<br>
@@ -225,7 +227,7 @@
         </figcaption>
       </span>
       <span class="image">
-        <img loading="lazy" src="images-2/Croquis-05-c.png" alt="">
+        <img loading="lazy" src="images/Croquis-05-c.png" alt="">
         <figcaption>
           <p>
             Espaços controlados<br>
@@ -662,6 +664,8 @@
     <p>Para mais informações, ver <a href="http://www.gillesclement.com/">site do autor</a>.</p>
     <p>O texto em versão português do Brasil é acessível sob os termos da licença Creative Commons “<a href="https://creativecommons.org/licenses/by-nc/4.0/deed.pt_BR">Atribuição-NãoComercial</a>”.</p>
   </footer>
+  
+  </div>
   
   <script src="js/script.js"></script>
 

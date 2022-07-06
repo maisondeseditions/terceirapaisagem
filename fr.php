@@ -77,6 +77,7 @@
     </ul>
   </section>
 
+  <div id="content">
 
   <section class="text" id="definitions">
     <h2>Définitions</h2>
@@ -100,13 +101,13 @@
     <p>Cela justifie de les rassembler sous un terme unique. Je propose Tiers paysage, troisième terme d’une analyse ayant rangé les données principales apparentes sous l’ombre d’un côté, la lumière de l’autre.</p>
     <figure id="fig-1">
       <span class="image">
-        <img loading="lazy" src="images-2/Croquis-01-a.png" alt="">
+        <img loading="lazy" src="images/Croquis-01-a.png" alt="">
       </span>
       <span class="image">
-        <img loading="lazy" src="images-2/Croquis-01-b.png" alt="">
+        <img loading="lazy" src="images/Croquis-01-b.png" alt="">
       </span>
       <span class="image">
-        <img loading="lazy" src="images-2/Croquis-01-c.png" alt="">
+        <img loading="lazy" src="images/Croquis-01-c.png" alt="">
       </span>
     </figure>
     <p>Tiers paysage renvoie à tiers état (et non à tiers–monde). Espace n’exprimant ni le pouvoir ni la soumission au pouvoir.</p>
@@ -153,16 +154,16 @@
     <p class="break-before">Les ensembles primaires sont des espaces n’ayant jamais été soumis à l’exploitation. Ils évoluent lentement ou pas du tout. Les espèces qui s’y développent correspondent au niveau optimum de vie pour les conditions du milieu (climax). Quelques forêts primaires existent encore dans le monde, les autres espaces primaires se répartissent en prairies alpines, landes climaciques, toundras (...). Les ensembles primaires sont unitaires d’aspect en dépit d’une diversité généralement forte.</p>
     <figure id="fig-4">
       <span class="image">
-        <img loading="lazy" src="images-2/Croquis-04-a.png" alt="">        
+        <img loading="lazy" src="images/Croquis-04-a.png" alt="">        
       </span>
       <span class="image">
-        <img loading="lazy" src="images-2/Croquis-04-b.png" alt="">        
+        <img loading="lazy" src="images/Croquis-04-b.png" alt="">        
       </span>
       <span class="image">
-        <img loading="lazy" src="images-2/Croquis-04-c.png" alt="">        
+        <img loading="lazy" src="images/Croquis-04-c.png" alt="">        
       </span>
       <span class="image">
-        <img loading="lazy" src="images-2/Croquis-04-d.png" alt="">        
+        <img loading="lazy" src="images/Croquis-04-d.png" alt="">        
       </span>
     </figure>
     <p>Les délaissés résultent de l’abandon d’une activité. Ils évoluent naturellement vers un paysage secondaire. Une forêt secondaire peut provenir d’un délaissé. Une forte dynamique caractérise les paysages secondaires. Un jeune délaissé accueille rapidement des espèces pionnières qui bientôt disparaissent au profit d’espèces de plus en plus stables jusqu’à l’obtention d’un équilibre.  Les paysages secondarisés sont hétérogènes et chaotiques.</p>
@@ -185,13 +186,13 @@
     <p><span class="enum">17 </span>L’activité humaine accélère le processus de rencontre menant à la pangée, diminue le nombre d’isolats et, par suite, le nombre d’espèces.</p>
     <figure id="fig-5">
       <span class="image">
-        <img loading="lazy" src="images-2/Croquis-05-a.png" alt="">
+        <img loading="lazy" src="images/Croquis-05-a.png" alt="">
       </span>
       <span class="image">
-        <img loading="lazy" src="images-2/Croquis-05-b.png" alt="">
+        <img loading="lazy" src="images/Croquis-05-b.png" alt="">
       </span>
       <span class="image">
-        <img loading="lazy" src="images-2/Croquis-05-c.png" alt="">
+        <img loading="lazy" src="images/Croquis-05-c.png" alt="">
       </span>
     </figure>
     <p><span class="enum">18 </span>L’anthropisation planétaire toujours croissante entraîne la création de délaissés toujours plus nombreux et d’ensembles primaires toujours plus réduits.</p>
@@ -435,7 +436,7 @@
     <p>Image de couverture : <i>Échos d’un Tiers paysage</i>, Christophe Clottes, issu du protocole de la série « <a href="https://dda-nouvelle-aquitaine.org/Echos-d-un-ilot-2010">Échos d’un îlot</a> ». ¶ Design &amp; développement : <a href="https://accentgrave.net/">Julien Bidoret</a>. ¶ Caractères typographiques : <a href="http://velvetyne.fr/fonts/compagnon/">Compagnon</a> (Juliette Duhé, Léa Pradine, Valentin Papon, Chloé Lozano, Sébastien Riollier) &amp; <a href="https://software.sil.org/gentium/">Gentium Book</a> (SIL International).</p>
 
   </footer>
-  
+  </div>
   <script src="js/script.js"></script>
 </body>
 </html>
