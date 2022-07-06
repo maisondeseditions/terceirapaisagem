@@ -1,0 +1,511 @@
+/* ------------------------------------------ faces */
+
+@font-face {
+  font-family: "Gentium";
+  src: url(fonts/gentium/GentiumBookPlus-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gentium";
+  src: url(fonts/gentium/GentiumBookPlus-Italic.ttf) format("truetype");
+  font-weight: normal;
+  font-style: italic
+}
+@font-face {
+  font-family: "Gentium";
+  src: url(fonts/gentium/GentiumBookPlus-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gentium";
+  src: url(fonts/gentium/GentiumBookPlus-BoldItalic.ttf) format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Compagnon";
+  src: url(fonts/compagnon/Compagnon-Bold.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Compagnon";
+  src: url(fonts/compagnon/Compagnon-Italic.woff2) format("woff2");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Compagnon";
+  src: url(fonts/compagnon/Compagnon-Light.woff2) format("woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Compagnon";
+  src: url(fonts/compagnon/Compagnon-Medium.woff2) format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Compagnon";
+  src: url(fonts/compagnon/Compagnon-Roman.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* @link https://utopia.fyi/type/calculator?c=320,18,1.25,1140,22,1.2,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6, */
+
+:root {
+  --step--2: clamp(0.69rem, calc(0.51rem + 0.25vw), 0.56rem);
+  --step--1: clamp(0.70rem, calc(0.59rem + 0.53vw), 0.97rem);
+  --step-0: clamp(0.88rem, calc(0.68rem + 0.98vw), 1.38rem);
+  --step-1: clamp(1.09rem, calc(0.76rem + 1.66vw), 1.94rem);
+  --step-2: clamp(1.37rem, calc(0.83rem + 2.70vw), 2.75rem);
+  --step-3: clamp(1.71rem, calc(0.86rem + 4.25vw), 3.89rem);
+  --step-4: clamp(2.14rem, calc(0.82rem + 6.56vw), 5.50rem);
+  --step-5: clamp(7.77rem, calc(0.68rem + 9.96vw), 2.67rem);
+  --green: rgb(2, 86, 19);
+  --lightgreen: rgb(22, 126, 8);
+  --gradient: linear-gradient(0deg, rgb(13, 22, 9) 0%, rgb(26, 86, 2) 30%,  rgb(120, 194, 16) 100%);
+}
+
+/* ------------------------------------------ commons */
+
+*, *::after, *::before { box-sizing: border-box;}
+html {
+  font-size: 100%;
+}
+body{
+  font-family: "Gentium";
+  /* font-family: "Sneaky Times"; */
+  font-size: clamp(0.90rem, calc(0.80rem + 0.48vw), 1.15rem);
+  font-size: var(--step--1);
+  font-size: 1rem;
+  line-height: 1.35;
+  margin: 0;
+  counter-reset: figures;
+  overflow-x: hidden;
+}
+
+/* ------------------------------------------ layout */
+
+section, #blockquote, footer { margin: 0 2em 0 25%; }
+section, #blockquote, header { margin-bottom: 30vh; }
+section, #blockquote { max-width: 32em; }
+
+/* ------------------------------------------ typeset */
+
+h1 {
+  /* width: 1em; */
+  font-size: calc(3vw + 1.25em);
+  line-height: 1;
+  /* text-transform: uppercase; */
+  font-family: "Compagnon";
+  font-weight: normal;
+}
+h2 {
+  font-size: 1em;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: underline;
+  color: currentColor;
+}
+/* ------------------------------------------ nav */
+#tools {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  z-index: 800;
+}
+#menulink{
+  width: 1em;
+  height: 1em;
+  border-radius: .5em;
+  background: transparent;
+  border: 1px solid;
+  cursor: pointer;
+  position: absolute;
+}
+#menulink  span {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  display: block;
+}
+#menulink :hover {
+  background: #000;
+}
+
+
+/* ------------------------------------------ echo */
+#echo {
+  transform: translateX(25%);
+  margin: 0;
+  width: 100vw;
+  right: 10vw;
+  top: 0;
+  z-index: -1;
+  position: absolute;
+  max-width: 1280px;
+  /* border-bottom: 1px solid turquoise; */
+}
+#echo img {display: block;}
+#echo .image {
+  background-size: 100% 100%;
+}
+#header {
+  padding-bottom:calc(130vw );
+  margin-bottom: 0 !important;
+  /* border-bottom: 1px solid turquoise; */
+}
+#header h1 {
+  margin-top: 0;
+}
+
+#header h2, #header p {
+  font-family: "Compagnon";
+  font-weight: bold;
+  margin: 0;
+}
+
+
+#header div {
+  position: absolute;
+  z-index: 1;
+  padding: 3em 4em ;
+}
+@media screen and (min-width:1280px) {
+  #header {
+    padding-bottom: calc(1676px);
+  }
+}
+/* ------------------------------------------ homepage */
+.composite { width: auto; }
+.composite i { 
+  background-image:  var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+#home h2 {
+  font-weight: 200;
+  font-size: 1.5em;
+  margin-top: 1em;
+}
+#home p{
+  font-family: "Gentium";
+  font-weight: normal;
+}
+#maisondeseditions {
+  position: fixed;
+  bottom: 2em;
+  width: 50px;
+  left: 4em;
+  transform: translate(-50%, -50%);
+}
+/* ------------------------------------------ #blockquote */
+
+#blockquote{
+  font-size: 2em;
+}
+#blockquote > :first-child {
+  text-indent: -.5em;
+}
+
+/* .sieyes {
+  font-family: "Compagnon";
+  font-weight: bold;
+  font-style: normal;
+}
+.sieyes em {
+  font-style: normal;
+} */
+
+
+/* ------------------------------------------ text */
+
+.text {
+  max-width: 30em;
+  font-size: var(--step-1);
+}
+/* .text p { margin: 0 0 0 2em; } */
+.text h2 {
+  /* text-transform: uppercase; */
+  font-family: "Compagnon";
+  font-weight: 200;
+}
+.text h4 {
+  margin-bottom: 0;
+}
+.text h4 + p{
+  margin-top: 0;
+}
+.enum {
+  display: inline-block;
+  margin-left: -2em;
+  min-width: 2em;
+}
+.text .enum {
+  font-family: "Compagnon";
+  font-weight: 200;
+}
+.text .enum::after {
+  content: " ";
+}
+h2 .enum::after {
+  display: none;
+}
+h2 .enum {
+  display: inline-block;
+  text-indent: calc(-2em * 1.25);
+}
+
+
+/* ------------------------------------------ notes */
+.fn_ref_number {
+  display: inline-block;
+  margin-left: -4em;
+  min-width: 4em; 
+}
+.fns_container .fn_ref{
+  display: block;
+  max-width: 32em;
+  font-size: 1rem; 
+  padding-left: 4em;
+  margin-bottom: 1em;
+} 
+
+.fn_call{
+  /* text-align: top; */
+  position: relative;
+  top: -.4em;
+  font-size: .6em;
+  text-decoration: underline;
+  display: inline;
+  margin: 0 .15em;
+}
+
+.fn, .ndt { display: none;}
+
+.fn-back { text-decoration: none;}
+/* ------------------------------------------ footer */
+footer {
+  max-width: 42em;
+  padding-bottom: 4em;
+}
+footer p {
+  margin: 0;
+}
+hr {
+  height: 0;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid;
+  width: 2em;
+  margin: 1em 0;
+}
+
+/* ------------------------------------------ index */
+#index h2 {
+  font-family: "Compagnon";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25em
+}
+#index h3 {
+  font-family: "Compagnon";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25em;
+}
+ul{
+  list-style: none;
+  padding-left: 3em;
+  margin-left: -3em;
+}
+ul .enum {
+  margin-left: -3em;
+  min-width: 3em;
+  text-align: right;
+  padding-right: 1em;
+}
+/* ------------------------------------------ figures */
+img {
+  max-width: 100%;
+  display: block;
+  mix-blend-mode: color-dodge;
+}
+.text figure{
+  counter-increment: figures;
+  margin: 2em 0;
+  position: relative;
+  background: white;  
+  background-attachment: fixed; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.text figure::before{
+  content: "fig. " counter(figures);
+  position: absolute;
+  background: white;
+  margin-left: calc(-2em * 2);
+  font-size: 1rem;
+  /* font-style: italic; */
+  color: var(--lightgreen);
+  font-family: "Compagnon";
+  font-weight: bold;
+  z-index: 2;
+}
+figcaption { 
+  margin: 0;
+  padding: 1.5em 0 2.5em; 
+  text-align: center; 
+  font-style: italic; 
+  font-size: 1rem ; 
+  text-align: left; 
+  /* font-style: normal; */
+  background: white;
+  color: var(--lightgreen);
+  background: white;
+  text-align: center;
+  font-family: Compagnon;
+  font-weight: normal;
+  margin: 0 auto;
+}
+figcaption p { margin: 0;}
+
+figure .image {
+  display: block;
+  background: var(--gradient);
+  background-size: 100% 100vh;
+  background-attachment: fixed;
+}
+.text #fig-5, 
+.text #fig-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+}
+.text #fig-6 figcaption{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+}
+.text #fig-6 figcaption p:last-child:not(:first-child){ grid-column: span 2; }
+.text #fig-6 figcaption p:nth-child(1){ text-align: left; }
+.text #fig-6 figcaption p:nth-child(2){ text-align: right; }
+
+.text #fig-7 figcaption{
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+  align-items: center;
+}
+.text #fig-8 figcaption{
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(6, 1fr);
+}
+.text #fig-8 figcaption :nth-child(1) { grid-column: span 2;}
+.text #fig-8 figcaption :nth-child(2) { grid-column: span 2;}
+.text #fig-8 figcaption :nth-child(3) { grid-column: span 2;}
+.text #fig-8 figcaption :nth-child(4) { grid-column: span 3;}
+.text #fig-8 figcaption :nth-child(5) { grid-column: span 3;}
+
+.text #fig-9 figcaption{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+}
+.text #fig-9 figcaption p:last-child{ grid-column: span 2; }
+.text #fig-9 figcaption p:nth-child(1){ text-align: left; }
+.text #fig-9 figcaption p:nth-child(2){ text-align: right; }
+
+.text #fig-10 figcaption{
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+  align-items: center;
+}
+.text #fig-11 figcaption{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+}
+.text #fig-11 figcaption p:last-child{ grid-column: span 2; }
+.text #fig-11 figcaption p:nth-child(1){ text-align: left; }
+.text #fig-11 figcaption p:nth-child(2){ text-align: right; }
+
+.text #fig-14 figcaption{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+}
+.text #fig-14 figcaption div:last-child{ grid-column: span 2; }
+.text #fig-14 figcaption div:nth-child(1){ text-align: left; }
+.text #fig-14 figcaption div:nth-child(2){ text-align: right; }
+
+
+.text #fig-15 figcaption p:nth-child(2) {text-align: right;}
+.text #fig-15 figcaption p:last-child,
+.text #fig-16 figcaption,
+.text #fig-17 figcaption,
+.text #fig-18 figcaption{
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+  align-items: center;
+}
+.text #fig-19 figcaption{
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(5,1fr);
+}
+/* ------------------------------------------ nav */
+#nav {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  max-width: 20%;
+  padding: 1em;
+  opacity: .4;
+  transition: all 150ms;
+  transform: translateX(-100%);
+}
+#nav a {
+  opacity: .6;
+  transition: all 150ms;
+}
+#nav:hover{
+  opacity: 1;
+}
+#nav.visible {
+  transform: translateX(0);
+}
+#nav .active a {
+  /* opacity: 1; */
+}
+#nav .active .enum,
+#nav a:hover .enum {
+  margin-left: 0;
+  text-align: left;
+  min-width: auto;
+}
+#nav a:hover{
+  opacity: 1;
+}

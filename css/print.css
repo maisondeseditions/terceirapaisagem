@@ -1,0 +1,253 @@
+@media print {
+
+  @page {
+      size: 210mm 297mm;
+      margin-top: 2cm;
+      margin-right: 2cm;
+      margin-bottom: 2cm;
+      margin-left: 4cm;
+      @bottom-left{
+        padding-left: 2em;
+        content: counter(page);
+        font-family: "Compagnon";
+        font-weight: 600;
+      }
+      @footnote {
+        float: bottom;
+      }
+  }  
+  
+  @page cover {
+    margin: 2cm;
+    @bottom-left{
+      content: "";
+    }
+  }  
+
+  /* notes counter */
+  body{
+    /* counter-reset: ndts fns; */
+  }
+
+  #header {
+    page: cover
+  }
+
+  #blockquote {
+    counter-reset: page 1;
+  }
+  
+
+  /* ------------------------------------------------------------------------ sections */
+  section, #blockquote, footer { margin: 0; }
+  section, #blockquote, header { margin-bottom: 0; }
+  #blockquote,
+  section {
+    max-width: none;
+    margin-bottom: 3em;
+  }
+
+  /* ------------------------------------------------------------------------ breaks */
+  /* figure.nobreak, p {break-inside: avoid} */
+
+  h4, h3, h2 { break-after: avoid ;}
+  #definicoes,
+  #definitions,
+  #gilles-clement,
+  .break-before {
+    break-before: always;
+  }
+
+  .break-after {
+    break-after: always;
+  }
+
+  /* ------------------------------------------------------------------------ misc */
+  h1 {
+    font-size: 2em;
+  }
+  img { 
+    max-width: 100%;
+    mix-blend-mode: normal;
+  }
+
+  p {
+    /* minimume deux lignes présentes sur la page, au début ou à la fin d’un paragraphe */
+    orphans: 2;
+    widows: 2;
+  } 
+
+  /* ------------------------------------------------------------------------  hide */
+  nav,
+  #nav{
+    display: none;
+  }
+
+  /* ------------------------------------------------------------------------ pad */
+  #blockquote,
+  #index,
+  .text {
+    max-width: none;
+    font-size: 1em;
+    padding-left: 2em;
+  }
+  #header div {
+    padding: 0 0 0 2em;
+  }
+  
+  /* ------------------------------------------------------------------------ couv */
+  #echo {
+    transform: translateX(0);
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    display: block;
+  }
+  #echo img  {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: bottom;
+  }
+
+  /* ------------------------------------------------------------------------ index */
+  #index h2, #index h3 {
+    font-size: 1em;
+    margin: 0;
+  }
+  #index > h3 + ul { display: none;}
+  /* ------------------------------------------------------------------------ Table des matières */
+  
+  #list-toc-generated {
+    list-style: none;
+  }
+  #list-toc-generated .toc-element a { 
+     height: 1.5em; position: relative; width: 100%;
+     text-decoration: none;
+    display: block;}
+  #list-toc-generated .toc-element a::after {
+    content: target-counter(attr(href), page);
+    text-align: right;
+    width: 1.65em;
+    background: white;
+    position: absolute;
+    right: 0;
+    /* padding-left: .5em; */
+  }
+  #list-toc-generated .toc-element a > span {
+    position: relative;
+    background: white;
+    padding-right: .75em;
+
+  }
+  #list-toc-generated .toc-element a::before {
+  position: absolute;
+  top: 50%;
+  border-top: 1px dotted #000;
+  content: "";
+  width: 100%;
+  }
+  #list-toc-generated .enum{
+    /* display: inline-block;
+    margin: 0;
+    text-align: left;
+    padding: 0; */
+  }
+
+
+
+  /* text */
+  .text figure {
+    margin-bottom: 1em;
+  }
+  figure .image{
+    background: none;
+    /* display: none; */
+  }
+  .text figure::before{
+    margin-left: calc(-3em * 2);
+  }
+  figcaption,
+  .text figure::before{
+    font-size: 12px;
+    color: black;
+  }
+  figcaption {
+    padding-bottom: 0;
+  }
+
+  h2 .enum {
+    display: inline-block;
+    text-indent: 0;
+    padding-right: .5em;
+  }
+
+  /* notes */
+
+  .fns_container .fn_ref{
+    max-width: none;
+  } 
+  .fn_call,
+  .fns_container {
+    display: none;
+  }
+  .fn {
+    float: footnote;
+    counter-increment: fns;
+  }
+  .ndt {
+    float: footnote;
+    counter-increment: ndts;
+  }
+  .fn[data-footnote-call]::after {
+    content: attr(data-counter);  
+  }  
+  .ndt[data-footnote-call]::after {
+    content: "NdT " attr(data-counter);  
+  }
+
+  #fig-2 img { width: 80%;}
+  
+  
+  /* span[data-footnote-marker]{counter-increment: none !important} */
+
+  /*  */
+  .fn{
+    padding-left: 2em;
+    margin-bottom: .5em;
+  } 
+  .ndt{
+    padding-left: 4em;
+    margin-bottom: .5em;
+  }
+  ::footnote-marker {
+    display: none;
+    position: absolute;
+    margin-left: -2em;
+    content: "";
+  }
+  .fn[data-footnote-marker]::before{
+    position: absolute;
+    content: attr(data-counter) ;   
+    margin-left: -2em;
+  }
+  .ndt[data-footnote-marker]::before{
+    position: absolute;
+    content: "NdT " attr(data-counter) ;  
+    margin-left: -4em;
+  }
+  /* margin boxes */
+  
+  .pagedjs_footnote_content{
+    padding-left: 2em;
+    margin-top: 1em;
+  }
+  .pagedjs_margin-content {
+    font-size: 12px;
+    text-align: right;
+  }
+  .pagedjs_footnote_inner_content {
+    font-size: 12px;
+  }
+}  
