@@ -24,7 +24,12 @@
       <span>menu</span>
     </button>
     <ul id="menu">
-      <a href="?print">print</a>
+      <li><a href="?print">Imprimir (A4)</a></li>
+      <li><a href="#">Imprimir (A5, folheto)</a></li>
+      <li><a href="#">Descarregar</a></li>
+      <li><a href="#">Encomendar</a></li>
+      <li>—</li>
+      <li><a href="fr.php">Français</a></li>
     </ul>
   </nav>
 

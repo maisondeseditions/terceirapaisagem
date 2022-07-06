@@ -122,8 +122,9 @@ a {
 /* ------------------------------------------ nav */
 #tools {
   position: fixed;
-  top: 1em;
-  left: 1em;
+  top: 0em;
+  left: 0em;
+  padding: 1em;
   z-index: 800;
 }
 #menulink{
@@ -131,6 +132,7 @@ a {
   height: 1em;
   border-radius: .5em;
   background: transparent;
+  color: inherit;
   border: 1px solid;
   cursor: pointer;
   position: absolute;
@@ -145,11 +147,29 @@ a {
   padding: 0;
   display: block;
 }
-#menulink :hover {
+#menulink:hover {
   background: #000;
 }
-
-
+#menu {
+  display: none;
+}
+#tools.visible #menu {
+  margin-top: 2em;
+  display: block;
+}
+#tools.visible {
+  width: 100%;
+  max-width: 450px;
+  background: #000;
+  color: white;
+  bottom: 0;
+}
+#tools a{
+  text-decoration: none;
+}
+#tools a:hover{
+  text-decoration: underline;
+}
 /* ------------------------------------------ echo */
 #echo {
   transform: translateX(25%);

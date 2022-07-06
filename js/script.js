@@ -80,3 +80,8 @@
 
   });
 
+const menulink = document.querySelector('#menulink');
+const tools = document.querySelector('#tools');
+menulink.addEventListener('click', function(){
+  tools.classList.toggle('visible');
+})
