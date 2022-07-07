@@ -60,7 +60,7 @@
   </blockquote>
   
   <section id="index">
-    <h2>Fragment indécidé du Jardin Planétaire</h2>
+    <h2>Fragment indécidé du Jardin&nbsp;Planétaire</h2>
     <h3>Table des matières</h3>
     <ul>
       <li><a href="#definitions">Définitions</a></li>

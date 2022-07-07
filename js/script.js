@@ -44,41 +44,54 @@
   // highlight cloned nav links on scroll
   window.addEventListener('DOMContentLoaded', () => {
 
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        const id = entry.target.getAttribute('id');      
-        if (entry.intersectionRatio > 0) {
-          const a = document.querySelector(`#nav li a[href="#${id}"]`);
-          if(a) a.parentElement.classList.add('active');
-        } else {
-          const a = document.querySelector(`#nav li a[href="#${id}"]`);
-          if(a) a.parentElement.classList.remove('active');
-        }
-      });
-    });
-
-    // Track all sections that have an `id` applied
-    document.querySelectorAll('.text[id]').forEach((section) => {
-      observer.observe(section);
-    });
-
-    const contentobserver = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.intersectionRatio > 0) {
-          clone.classList.add('visible');
-        } else {
-          clone.classList.remove('visible');
-        }
-      });
-    });
-
-    // Track all sections that have an `id` applied
-    const content = document.querySelector('#content');
-    if(content){
-      contentobserver.observe(content);
+    // Fonction exécutée au redimensionnement
+    function resize() {
+      var result = document.getElementById('result');
+      if("matchMedia" in window) { // Détection
+        if(window.matchMedia("(min-width:600px)").matches) {
+          const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+              const id = entry.target.getAttribute('id');      
+              if (entry.intersectionRatio > 0) {
+                const a = document.querySelector(`#nav li a[href="#${id}"]`);
+                if(a) a.parentElement.classList.add('active');
+              } else {
+                const a = document.querySelector(`#nav li a[href="#${id}"]`);
+                if(a) a.parentElement.classList.remove('active');
+              }
+            });
+          });
+      
+          // Track all sections that have an `id` applied
+          document.querySelectorAll('.text[id]').forEach((section) => {
+            observer.observe(section);
+          });
+      
+          const contentobserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+              if (entry.intersectionRatio > 0) {
+                clone.classList.add('visible');
+              } else {
+                clone.classList.remove('visible');
+              }
+            });
+          });
+      
+          // Track all sections that have an `id` applied
+          const content = document.querySelector('#content');
+          if(content){
+            contentobserver.observe(content);
+          }
+        } 
+      }
     }
+    window.addEventListener('resize', resize, false);
 
+  
   });
+
+    
+
 
 const menulink = document.querySelector('#menulink');
 const tools = document.querySelector('#tools');

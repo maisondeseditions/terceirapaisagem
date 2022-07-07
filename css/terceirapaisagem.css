@@ -210,11 +210,7 @@ a {
   z-index: 1;
   padding: 3em 4em ;
 }
-@media screen and (min-width:1280px) {
-  #header {
-    /* padding-bottom: calc(1676px); */
-  }
-}
+
 /* ------------------------------------------ homepage */
 .composite { width: auto; }
 .composite i { 
@@ -241,7 +237,7 @@ a {
 /* ------------------------------------------ #blockquote */
 
 #blockquote{
-  font-size: 2em;
+  font-size: var(--step-1);
 }
 #blockquote > :first-child {
   text-indent: -.5em;
@@ -295,7 +291,6 @@ h2 .enum {
   display: inline-block;
   text-indent: calc(-2em * 1.25);
 }
-
 
 /* ------------------------------------------ notes */
 .fn_ref_number {
@@ -532,4 +527,36 @@ figure .image {
 }
 #nav a:hover{
   opacity: 1;
+}
+
+@media screen and (max-width:600px) {
+  :root{
+    --gradient: linear-gradient(0deg, rgb(13, 22, 9) 0%, rgb(26, 86, 2) 30%,  rgb(78, 131, 5) 100%);
+  }
+  #nav { display: none;}
+
+  section, #blockquote, footer { margin: 0 1em 0 2em; }
+  section, #blockquote, header { margin-bottom: 30vh; }
+  #header div { padding: 2em;}
+  #tools { position: absolute; top: calc(100vh - 3em); left: calc(100vw - 3em);}
+  ul .enum { margin-left: 0; text-align: left;}
+  .enum { font-size: .75em;font-size: .75em;
+    top: -.05em;
+    position: relative; }
+  h2 .enum {margin-left: 0; text-indent: 0; font-size: 1em; min-width: 2em;}
+  .fns_container .fn_ref {padding-left: 0; font-size: .75em;}
+  .fn_ref_number  {margin-left: 0; min-width: 2em;}
+  .text figure::before{
+    margin: -1.5em 0 0 0;
+  }
+  .text figure::before,
+  figcaption {font-size: .75em;}
+  .text figure { grid-template-columns: 1fr !important;}
+  .text figcaption { display: block !important}
+  .image { background: none;}
+  .image img { mix-blend-mode: normal;}
+  #echo {transform: translateX(0);}
+  #echo img {
+    object-position: 50% 80%;
+  }
 }

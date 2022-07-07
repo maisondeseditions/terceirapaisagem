@@ -52,7 +52,7 @@
   </blockquote>
   
   <section id="index">
-    <h2>Fragmento indeciso do jardim planetário</h2>
+    <h2>Fragmento indeciso do jardim&nbsp;planetário</h2>
     <h3>Índice</h3>
     <ul>
       <li><a href="#definicoes">Definições</a></li>
