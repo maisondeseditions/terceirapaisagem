@@ -553,10 +553,11 @@ figure .image {
   figcaption {font-size: .75em;}
   .text figure { grid-template-columns: 1fr !important;}
   .text figcaption { display: block !important}
-  .image { background: none;}
+  figure .image { background: none;}
   .image img { mix-blend-mode: normal;}
   #echo {transform: translateX(0);}
   #echo img {
     object-position: 50% 80%;
   }
+  .home #echo { display: none;}
 }
