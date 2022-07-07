@@ -643,7 +643,6 @@
     <br>— Atribuir à Terceira paisagem a função matricial de uma paisagem global emergente.
     <br>— Declarar o território da Terceira paisagem como sede privilegiada da inteligência biológica: apta a se reinventar continuamente.
     <br>— Confrontar nossas hipóteses a outras culturas, particularmente aquelas cuja concepção se funda em vínculos profundos entre o homem e a natureza.</p>
-    <p>—  05/04/2022</p>
   </section>
   
   </div>
