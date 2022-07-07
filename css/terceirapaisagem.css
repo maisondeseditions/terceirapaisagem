@@ -560,4 +560,9 @@ figure .image {
     object-position: 50% 80%;
   }
   .home #echo { display: none;}
+  #maisondeseditions {
+    left: auto;
+    right: 1em;
+    bottom: 1em;
+  }
 }
