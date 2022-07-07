@@ -172,22 +172,25 @@ a {
 }
 /* ------------------------------------------ echo */
 #echo {
-  transform: translateX(25%);
+  transform: translateX(15%);
   margin: 0;
   width: 100vw;
-  right: 10vw;
+  height: 100vh;
   top: 0;
   z-index: -1;
   position: absolute;
-  max-width: 1280px;
+  padding: 5vh;
   /* border-bottom: 1px solid turquoise; */
 }
-#echo img {display: block;}
-#echo .image {
-  background-size: 100% 100%;
+#echo img {
+  display: block;
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
 }
+
 #header {
-  padding-bottom:calc(130vw );
+  padding-bottom:calc(100vh );
   margin-bottom: 0 !important;
   /* border-bottom: 1px solid turquoise; */
 }
@@ -209,7 +212,7 @@ a {
 }
 @media screen and (min-width:1280px) {
   #header {
-    padding-bottom: calc(1676px);
+    /* padding-bottom: calc(1676px); */
   }
 }
 /* ------------------------------------------ homepage */
@@ -326,7 +329,7 @@ footer {
   padding-bottom: 4em;
 }
 footer p {
-  margin: 0;
+  margin: 0 0 1em;
 }
 hr {
   height: 0;

@@ -42,9 +42,7 @@
       <p>Tradução de Lúcia Leistner</p>
     </div>
     <figure id="echo">
-      <span class="">
-        <img src="images/echo.nb.png" alt="Echo d’un tiers paysage">
-      </span>
+      <img src="images/echo.nb.png" alt="Echo d’un tiers paysage">
     </figure>
   </header>
 
@@ -647,30 +645,29 @@
     <br>— Confrontar nossas hipóteses a outras culturas, particularmente aquelas cuja concepção se funda em vínculos profundos entre o homem e a natureza.</p>
     <p>—  05/04/2022</p>
   </section>
+  
+  </div>
 
   <section id="gilles-clement">
     <p>Gilles Clément (Argenton-sur-Creuse, 1943) é um “jardineiro” francês; paisagista, botânico, ensaísta e professor da Escola de Paisagismo de Versalhes. É autor de conceitos teóricos que marcaram os protagonistas da paisagem moderna e também o grande público, como o “jardim em movimento”, o “jardim planetário” e a “terceira paisagem”. Na prática, concebeu vários parques e espaços públicos franceses, a partir de conceitos resultantes da observação de paisagens naturais nunca cristalizadas, onde as espécies devem poder circular livremente. Desde 1977 Gilles Clément “cultiva” também o seu próprio jardim, “o vale”, sua morada, onde observa, investiga e dialoga.
   </section>
   
-  
-
-
   <footer id="footer">
-    <p>Manifesto da Terceira paisagem</p>
-    <p><a href="https://maisondeseditions.fr/fr">maison des éditions</a> / xxxx 2022 / ISBN xxxxxxxxxxxxxx</p>
-    <p>Título texto original: « Le Tiers paysage »</p>
-    <p>Copyright © 2004, Gilles Clément</p>
-    <p>Tradução: Lúcia Leistner</p>
-    <p>Revisão: Andréa Soler Machado e Maria Clara Adams</p>
-    <p>Ilustrações: Originais de Gilles Clément restaurados por “éditions du commun”</p>
-    <p>Pau, França, fevereiro 2022</p>
-    <p>O texto original em francês <a href="http://www.gillesclement.com/files/_admin_13517_tierspaypublications_92045_manifeste_du_tiers_paysage.pdf">é acessível em arquivo</a>, sob licença Copyleft.</p>
-    <p>Ver termos da licença “Copyleft “ da <a href="https://artlibre.org/licence/lal/pt/">Arte Livre</a>.
-    <p>Para mais informações, ver <a href="http://www.gillesclement.com/">site do autor</a>.</p>
-    <p>O texto em versão português do Brasil é acessível sob os termos da licença Creative Commons “<a href="https://creativecommons.org/licenses/by-nc/4.0/deed.pt_BR">Atribuição-NãoComercial</a>”.</p>
-  </footer>
+    <p>Título texto original: « Le Tiers paysage »<br>Gilles Clément, 2004</p>
+    <p>Copyleft&nbsp;: esta obra é livre, pode copiá-la, distribuí-la e modificá-la nos termos da <a href="http://artlibre.org">Licença de Arte&nbsp;Livre</a>.</p>
+    <hr>
+
+    <p>Manifesto da Terceira paisagem<br><a href="https://maisondeseditions.fr/">Maison des éditions</a> — 2022 — ISBN xxxxxxxxxxxxxx</p>
+    <p>
+      Tradução: Lúcia Leistner ―
+      Revisão: Andréa Soler Machado e Maria Clara Adams ―
+      Ilustrações originais de Gilles Clément restaurados por “Éditions du commun” ―
+      Imagem da capa: <i>Ecos de uma Terceira paisagem</i>, Christophe Clottes, do protocolo da série “<a href="https://dda-nouvelle-aquitaine.org/Echos-d-un-ilot-2010">Ecos de uma Ilha</a>”  ―
+      Design & desenvolvimento: <a href="https://accentgrave.net/">Julien Bidoret</a>  ―
+      Caracteres tipográficos <a href="http://velvetyne.fr/fonts/compagnon/">Compagnon</a> (Juliette Duhé, Léa Pradine, Valentin Papon, Chloé Lozano, Sébastien Riollier) &amp; <a href="https://software.sil.org/gentium/">Gentium Book</a> (SIL International).</p>
   
-  </div>
+    <p>O texto original em francês <a href="_admin_13517_tierspaypublications_92045_manifeste_du_tiers_paysage.pdf">é acessível em arquivo</a>. Para mais informações, ver <a href="http://www.gillesclement.com/">site do autor</a>. <br> O texto em versão português do Brasil é acessível sob os termos da licença Creative Commons “<a href="https://creativecommons.org/licenses/by/4.0/deed.pt_BR">Atribuição</a>”.</p>
+  </footer>
   
   <script src="js/script.js"></script>
 

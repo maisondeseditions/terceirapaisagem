@@ -39,9 +39,7 @@
       <h2>Gilles Clément</h2>
     </div>
     <figure id="echo">
-      <span class="imagde">
-        <img src="images/echo.nb.png" alt="Echo d’un tiers paysage">
-      </span>
+      <img src="images/echo.nb.png" alt="Echo d’un tiers paysage">
     </figure>
   </header>
   <blockquote id="blockquote">
@@ -426,6 +424,7 @@
     <h4>Sur le rapport à la culture</h4>
     <p>— Inverser le regard porté sur le paysage en Occident.<br> — Conférer au Tiers paysage le rôle matriciel d’un paysage global en devenir.<br> — Déclarer le territoire du Tiers paysage lieu privilégié de l’intelligence biologique&nbsp;: aptitude à se réinventer constamment.<br> — Confronter l’hypothèse aux autres cultures planétaires, en particulier celles dont les fondements reposent sur un lien fusionnel entre l’homme et la nature.</p>
   </section>
+  </div>
 
   <section id="gilles-clement">
     <p>
@@ -433,15 +432,25 @@
     </p>
   </section>
   <footer id="colophon">
-    <p>Le tiers paysage</p>
-    <p>Gilles Clément, 2004</p>
-    <p>Copyleft&nbsp;: cette oeuvre est libre, vous pouvez la copier, la diffuser et la modifier selon les termes de la <a href="http://artlibre.org">Licence Art Libre</a>.</p>
+    <p>Titre original: « Le tiers paysage »<br>Gilles Clément, 2004</p>
+    <p>Copyleft&nbsp;: cette oeuvre est libre, vous pouvez la copier, la diffuser et la modifier selon les termes de la <a href="http://artlibre.org">Licence Art&nbsp;Libre</a>.</p>
     <hr>
-    <p>Ré-édition et traduction : Lucia Leistner, <a href="https://maisondeseditions.fr/">Maison des éditions</a>, juin 2022.</p>
-    <p>Image de couverture : <i>Échos d’un Tiers paysage</i>, Christophe Clottes, issu du protocole de la série « <a href="https://dda-nouvelle-aquitaine.org/Echos-d-un-ilot-2010">Échos d’un îlot</a> ». ¶ Design &amp; développement : <a href="https://accentgrave.net/">Julien Bidoret</a>. ¶ Caractères typographiques : <a href="http://velvetyne.fr/fonts/compagnon/">Compagnon</a> (Juliette Duhé, Léa Pradine, Valentin Papon, Chloé Lozano, Sébastien Riollier) &amp; <a href="https://software.sil.org/gentium/">Gentium Book</a> (SIL International).</p>
-
+    <p>
+      Manifeste du Tiers paysage<br>
+      <a href="https://maisondeseditions.fr/">Maison des éditions</a> — 2022 — ISBN xxxxxxxxxxxxxx
+    </p>
+    <p>
+      Traduction en portugais brésilien : Lucia Leistner ―
+      Révision de la traduction : Andréa Soler Machado et Maria Clara Adams ―
+      Illustrations originales de Gilles Clément, restaurées par les Éditions du commun ―
+      Image de couverture : <i>Échos d’un Tiers paysage</i>, Christophe Clottes, issu du protocole de la série « <a href="https://dda-nouvelle-aquitaine.org/Echos-d-un-ilot-2010">Échos d’un îlot</a> »  ―
+      Design &amp; développement : <a href="https://accentgrave.net/">Julien Bidoret</a>  ―
+      Caractères typographiques : <a href="http://velvetyne.fr/fonts/compagnon/">Compagnon</a> (Juliette Duhé, Léa Pradine, Valentin Papon, Chloé Lozano, Sébastien Riollier) &amp; <a href="https://software.sil.org/gentium/">Gentium Book</a> (SIL International).
+    </p>
+    <p>Le texte original est accessible <a href="_admin_13517_tierspaypublications_92045_manifeste_du_tiers_paysage">en archive</a>. Pour plus d’informations, visitez <a href="http://www.gillesclement.com/">le site de l’auteur</a>. <br>Le texte en version portugais brésilien est disponible selon les termes de la licence Creative Commons “<a href="https://creativecommons.org/licenses/by/4.0/deed.pt_BR">Atribuição</a>”.</p>
+  
   </footer>
-  </div>
+
   <script src="js/script.js"></script>
 </body>
 </html>
