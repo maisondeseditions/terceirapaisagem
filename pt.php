@@ -39,7 +39,7 @@
     <div>
       <h1>Manifesto da <br>terceira paisagem</h1>
       <h2>Gilles Clément</h2>
-      <p>Tradução de Lúcia Leistner</p>
+      <p>Tradução de <br class="min">Lúcia Leistner</p>
     </div>
     <figure id="echo">
       <img src="images/echo.nb.png" alt="Echo d’un tiers paysage">
