@@ -45,17 +45,17 @@
   <blockquote id="blockquote">
     
     <p>
-      « Fragment indécidé du jardin planétaire, le Tiers paysage est constitué de l’ensemble des lieux délaissés par l’homme. Ces marges assemblent une diversité biologique qui n’est pas à ce jour repertoriée comme richesse.
+      «&nbsp;Fragment indécidé du jardin planétaire, le Tiers paysage est constitué de l’ensemble des lieux délaissés par l’homme. Ces marges assemblent une diversité biologique qui n’est pas à ce jour repertoriée comme richesse.
       Tiers paysage renvoie à tiers-état (et non à Tiers-monde). Espace n’exprimant ni le pouvoir ni la soumission au pouvoir.
       Il se réfère au pamphlet de Sieyès en 1789&nbsp;:
     </p>
     <p>
       <span class="sieyes">
-      <em>Qu’est-ce que le tiers état&nbsp;? - Tout. 
+      <em>Qu’est-ce que le tiers état&nbsp;? — Tout. 
       <br>
-      Qu’a-t-il fait jusqu’à présent&nbsp;? - Rien. 
+      Qu’a-t-il fait jusqu’à présent&nbsp;? — Rien. 
       <br>
-      Qu’aspire-t-il à devenir&nbsp;? - Quelque chose.</em></span> »
+      Qu’aspire-t-il à devenir&nbsp;? — Quelque chose.</em></span>&nbsp;»
     </p>
   </blockquote>
   
@@ -86,21 +86,21 @@
     <h2>Définitions</h2>
     <p>Refuges pour la diversité, constitués par la somme des délaissés, des réserves et des ensembles primaires.</p>
     <p>Le délaissé procède de l’abandon d’un terrain anciennement exploité. Son origine est multiple&nbsp;: agricole, industrielle, urbaine, touristique, etc. Délaissé et friche sont synonymes.</p>
-    <p>La réserve est un lieu non exploité <span class="fn">En peinture, la réserve est la portion du tableau non peinte.</span>. Son existence tient au hasard ou bien à la difficulté d’accès qui rend l’exploitation impossible ou coûteuse. Elle apparaît par soustraction du territoire anthropisé.</p>
-    <p>Les réserves existent de fait (ensembles primaires) mais aussi par décision administrative.</p>
-    <p>Le caractère indécidé du Tiers paysage correspond à l’évolution laissée à l’ensemble des êtres biologiques qui composent le territoire en l’absence de toute décision humaine <span class="fn">La décision administrative de mise en réserve circonscrit le territoire de réserve sans altérer la mécanique propre à son évolution, elle entérine l’indécision humaine sur ce lieu.</span>.</p>
-    <p>Le Jardin planétaire représente la planète comme un jardin. Le sentiment de finitude écologique fait apparaître les limites de la biosphère comme l’enclos <span class="fn">Le mot « jardin » vient du germanique Garten, enclos.</span> du vivant.</p>
+    <p>La réserve est un lieu non exploité<span class="fn">En peinture, la réserve est la portion du tableau non peinte.</span>. Son existence tient au hasard ou bien à la difficulté d’accès qui rend l’exploitation impossible ou coûteuse. Elle apparaît par soustraction du territoire anthropisé.</p>
+    <p>Les réserves existent de fait (<em>ensembles primaires</em>) mais aussi par décision administrative.</p>
+    <p>Le caractère indécidé du Tiers paysage correspond à l’évolution laissée à l’ensemble des êtres biologiques qui composent le territoire en l’absence de toute décision humaine<span class="fn">La décision administrative de mise en réserve circonscrit le territoire de réserve sans altérer la mécanique propre à son évolution, elle entérine l’indécision humaine sur ce lieu.</span>.</p>
+    <p>Le Jardin planétaire représente la planète comme un jardin. Le sentiment de finitude écologique fait apparaître les limites de la biosphère comme l’enclos<span class="fn">Le mot «&nbsp;jardin&nbsp;» vient du germanique Garten, enclos.</span> du vivant.</p>
     <p>Diversité se réfère au nombre d’espèces vivantes distinctes parmi les animaux, les végétaux et les êtres simples (bactéries, virus, etc.), le nombre humain étant compris dans une seule et unique espèce dont la diversité s’exprime par les variétés ethniques et culturelles.</p>
   </section>
 
   <section class="text" id="origine">
     <h2>Origine</h2>
     <p>Le terme de Tiers paysage naît d’un regard porté sur le Limousin</p>
-    <p>L’analyse du paysage de Vassivière, établie dans le courant de l’année 2002 pour le Centre d’art et du paysage, laisse apparaître le caractère artificiel de ce qui semble « naturellement » présent&nbsp;: l’étendue d’eau d’un barrage hydroélectrique, les arbres d’une forêt gérée, l’herbe des élevages bovins... Ensemble organisé selon les facilités du relief, les expositions, les accès.</p>
-    <p class="break-before">Ce que perçoit l’oiseau – que notre regard embrasse depuis un sommet – est un tapis tissé de formes sombres et bourrues&nbsp;: les forêts&nbsp;; et de surfaces claires bien délimitées&nbsp;: les pâtures.</p>
+    <p>L’analyse du paysage de Vassivière, établie dans le courant de l’année 2002 pour le Centre d’art et du paysage, laisse apparaître le caractère artificiel de ce qui semble «&nbsp;naturellement&nbsp;» présent&nbsp;: l’étendue d’eau d’un barrage hydroélectrique, les arbres d’une forêt gérée, l’herbe des élevages bovins… Ensemble organisé selon les facilités du relief, les expositions, les accès.</p>
+    <p class="break-before">Ce que perçoit l’oiseau –&nbsp;que notre regard embrasse depuis un sommet&nbsp;– est un tapis tissé de formes sombres et bourrues&nbsp;: les forêts&nbsp;; et de surfaces claires bien délimitées&nbsp;: les pâtures.</p>
     <p>L’alternance d’arbres et d’herbes creuse le paysage, l’anime de perspectives courbes relancées par un relief doux et profond. La balance des ombres et des lumières répond à un dispositif dont on devine l’économie. L’immensité du territoire atteint par cet équilibre peut tromper le voyageur&nbsp;: s’agit-il d’un projet&nbsp;? D’un hasard de l’histoire&nbsp;? Morcellement des parcelles, habitat dispersé, variation du relief&nbsp;: tout cela constitue un appareil ancré dans la géographie et dans la société capable d’affronter durablement la machine à tout remembrer. Vestiges d’une polyculture dont un grand nombre de figures ont disparu pour laisser dominer deux richesses&nbsp;: l’arbre, l’herbe. Purs produits de la PAC – attitude dont le pouvoir réducteur n’est pourtant pas venu à bout de toutes les diversités.</p>
     <p>Si l’on cesse de regarder le paysage comme l’objet d’une industrie on découvre subitement – est-ce un oubli du cartographe, une négligence du politique&nbsp;? – une quantité d’espaces indécis, dépourvus de fonction sur lesquels il est difficile de porter un nom. Cet ensemble n’appartient ni au territoire de l’ombre ni à celui de la lumière. Il se situe aux marges. En lisière des bois, le long des routes et des rivières, dans les recoins oubliés de la culture, là où les machines ne passent pas. Il couvre des surfaces de dimensions modestes, dispersées comme les angles perdus d’un champ&nbsp;; unitaires et vastes comme les tourbières, les landes et certaines friches issues d’une déprise récente.</p>
-    <p>Entre ces fragments de paysage aucune similitude de forme. Un seul point commun&nbsp;: tous constituent un territoire de refuge à la diversité. Partout ailleurs celle – ci est chassée.</p>
+    <p>Entre ces fragments de paysage aucune similitude de forme. Un seul point commun&nbsp;: tous constituent un territoire de refuge à la diversité. Partout ailleurs celle-ci est chassée.</p>
     <p>Cela justifie de les rassembler sous un terme unique. Je propose Tiers paysage, troisième terme d’une analyse ayant rangé les données principales apparentes sous l’ombre d’un côté, la lumière de l’autre.</p>
     <figure id="fig-1">
       <span class="image">
@@ -113,7 +113,7 @@
         <img loading="lazy" src="images/Croquis-01-c.png" alt="">
       </span>
     </figure>
-    <p>Tiers paysage renvoie à tiers état (et non à tiers–monde). Espace n’exprimant ni le pouvoir ni la soumission au pouvoir.</p>
+    <p>Tiers paysage renvoie à tiers état (et non à tiers-monde). Espace n’exprimant ni le pouvoir ni la soumission au pouvoir.</p>
     <p>Il se réfère au pamphlet de Sieyès en 1789&nbsp;:</p>
     <p>
       <span class="sieyes">
@@ -121,7 +121,7 @@
       <br>
       Qu’a-t-il fait jusqu’à présent&nbsp;? — Rien. 
       <br>
-      Qu’aspire-t-il à devenir&nbsp;? — Quelque chose.</em></span> »
+      Qu’aspire-t-il à devenir&nbsp;? — Quelque chose.</em></span>&nbsp;»
     </p>
   </section>
 
@@ -132,7 +132,7 @@
     <p><span class="enum">3 </span>Le délaissé est tributaire d’un mode de gestion mais il procède généralement du principe d’aménagement en tant qu’espace abandonné.</p>
     <p><span class="enum">4 </span>Tout aménagement génère un délaissé.</p>
     <p><span class="enum">5 </span>En secteur rural les délaissés occupent les reliefs accidentés, incompatibles avec les machines d’exploitation, et tous les reliquats directement liés à l’aménagement&nbsp;: bordures de champs, haies, lisières, bords de route, etc.</p>
-    <p><span class="enum">6 </span>En secteur urbain ils correspondent à des terrains en attente d’affectation ou en attente d’exécution de projets suspendus aux provisionnements budgétaires, aux décisions politiques. Les délais, souvent longs, permettent aux friches urbaines d’acquérir un couvert forestier (forêt des délaissés<span class="fn">L’étude « Forêt des délaissés » dirigée par Patrick Bouchain montre comment un territoire à l’abandon devient une richesse.</span>).</p>
+    <p><span class="enum">6 </span>En secteur urbain ils correspondent à des terrains en attente d’affectation ou en attente d’exécution de projets suspendus aux provisionnements budgétaires, aux décisions politiques. Les délais, souvent longs, permettent aux friches urbaines d’acquérir un couvert forestier (forêt des délaissés<span class="fn">L’étude «&nbsp;Forêt des délaissés&nbsp;» dirigée par Patrick Bouchain montre comment un territoire à l’abandon devient une richesse.</span>).</p>
     <p><span class="enum">7 </span>La ville produit d’autant plus de délaissés que son tissu est distendu. Les délaissés du coeur des villes sont petits et rares, ceux de la périphérie sont vastes et nombreux.</p>
     <figure id="fig-2">
       <span class="image">
@@ -154,7 +154,7 @@
     <h2><span class="enum">III </span>Caractère</h2>
     Par nature le Tiers paysage constitue un territoire pour les multiples espèces ne trouvant place ailleurs. Le reliquat d’espèces ne figurant pas dans le Tiers paysage est représenté par les plantes cultivées, les animaux élevés, et les êtres dont l’existence dépend des cultures et des élevages<span class="fn">Le coquelicot, plante des moissons, dépend des pratiques agricoles. Il apparaît sur une terre retournée ou blessée. Pas ailleurs. Avec les messicoles et les adventices des cultures, il appartient à la série des herbes combattues, donc menacées d’extinction mais douées d’un grand pouvoir de régénération.</span>.
     Les espaces de diversité proviennent de trois origines distinctes&nbsp;: les ensembles primaires, les délaissés, les réserves.
-    <p class="break-before">Les ensembles primaires sont des espaces n’ayant jamais été soumis à l’exploitation. Ils évoluent lentement ou pas du tout. Les espèces qui s’y développent correspondent au niveau optimum de vie pour les conditions du milieu (climax). Quelques forêts primaires existent encore dans le monde, les autres espaces primaires se répartissent en prairies alpines, landes climaciques, toundras (...). Les ensembles primaires sont unitaires d’aspect en dépit d’une diversité généralement forte.</p>
+    <p class="break-before">Les <em>ensembles primaires</em> sont des espaces n’ayant jamais été soumis à l’exploitation. Ils évoluent lentement ou pas du tout. Les espèces qui s’y développent correspondent au niveau optimum de vie pour les conditions du milieu (climax). Quelques forêts primaires existent encore dans le monde, les autres espaces primaires se répartissent en prairies alpines, landes climaciques, toundras (…). Les ensembles primaires sont unitaires d’aspect en dépit d’une diversité généralement forte.</p>
     <figure id="fig-4">
       <span class="image">
         <img loading="lazy" src="images/Croquis-04-a.png" alt="">        
@@ -169,17 +169,17 @@
         <img loading="lazy" src="images/Croquis-04-d.png" alt="">        
       </span>
     </figure>
-    <p>Les délaissés résultent de l’abandon d’une activité. Ils évoluent naturellement vers un paysage secondaire. Une forêt secondaire peut provenir d’un délaissé. Une forte dynamique caractérise les paysages secondaires. Un jeune délaissé accueille rapidement des espèces pionnières qui bientôt disparaissent au profit d’espèces de plus en plus stables jusqu’à l’obtention d’un équilibre.  Les paysages secondarisés sont hétérogènes et chaotiques.</p>
-    <p>Les réserves sont des ensembles protégés de l’activité humaine, par décision. Ensembles jugés fragiles ou rares, riches d’une diversité en péril. Ou encore ensembles sacrés (interdits), territoires des dieux, comme le sommet des montagnes indiennes, les espace « fadys » malgaches, les vallées à « leyaks » de Bali...</p>
-    <p><span class="enum">1 </span>Les réserves et les ensembles primaires se ressemblent. Il s’agit de climax, niveaux stables dont l’aspect se modifie peu dans le temps<span class="fn">Le classement en réserve de milieux instables se justifie par la singularité des biotopes et des espèces de ces écosystèmes. Une tourbière se referme, un terril se boise dans un laps de temps court, parfois à l’échelle d’une vie humaine. Le paysage change, les espèces aussi mais la succession des faciès et des êtres constitue autant de caractères originaux, autant de diversité.</span>.</p>
+    <p>Les <em>délaissés</em> résultent de l’abandon d’une activité. Ils évoluent naturellement vers un paysage secondaire. Une forêt secondaire peut provenir d’un délaissé. Une <em>forte dynamique</em> caractérise les paysages secondaires. Un jeune délaissé accueille rapidement des espèces pionnières qui bientôt disparaissent au profit d’espèces de plus en plus stables jusqu’à l’obtention d’un équilibre.  Les paysages secondarisés sont hétérogènes et chaotiques.</p>
+    <p>Les <em>réserves</em> sont des ensembles protégés de l’activité humaine, par décision. Ensembles jugés fragiles ou rares, riches d’une diversité en péril. Ou encore ensembles sacrés (interdits), territoires des dieux, comme le sommet des montagnes indiennes, les espace «&nbsp;fadys&nbsp;» malgaches, les vallées à «&nbsp;leyaks&nbsp;» de Bali…</p>
+    <p><span class="enum">1 </span>Les réserves et les ensembles primaires se ressemblent. Il s’agit de <em>climax</em>, niveaux <em>stables</em> dont l’aspect se modifie peu dans le temps<span class="fn">Le classement en réserve de milieux instables se justifie par la singularité des biotopes et des espèces de ces écosystèmes. Une tourbière se referme, un terril se boise dans un laps de temps court, parfois à l’échelle d’une vie humaine. Le paysage change, les espèces aussi mais la succession des faciès et des êtres constitue autant de caractères originaux, autant de diversité.</span>.</p>
     <p><span class="enum">2 </span>Les ensembles primaires accueillent encore aujourd’hui la  plus grande diversité planétaire.</p>
-    <p><span class="enum">3 </span>Les délaissés ne bénéficient jamais d’un statut de réserve. Ils accueillent des espèces pionnières à cycles rapides. Chacune d’elles prépare la venue des suivantes dont les cycles s’allongent jusqu’à ce que s’installe une permanence.</p>
+    <p><span class="enum">3 </span>Les délaissés ne bénéficient jamais d’un statut de réserve. Ils accueillent des espèces <em>pionnières</em> à cycles rapides. Chacune d’elles prépare la venue des suivantes dont les cycles s’allongent jusqu’à ce que s’installe une permanence.</p>
     <p><span class="enum">4 </span>L’apparition rapide, puis la disparition des espèces pionnières au profit d’espèces stables est constitutive du délaissé&nbsp;: il faut un terrain nu, dépourvu de concurrence, pour que s’installent les pionniers.</p>
-    <p><span class="enum">5 </span>Au fur et à mesure que se « ferme » le terrain, s’atténue la dynamique de conquête. La vie des délaissés est courte<span class="fn">Il ne faut pas quarante ans pour passer d’une friche agricole à un boisement dense.</span>.</p>
-    <p><span class="enum">6 </span>Chaque accident naturel contribue à réouvrir un terrain fermé. Il peut être considéré comme un recyclage du délaissé sur lui-même, faisant apparaître à nouveau les espèces pionnières<span class="fn">Un châblis laisse venir en forêt des plantes de soleil. Les digitales et les épilobes en épis ont animé les clairières ouvertes par Lothar dès le printemps 2002&nbsp;: Jardin des tempêtes (Vassivière 2002 / Saint Denis de la Réunion, 2003 – exposition montrant la puissance jardinière des traumatismes naturels).</span>.</p>
+    <p><span class="enum">5 </span>Au fur et à mesure que se «&nbsp;ferme&nbsp;» le terrain, s’atténue la dynamique de conquête. La vie des délaissés est courte<span class="fn">Il ne faut pas quarante ans pour passer d’une friche agricole à un boisement dense.</span>.</p>
+    <p><span class="enum">6 </span>Chaque accident naturel contribue à réouvrir un terrain fermé. Il peut être considéré comme un recyclage du délaissé sur lui-même, faisant apparaître à nouveau les espèces pionnières<span class="fn">Un châblis laisse venir en forêt des plantes de soleil. Les digitales et les épilobes en épis ont animé les clairières ouvertes par Lothar dès le printemps 2002&nbsp;: <em>Jardin des tempêtes</em> (Vassivière 2002 / Saint Denis de la Réunion, 2003 – exposition montrant la puissance jardinière des traumatismes naturels).</span>.</p>
     <p><span class="enum">7 </span>La flore des délaissés n’est pas exclusive de son cortège naturel indigène. Elle accueille possiblement toutes les flores exotiques pionnières compatibles avec le milieu (biome).</p>
     <p><span class="enum">9 </span>La flore des ensembles primaires et des réserves est exclusive de toutes les autres. Tant que le milieu maintient sa propre fermeture il interdit l’accès aux êtres exogènes<span class="fn">Sauf dans les cas d’un écosystème profondément perturbé où la pression des pionniers exogènes est si forte que les milieux climaciques d’origine s’en trouvent perturbés. Cas de la vigne marrone à la Réunion.</span>.</p>
-    <p><span class="enum">10 </span>La somme des délaissés constitue, par excellence, le territoire du brassage planétaire.</p>
+    <p><span class="enum">10 </span>La somme des délaissés constitue, par excellence, le territoire du <em>brassage planétaire</em>.</p>
     <p><span class="enum">11 </span>La somme des milieux primaires constitue le seul territoire de résistance au brassage planétaire.</p>
     <p><span class="enum">12 </span>La fabrique d’un délaissé, comme n’importe quel processus de secondarisation, s’accompagne d’une perte de diversité d’espèces stables. Parfois de façon irréversible.</p>
     <p><span class="enum">13 </span>La résistance des milieux primaires correspond à des situations d’isolement géographique. Le nombre des espèces sur la planète est directement lié au nombre d’isolats.</p>
@@ -200,27 +200,27 @@
     </figure>
     <p><span class="enum">18 </span>L’anthropisation planétaire toujours croissante entraîne la création de délaissés toujours plus nombreux et d’ensembles primaires toujours plus réduits.</p>
     <p><span class="enum">19 </span>La phase ultime du processus conduit à la disparition totale des milieux primaires, à la généralisation des milieux secondaires. La planète, en cet état, peut être assimilée à un immense délaissé. Fonctionnant à partir d’un nombre d’espèces réduit, en équilibre avec l’activité humaine.</p>
-    <p><span class="enum">20 </span>L’inconnue est le nombre et la nature des espèces issues du brassage planétaire supposées pouvoir vivre dans cet équilibre. Equilibre lui – même suspendu à la variation du nombre des humains en action.</p>
+    <p><span class="enum">20 </span>L’inconnue est le nombre et la nature des espèces issues du brassage planétaire supposées pouvoir vivre dans cet équilibre. Équilibre lui-même suspendu à la variation du nombre des humains en action.</p>
     <p class="break-before"><span class="enum">21 </span>Le Tiers paysage, territoire de diversité, est directement lié à la démographie, sujet tabou.</p>
   </section>
   
   <section class="text" id="statut">
     <h2><span class="enum">IV </span>Statut</h2>
     <p><span class="enum">1 </span>Le Tiers paysage se distribue sur des territoires dont les statuts officiels sont variés, répondant à des objectifs et des enjeux différents, parfois contradictoires.</p>
-    <p><span class="enum">2 </span>Un territoire déclaré « réserve » d’un point de vue administratif est assorti de protection, surveillance et sanctions. Un bord de route, un délaissé urbain, ne font l’objet d’aucune protection. Lieux que l’on cherche à réduire ou à supprimer. Tous constituent néanmoins des réserves biologiques.</p>
-    <p><span class="enum">3 </span>Les enjeux propres du Tiers paysage se placent au – dessus (ou au – delà) des enjeux territoriaux.</p>
+    <p><span class="enum">2 </span>Un territoire déclaré «&nbsp;réserve&nbsp;» d’un point de vue administratif est assorti de protection, surveillance et sanctions. Un bord de route, un délaissé urbain, ne font l’objet d’aucune protection. Lieux que l’on cherche à réduire ou à supprimer. Tous constituent néanmoins des réserves biologiques.</p>
+    <p><span class="enum">3 </span>Les enjeux propres du Tiers paysage se placent au-dessus (ou au-delà) des enjeux territoriaux.</p>
     <p><span class="enum">4 </span>La réalité du Tiers paysage est d’ordre mental. Elle fonctionne avec la mobilité même du sujet traité&nbsp;: celui de la vie sur la planète. Elle coïncide avec les découpes administratives à titre temporaire. Elle se positionne dans le champ éthique du citoyen planétaire à titre permanent.</p>
     <p><span class="enum">5 </span>Par son contenu, par les enjeux que porte la diversité, par la nécessité de la préserver – ou d’en entretenir la dynamique – le Tiers paysage acquiert une dimension politique.</p>
-    <p><span class="enum">6 </span>Le statut non – écrit mais avéré du Tiers paysage est d’ordre planétaire. Le maintien de son existence ne dépend pas de sages mais d’une conscience collective.</p>
+    <p><span class="enum">6 </span>Le statut non-écrit mais avéré du Tiers paysage est d’ordre planétaire. Le maintien de son existence ne dépend pas de sages mais d’une conscience collective.</p>
     <p><span class="enum">7 </span>Fragment partagé d’une conscience collective.</p>
   </section>
 
   <section class="text" id="enjeux">
     <h2><span class="enum">V </span>Enjeux</h2>
     <p>Les enjeux du Tiers paysage sont les enjeux de la diversité</p>
-    <p><span class="enum">1 </span>La diversité s’exprime par le nombre des espèces sur la planète et par la variété des comportements.</p>
+    <p><span class="enum">1 </span>La diversité s’exprime par le nombre des <em>espèces</em> sur la planète et par la variété des <em>comportements</em>.</p>
     <p><span class="enum">2 </span>La variété des comportements dépend de la latitude offerte à chaque espèce (liberté d’action) mais aussi de l’amplitude biologique de chaque espèce (capacité d’adaptation).</p>
-    <p><span class="enum">3 </span>Pour les sociétés humaines la variété des comportements se joue au sein d’une seule espèce (Homo sapiens). Elle est tributaire de la culture dans laquelle chaque individu évolue.</p>
+    <p><span class="enum">3 </span>Pour les sociétés humaines la variété des comportements se joue au sein d’une seule espèce (<i>Homo sapiens</i>). Elle est tributaire de la culture dans laquelle chaque individu évolue.</p>
     <p><span class="enum">4 </span>En théorie la diversité n’est pas finie.</p>
     <p><span class="enum">5 </span>Le nombre – la quantité d’espèces ou de comportements – augmente ou diminue en fonction des modifications du milieu.</p>
     <p><span class="enum">6 </span>Le cataclysme (météorites, coulées volcaniques, guerres) conduit à des diminutions massives et brutales du nombre. La transformation lente (glaciation, tropicalisation) conduit à des substitutions d’espèces, des diminutions ou des augmentations progressives du nombre.</p>
@@ -234,16 +234,16 @@
       </span>
     </figure>
     <p><span class="enum">11 </span>Toute altération létale du Tiers paysage compromet les chances d’inventions biologiques, oriente l’évolution en diminuant d’autant le nombre de voies possibles.</p>
-    <p><span class="enum">12 </span>L’amplitude biologique des espèces animales et végétales ne dépasse pas les capacités des biomes auxquels elles appartiennent<span class="fn">Exception faite de quelques espèces cosmopolites capables de franchir les limites climatiques, passer d’un biome à l’autre (ex.&nbsp;: Pteris aquilina, la fougère aigle, commune en Europe mais aussi présente sur tous les continents y compris en zone tropicale).</span> .</p>
+    <p><span class="enum">12 </span>L’amplitude biologique des espèces animales et végétales ne dépasse pas les capacités des biomes auxquels elles appartiennent<span class="fn">Exception faite de quelques espèces cosmopolites capables de franchir les limites climatiques, passer d’un biome à l’autre (ex.&nbsp;: <em>Pteris aquilina</em>, la fougère aigle, commune en Europe mais aussi présente sur tous les continents y compris en zone tropicale).</span>.</p>
     <p><span class="enum">13 </span>L’espèce humaine ne suit pas les règles d’assignation à un biome qui lui serait favorable (par exemple&nbsp;: une zone climatique tempérée). Elle franchit toutes les zones climatiques.</p>
-    <p><span class="enum">14 </span>L’assistance des prothèses (vêtements, maisons, véhicules...) augmente l’amplitude biologique naturelle de l’espèce humaine. Elle lui permet de couvrir la planète sous toutes les conditions de vie.</p>
+    <p><span class="enum">14 </span>L’assistance des prothèses (vêtements, maisons, véhicules…) augmente l’amplitude biologique naturelle de l’espèce humaine. Elle lui permet de couvrir la planète sous toutes les conditions de vie.</p>
     <p><span class="enum">15 </span>L’accroissement du nombre humain – la couverture planétaire – ne coïncide pas avec un accroissement du nombre des comportements humains. L’effet du brassage culturel se traduit par une diminution des offres de comportement.</p>
     <p class="break-before"><span class="enum">16 </span>Pour les espèces animales et végétales, le brassage planétaire agit de façon sélective – disparition par mise en concurrence – et de façon dynamique&nbsp;: nouveaux comportements, hybridation, mutations, voire nouvelles espèces.</p>
     <p><span class="enum">17 </span>La couverture planétaire par le genre humain entraîne une diminution des surfaces offertes au Tiers paysage, donc à la diversité.</p>
     <p><span class="enum">18 </span>Les pertes massives en diversité ne viennent pas seulement des effets induits du brassage planétaire<span class="fn">Le brassage planétaire met les êtres en concurrence de façon subite. Le temps de réponse à ces confrontations coïncide avec une perte en espèces (pression sélective). Plus le temps de réponse est long, plus grande est la perte.</span> mais aussi de la diminution des surfaces offertes pour son déploiement et des pratiques exercées sur ces milieux.</p>
     <p><span class="enum">19 </span>La diversité – donc l’évolution du vivant – est directement tributaire du nombre humain, de l’activité et des pratiques humaines.</p>
     <p><span class="enum">20 </span>L’accroissement du nombre humain agit sur l’espace réservé au Tiers paysage.</p>
-    <p><span class="enum">21 </span>Les pratiques d’exploitation planétaires agissent sur les substrats – eau, air, terre. Elles modifient les capacités biologiques en les altérant. Elles diminuent les performances du « moteur » biologique en proportion de l’énergie contraire<span class="fn">Toute énergie distribuée pour contraindre la nature peut être assimilée à une énergie contraire. L’énergie contraire s’oppose à l’énergie propre dont dispose chaque être pour se développer. Les pratiques réputées douces tentent de minimiser les dépenses d’énergie contraire et d’exploiter au mieux l’énergie propre.</span> déployée pour exploiter.</p>
+    <p><span class="enum">21 </span>Les pratiques d’exploitation planétaires agissent sur les substrats – eau, air, terre. Elles modifient les capacités biologiques en les altérant. Elles diminuent les performances du «&nbsp;moteur&nbsp;» biologique en proportion de l’énergie contraire<span class="fn">Toute énergie distribuée pour contraindre la nature peut être assimilée à une énergie contraire. L’énergie contraire s’oppose à l’énergie propre dont dispose chaque être pour se développer. Les pratiques réputées douces tentent de minimiser les dépenses d’énergie contraire et d’exploiter au mieux l’énergie propre.</span> déployée pour exploiter.</p>
     <p><span class="enum">22 </span>Les pratiques d’exploitation planétaires actuelles répondent massivement à une économie de marché développée sur le mode libéral avec un objectif de profit immédiat.</p>
     <p><span class="enum">23 </span>L’économie de marché développée sur ce mode augmente la quantité des produits de consommation, implique un accroissement toujours plus grand des consommateurs, donc d’habitants.</p>
     <p><span class="enum">24 </span>La pérennité du Tiers paysage – de la diversité, du futur biologique – est liée au nombre humain et surtout aux pratiques mises en oeuvre par ce nombre.</p>
@@ -276,7 +276,7 @@
     <h2><span class="enum">VII </span>Évolution</h2>
     <p><span class="enum">1 </span>L’évolution territoriale du Tiers paysage coïncide avec l’évolution territoriale d’aménagement.</p>
     <p><span class="enum">2 </span>L’accroissement des villes et des axes de communication conduit à l’accroissement du nombre des délaissés.</p>
-    <p><span class="enum">3 </span>L’augmentation du nombre des délaissés produits par l’aménagement du territoire ne conduit pas toujours à un accroissement de surface globale du Tiers paysage mais à une plus grande fragmentation de celui – ci.</p>
+    <p><span class="enum">3 </span>L’augmentation du nombre des délaissés produits par l’aménagement du territoire ne conduit pas toujours à un accroissement de surface globale du Tiers paysage mais à une plus grande fragmentation de celui-ci.</p>
     <p><span class="enum">4 </span>La multiplicité des fragments du Tiers paysage est un facteur sélectif de la diversité. Seules subsistent les espèces dont le territoire biologique est compatible avec la surface du fragment.</p>
     <p><span class="enum">5 </span>Les aménagements consécutifs au développement conduisent à un maillage du territoire, membrane urbaine.</p>
     <figure id="fig-10">
@@ -297,15 +297,15 @@
       </span>
     </figure>
     <p><span class="enum">8 </span>Seule la multiplication des délaissés issus de l’aménagement le long des mailles permet de constituer des refuges à la diversité.</p>
-    <p><span class="enum">9 </span>Toute rupture dans le tissu des mailles peut être considérée comme une chance de communication entre les « vacuoles ».</p>
-    <p><span class="enum">10 </span>La fermeture d’une maille supprime les échanges naturels entre les vacuoles territoriales, donc les chances d’ « inventions » biologiques issues des rencontres.</p>
+    <p><span class="enum">9 </span>Toute rupture dans le tissu des mailles peut être considérée comme une chance de communication entre les «&nbsp;vacuoles&nbsp;».</p>
+    <p><span class="enum">10 </span>La fermeture d’une maille supprime les échanges naturels entre les vacuoles territoriales, donc les chances d’ «&nbsp;inventions&nbsp;» biologiques issues des rencontres.</p>
   </section>
   
   <section class="text" id="echelle">
     <h2><span class="enum">VIII </span>Échelle</h2>
     <p><span class="enum">1 </span>Le Tiers paysage est sans échelle.</p>
     <p><span class="enum">2 </span>Il couvre l’ensemble des écosystèmes capables d’assurer le maintien d’une diversité.</p>
-    <p><span class="enum">3 </span>Une forêt constitue un écosystème <br>Un lichen constitue un écosystème <br>Un rivage... <br>Une écorce... <br>Une montagne... <br>Un rocher... <br>Un nuage...</p>
+    <p><span class="enum">3 </span>Une forêt constitue un écosystème <br>Un lichen constitue un écosystème <br>Un rivage… <br>Une écorce… <br>Une montagne… <br>Un rocher… <br>Un nuage…</p>
     <p><span class="enum">4 </span>Les instruments d’appréciation du Tiers paysage vont du satellite au microscope.</p>
     <p><span class="enum">5 </span>L’analyse des informations obtenues à partir des satellites donne, en particulier, l’activité de biomasse pour une région donnée, expression d’une multitude imbriquée d’écosystèmes.</p>
     <p><span class="enum">6 </span>L’analyse à partir des microscopes donne, en particulier, l’énoncé des êtres les plus simples vivant au sein d’un écosystème.</p>
@@ -332,7 +332,7 @@
     <p><span class="enum">6 </span>Une forêt issue d’un délaissé appartient au Tiers paysage.</p>
     <p><span class="enum">7 </span>La forêt climacique, les ensembles primaires, les délaissés évoluant vers la forêt et les délaissés jeunes peuvent être cartographiés et représentés de la même façon au titre de territoires refuges pour la diversité.</p>
     <p><span class="enum">8 </span>La contiguïté des ensembles primaires et des délaissés offre à la diversité une continuité territoriale.</p>
-    <p><span class="enum">9 </span>La continuité territoriale apparaît de façon massive dans le cas des « réserves » bien constituées ou dans le cas de contiguïté des délaissés avec les réserves et les ensembles primaires. Ailleurs, elle apparaît sous forme de linéaments (corridors biologiques)&nbsp;: haies, bordures de champs, bordures de routes, ripisylves, ou encore sous forme d’îles.</p>
+    <p><span class="enum">9 </span>La continuité territoriale apparaît de façon massive dans le cas des «&nbsp;réserves&nbsp;» bien constituées ou dans le cas de contiguïté des délaissés avec les réserves et les ensembles primaires. Ailleurs, elle apparaît sous forme de linéaments (corridors biologiques)&nbsp;: haies, bordures de champs, bordures de routes, ripisylves, ou encore sous forme d’îles.</p>
     <p><span class="enum">10 </span>La taille du territoire d’accueil à la diversité est un facteur limitant du nombre des espèces.</p>
     <p><span class="enum">11 </span>Les limites – interfaces, canopées, lisières, orées, bordures – constituent en soi des épaisseurs biologiques. Leur richesse est souvent supérieure à celle des milieux qu’elles séparent.</p>
     <p><span class="enum">12 </span>La représentation des limites du Tiers paysage ne peut pas objectivement traduire leur épaisseur biologique mais elle peut l’évoquer.</p>
@@ -382,7 +382,7 @@
     <p><span class="enum">9 </span>L’usage non institutionnel du Tiers paysage fait partie des usages les plus anciens de l’espace.</p>
     <p><span class="enum">10 </span>L’usager non institutionnel du Tiers paysage acquiert un statut partagé par tous les êtres composant ce territoire<br>— Il devient partie intégrante du système évolutif.</p>
     <p><span class="enum">11 </span>Les raisons du délaissement tiennent au regard porté par l’institution sur une catégorie de son territoire&nbsp;:<br>— exploitation impossible ou irrationnelle&nbsp;;<br>— exploitation non rentable&nbsp;;<br>— espace destructuré, incommode, impraticable&nbsp;;<br>— espace de rejet, de déchets, de marge&nbsp;;<br>— espace d’insécurité&nbsp;;<br>— espace non revendicable, privé d’espérance.</p>
-    <p><span class="enum">12 </span>Les raisons du saisissement tiennent au même regard&nbsp;:<br>— L’espace est-t-il porteur de projet&nbsp;?<br>— Le projet est – il rentable&nbsp;?<br>— Peut-on espérer une croissance, un développement&nbsp;?</p>
+    <p><span class="enum">12 </span>Les raisons du saisissement tiennent au même regard&nbsp;:<br>— L’espace est-t-il porteur de projet&nbsp;?<br>— Le projet est-il rentable&nbsp;?<br>— Peut-on espérer une croissance, un développement&nbsp;?</p>
     <p><span class="enum">13 </span>Le principe d’évolution anime le Tiers paysage.</p>
     <p><span class="enum">14 </span>Les principes d’évolution biologique et d’évolution économique ne sont pas superposables.</p>
     <p><span class="enum">15 </span>Croissance, développement, expriment la dynamique d’un système économique en tant qu’accumulation.</p>
@@ -395,16 +395,16 @@
     <h2><span class="enum">XII </span>Rapport a la culture</h2>
     <p><span class="enum">1 </span>Le Tiers paysage peut être considéré comme le fragment partagé d’une conscience collective à condition de situer le partage au sein d’une même culture.</p>
     <p><span class="enum">2 </span>Le Tiers paysage apparaît culturellement en référence au territoire organisé et par opposition à lui.</p>
-    <p><span class="enum">3 </span>La figure d’un territoire organisé varie selon les cultures<span class="fn">La « chacra » amazonienne, sorte de forêt jardinée, peut – être lue comme un élément du Tiers paysage alors qu’elle se présente pour les indigènes comme un jardin. Pour un indien qui assimile le puma ou l’arbre à un homme déguisé en arbre ou en puma, le Tiers paysage peut n’avoir aucun sens.</span>.</p>
+    <p><span class="enum">3 </span>La figure d’un territoire organisé varie selon les cultures<span class="fn">La «&nbsp;chacra&nbsp;» amazonienne, sorte de forêt jardinée, peut – être lue comme un élément du Tiers paysage alors qu’elle se présente pour les indigènes comme un jardin. Pour un indien qui assimile le puma ou l’arbre à un homme déguisé en arbre ou en puma, le Tiers paysage peut n’avoir aucun sens.</span>.</p>
     <p><span class="enum">4 </span>En toutes circonstances le Tiers paysage peut être regardé comme la part de notre espace de vie livrée à l’inconscient. Profondeurs où les événements s’engrangent et se manifestent de façon, en apparence, indécidée.</p>
     <p><span class="enum">5 </span>Un espace de vie privé de Tiers paysage serait comme un esprit privé de l’inconscient. Cette situation parfaite, sans démon, n’existe dans aucune culture connue.</p>
   </section>
 
   <section class="text" id="manifeste">
     <h2>Manifeste</h2>
-    <p>(Chacune des phrases qui suit peut être envisagée sur le mode interrogatif)<br> — Instruire l’esprit du non – faire comme on instruit celui du faire.<br> — Elever l’indécision à hauteur politique. La mettre en balance avec le pouvoir.<br> — Imaginer le projet comme un espace comprenant des réserves et des questions posées.<br> — Considérer le non – aménagement comme un principe vital par lequel tout aménagement se voit traversé des éclairs de la vie.<br> — Approcher la diversité avec étonnement.</p>
+    <p>(Chacune des phrases qui suit peut être envisagée sur le mode interrogatif)<br> — Instruire l’esprit du non–faire comme on instruit celui du faire.<br> — Elever l’indécision à hauteur politique. La mettre en balance avec le pouvoir.<br> — Imaginer le projet comme un espace comprenant des réserves et des questions posées.<br> — Considérer le non-aménagement comme un principe vital par lequel tout aménagement se voit traversé des éclairs de la vie.<br> — Approcher la diversité avec étonnement.</p>
     <h4>Sur l’étendue</h4>
-    <p>— Considérer l’accroissement des espaces de Tiers paysage issus de l’aménagement comme le contre – point nécessaire à l’aménagement proprement dit. <br>— Privilégier la création d’espaces de Tiers paysage de grande dimension afin de couvrir l’étendue des espèces capables d’y vivre et de s’y reproduire. <br>— Prévoir le couplage des délaissés aux réserves pour constituer des territoires de continuité biologique.</p>
+    <p>— Considérer l’accroissement des espaces de Tiers paysage issus de l’aménagement comme le contrepoint nécessaire à l’aménagement proprement dit. <br>— Privilégier la création d’espaces de Tiers paysage de grande dimension afin de couvrir l’étendue des espèces capables d’y vivre et de s’y reproduire. <br>— Prévoir le couplage des délaissés aux réserves pour constituer des territoires de continuité biologique.</p>
     <h4 class="break-before">Sur le caractère</h4>
     <p>— Regarder le brassage planétaire – mécanique inhérente au Tiers paysage – comme un moteur de l’évolution.<br>— Enseigner les moteurs de l’évolution comme on enseigne les langues, les sciences, les arts.<br>— Instruire l’usager des précautions nécessaires à la manipulation et à l’exploitation des êtres dont il dépend. La fragilité du système tient à la nature des pratiques et du nombre.</p>
     <h4>Sur le statut</h4>
@@ -441,7 +441,7 @@
     </p>
     <p>
       Traduction en portugais brésilien : Lucia Leistner ―
-      Révision de la traduction : Andréa Soler Machado et Maria Clara Adams ―
+      Révision de la traduction : Andréa Soler Machado  et Maria Clara Adams ―
       Illustrations originales de Gilles Clément, restaurées par les Éditions du commun ―
       Image de couverture : <i>Échos d’un Tiers paysage</i>, Christophe Clottes, issu du protocole de la série « <a href="https://dda-nouvelle-aquitaine.org/Echos-d-un-ilot-2010">Échos d’un îlot</a> »  ―
       Design &amp; développement : <a href="https://accentgrave.net/">Julien Bidoret</a>  ―

@@ -283,6 +283,7 @@ a {
 .text .enum {
   font-family: "Compagnon";
   font-weight: 200;
+  line-height: 0;
 }
 .text .enum::after {
   content: " ";

@@ -48,7 +48,7 @@
 
   <blockquote id="blockquote">
     <p>“Fragmento indeciso do jardim planetário, a Terceira paisagem se compõe na soma dos espaços negligenciados pelos homens. Essas margens apresentam uma diversidade biológica que não é por ora reconhecida como sendo uma riqueza. Terceira paisagem refere-se a Terceiro Estado — e não a Terceiro Mundo; o espaço não expressando poder nem submissão ao poder. Ela faz menção ao panfleto de Sieyès, de 1789:</p>
-    <p><span class="sieyes"><em>O que é o terceiro estado? Tudo<br>O que ele realizou até agora? Nada<br>O que ele almeja alcançar? Algo.</em></span>”</p>
+    <p><span class="sieyes"><em>O que é o terceiro estado? — Tudo<br>O que ele realizou até agora? — Nada<br>O que ele almeja alcançar? — Algo.</em></span>”</p>
   </blockquote>
   
   <section id="index">
@@ -88,7 +88,7 @@
   <section class="text" id="origem">
     <h2><span class="enum">I </span>Origem</h2>
     <p>A expressão Terceira paisagem vem de uma observação singular realizada na região do <em>Limousin</em>.</p>
-    <p>A análise da paisagem de Vassivière <span class="ndt">O “centro internacional de arte e da paisagem” (criado em 1983) de Vassivière é um centro de arte contemporânea criado em uma ilha, sobre um lago artificial, na região Limousin. Ele é a sede de uma renomada residência artística pluridisciplinar.</span> foi realizada em 2002, solicitada pelo <em>Centro de arte e da paisagem;</em> ela nos permitiu entrever o caráter artificial do que parece ser “naturalmente presente”: a superfície das águas represadas, as árvores de uma floresta manejada, os verdes pastos destinados aos bovinos… Um conjunto organizado segundo as facilidades do relevo, da exposição, dos acessos.</p>
+    <p>A análise da paisagem de Vassivière<span class="ndt">O “centro internacional de arte e da paisagem” (criado em 1983) de Vassivière é um centro de arte contemporânea criado em uma ilha, sobre um lago artificial, na região Limousin. Ele é a sede de uma renomada residência artística pluridisciplinar.</span> foi realizada em 2002, solicitada pelo <em>Centro de arte e da paisagem;</em> ela nos permitiu entrever o caráter artificial do que parece ser “naturalmente presente”: a superfície das águas represadas, as árvores de uma floresta manejada, os verdes pastos destinados aos bovinos… Um conjunto organizado segundo as facilidades do relevo, da exposição, dos acessos.</p>
     <p>O que percebe um pássaro — e que nosso olhar pode abraçar desde um topo — é um tapete tecido de formas sombrias e imperfeitas, as florestas, e de superfícies claras e bem delimitadas, as pastagens.</p>
     <p>A alternância de árvores e pastos dá espessura à paisagem, a anima de perspectivas curvas, reveladas por um relevo gracioso e intenso. Esse equilíbrio de sombras e luzes deixa transparecer um dispositivo de ordem econômica. O imenso território que abrange esse equilíbrio pode enganar o viajante: trata-se de um projeto? De uma casualidade histórica? Desmembramento de parcelas, ‘habitat’ disperso, variações do relevo; tudo isso constitui um dispositivo arraigado na geografia e na sociedade, capaz de combater duravelmente as ferramentas de remembramento consideradas. Vestígio de uma policultura passada da qual poucas fisionomias permaneceram, sendo substituídas por apenas duas riquezas dominantes: as árvores e os pastos. Puros produtos da PAC<span class="ndt">A “PAC”, Política Agrícola Comum da União Europeia, é um sistema de subsídios à agricultura e programas de desenvolvimento em áreas afins; foi criada em 1957 e posta em prática em 1962. Fortemente criticada, a PAC pesa 40% do orçamento europeu; considerada complexa e injusta, ela é constantemente renegociada.</span> cujo poder de redução, portanto considerável, ainda não eliminou toda a diversidade.</p>
     <p>Se cessarmos de ver a paisagem como um objeto da indústria, descobriremos bruscamente — seria isto um descuido do cartógrafo, uma negligência política? — uma quantidade de espaços indecisos, desprovidos de função, aos quais é difícil se atribuir uma definição. Esse conjunto não pertence nem ao território da sombra, nem ao da luz. Situa-se às margens. No limiar dos bosques, ao longo das estradas e rios, nos recantos esquecidos das culturas, lá onde as máquinas não passam. Ele cobre áreas de dimensões modestas, dispersadas como as arestas perdidas das culturas; ou então vastas, como as turfeiras, cerrados ou propriedades agrícolas recentemente alqueivadas.</p>
@@ -114,7 +114,7 @@
       </span>
     </figure>    
     <p>Terceira paisagem refere-se a Terceiro Estado — e não a Terceiro Mundo; o espaço não expressando poder nem submissão ao poder. Ela faz menção ao panfleto de Sieyès, de 1789<span class="ndt">Inspirado no panfleto de Emmanuel-Joseph Sieyès, 1748 – 1836. Escritor, eclesiástico e político francês, ele foi teórico revolucionário e membro da Academia Francesa. No texto citado o autor evoca que o Terceiro Estado é uma nação completa e que não necessita dos outros dois estamentos: o clero e a nobreza.</span>:</p>
-    <p><span class="sieyes"><em>O que é o terceiro estado? Tudo<br>O que ele realizou até agora? Nada<br>O que ele almeja alcançar? Algo.</em></span>”</p>
+    <p><span class="sieyes"><em>O que é o terceiro estado? — Tudo<br>O que ele realizou até agora? — Nada<br>O que ele almeja alcançar? — Algo.</em></span>”</p>
   </section>
 
   <section class="text" id="extensao">
@@ -264,7 +264,7 @@
     <p>Os desafios da Terceira paisagem são os desafios da diversidade</p>
     <p><span class="enum">1 </span>A diversidade se manifesta pela quantidade de espécies presentes no planeta e pela variedade de seus <em>comportamentos</em>.</p>
     <p><span class="enum">2 </span>A variedade de comportamentos depende da latitude oferecida a cada espécie (liberdade de ação), mas também da amplitude biológica de cada uma delas (capacidade de adaptação).</p>
-    <p><span class="enum">3 </span>Nas sociedades humanas a variedade de comportamentos se desenrola dentro de uma só espécie (<em>Homo sapiens</em>). Esta variedade é tributária da cultura dentro da qual cada indivíduo evolui.</p>
+    <p><span class="enum">3 </span>Nas sociedades humanas a variedade de comportamentos se desenrola dentro de uma só espécie (<i>Homo sapiens</i>). Esta variedade é tributária da cultura dentro da qual cada indivíduo evolui.</p>
     <p><span class="enum">4 </span>Teoricamente a diversidade é infinita.</p>
     <p><span class="enum">5 </span>A quantidade — das espécies e dos comportamentos — aumenta ou diminui segundo as modificações dos meios.</p>
     <p><span class="enum">6 </span>As catástrofes (meteoritos, atividade vulcânica, guerras) conduzem a uma redução massiva e brutal da quantidade. As transformações lentas (glaciação ou tropicalização) conduzem à substituição das espécies, à redução ou à expansão progressiva da quantidade.</p>
