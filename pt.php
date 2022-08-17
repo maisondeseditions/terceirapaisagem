@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +8,34 @@
   <link rel="stylesheet" href="css/terceirapaisagem.css"> 
   <link rel="stylesheet" href="css/print.css" media="print">
 
+  <?php $media = "screen" ?>
   <?php if(isset($_GET["print"])): ?>
+    <?php $media = "printa4" ?>
+    <script src="paged/hyphens.pt.js"></script>
+    <script src="paged/Hyphenopoly/Hyphenopoly_Loader.js"></script>
     <script src="paged/paged.polyfill.js"></script>
     <script src="paged/createToc.js"></script>
     <script src="paged/footNotes.js"></script>
     <script src="paged/reloadInPlace.js"></script>
+    <script src="paged/hyphenationHook.js"></script>
     <script src="paged/handlers.js"></script>
     <link rel="stylesheet" href="paged/pagedjs.css">
   <?php endif ?>
 
+  <?php if(isset($_GET["printa5"])): ?>
+    <?php $media = "printa5" ?>
+    <script src="paged/hyphens.pt.js"></script>
+    <script src="paged/Hyphenopoly/Hyphenopoly_Loader.js"></script>
+    <script src="paged/paged.polyfill.js"></script>
+    <script src="paged/createToc.js"></script>
+    <script src="paged/footNotes.js"></script>
+    <script src="paged/reloadInPlace.js"></script>
+    <script src="paged/hyphenationHook.js"></script>
+    <script src="paged/imposition.js"></script>
+    <script src="paged/imageTranslation.js"></script>
+    <link rel="stylesheet" href="css/a5.css">
+    <link rel="stylesheet" href="paged/pagedjs-a5.css">
+  <?php endif ?>
 </head>
 <body>
   <nav id="tools">

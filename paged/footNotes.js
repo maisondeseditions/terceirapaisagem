@@ -21,6 +21,7 @@ class fnHandler extends Paged.Handler {
         const notes = pageElement.querySelectorAll("a.ndt, a.fn");  
         notes.forEach((n) => {
             const note = pageElement.querySelector(n.getAttribute("href"));
+            if(note)
             n.dataset.counter = note.dataset.counter;
         });
     }

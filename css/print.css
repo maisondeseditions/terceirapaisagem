@@ -73,8 +73,8 @@
 
   p {
     /* minimume deux lignes présentes sur la page, au début ou à la fin d’un paragraphe */
-    orphans: 2;
-    widows: 2;
+    /* orphans: 2;
+    widows: 2; */
   } 
 
   /* ------------------------------------------------------------------------  hide */
@@ -202,7 +202,9 @@
   }
   .fn[data-footnote-call]::after {
     content: attr(data-counter);  
+    padding:0 0 0 0.15em ;
   }  
+  
   .ndt[data-footnote-call]::after {
     content: "NdT " attr(data-counter);  
   }
