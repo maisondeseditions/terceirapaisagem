@@ -44,7 +44,7 @@
     </button>
     <ul id="menu">
       <li><a href="?print">Imprimir (A4)</a></li>
-      <li><a href="#">Imprimir (A5, folheto)</a></li>
+      <li><a href="?printa5">Imprimir (A5, folheto)</a></li>
       <li><a href="#">Descarregar</a></li>
       <li><a href="#">Encomendar</a></li>
       <li>—</li>
