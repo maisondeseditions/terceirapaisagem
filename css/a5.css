@@ -1,0 +1,201 @@
+
+
+body{
+  --paged-layout : booklet;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+@media print {
+  @page{
+    size: 148mm 210mm;
+    /* margin: 40px 60px 80px 60px; */
+  }
+  @page:left{
+    margin: 44px 60px 70px 60px;
+  }
+  @page:right{
+    margin: 44px 60px 70px 60px;
+  }
+  @page frontcover {
+    margin: 1cm;
+    @top-center{
+      content: none;
+    }
+  }
+  @page backcover {
+    @top-center{
+      content: none;
+    }
+  }
+  @page blank {
+    @top-center{
+      content: none;
+    }
+  }
+  #page-12 .pagedjs_footnote_content{
+margin-top: 0 ;
+  }
+  .front-cover{ page: frontcover; }
+  .back-cover{ page: backcover; }
+  .blank { page: blank; break-before: always;}
+  .pagedjs_added_page {  --color-paper: white; } /* added pages */
+
+  .empty{
+    page: blank;
+    break-before: always;
+  }
+
+  .empty img{
+    width: 70%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: multiply;
+  }
+
+  /* 1re de couverture */
+  .cover-1 {
+    break-after: always;
+    height: calc(var(--pagedjs-pagebox-height) - var(--pagedjs-margin-top) - var(--pagedjs-margin-bottom));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  /* baseline */
+  #blockquote p {
+    margin-top: 0;
+  } 
+  p {
+    margin: 0 0 11px 0;
+    /* hanging-punctuation: force-end; */
+  }
+
+  /* breaks */
+  #colophon {
+    break-before: always;
+  }
+  /* index */
+  #index {
+    break-before: always;
+    margin-top: 0;
+  }
+  #index ul {
+    margin-top: 24px;
+  }
+  #index h2, #index h3 {
+    line-height: 21px;
+  }
+  #list-toc-generated .toc-element a {
+    height: 22px;
+  }
+  /* titres */
+  h2 {
+    font-size: 22px;
+    line-height: 1;
+    margin-bottom: 22px;
+  }
+  .enum {
+    /* font-size: 75%; */
+    margin-left: 0;
+    display: inline-block;
+    margin-right: .5em;
+    min-width: 0;
+    font-weight: normal;
+  }
+  .text .enum {
+    font-weight: 400;
+  }
+  .text h2 .enum { font-weight: 200; padding-right: 0;}
+  [style]{
+    letter-spacing:calc(var(--ls, 0) * 0.0025em);
+  }
+  .text p {
+    text-align: justify;
+    orphans: 2;
+    widows: 2;
+  }
+  .text {
+    padding-left: 0;
+    hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+  }
+  [data-align-last-split-element='justify']{
+    text-align-last: left;
+  }
+  .text > :first-of-type, 
+  p:first-child,
+  p:first-of-type{ margin-top: 0; }
+  
+  /* notes */
+  .pagedjs_footnote_content {
+    padding-left: 0;
+    margin-top: 12px;
+  }
+  .pagedjs_footnote_inner_content {
+    line-height: 1.25;
+  }
+  .fn {
+    margin: 0.5em 0 0;
+  }
+
+  /* figures */
+
+  .text figure { margin-top: 0;}
+
+  .text figure::before {
+    margin-left: 0;
+    transform: translateY(-100%);
+    /* display: none; */
+    opacity: 0;
+  }
+  .text figure:hover::before {
+    opacity: 1;
+  }
+
+  #fig-2 img {
+    width: 95%;
+    margin-inline: auto;
+  }
+  #fig-4 img {
+    /* width: 80%; */
+    margin-inline: auto;
+    margin-bottom: .5em;
+  }
+  .text #fig-8 {
+    margin-top: 0;
+  }
+  #fig-7 img,
+  #fig-8 img,
+  #fig-9 img {
+    /* width: 92%; */
+    margin-inline: auto;
+  }
+  #fig-10 img ,
+  #fig-11 img {
+    width: 90%;
+    margin-inline: auto;
+    /* margin-block: 1em; */
+    /* display: none; */
+  }
+  #fig-13 img {
+    width: 95%;
+  }
+  #fig-14 img {
+    width: 85%;
+    margin-inline: auto;
+  }
+  /* .text p + figure { margin-top: 2em;} */
+  .text figcaption {
+    display: none !important;
+  }
+  .text figcaption p{
+    text-align: left;
+    font-size: 10px;
+    line-height: 1.25;
+  }
+}
