@@ -21,6 +21,17 @@
   <meta property="twitter:description" content="Fragmento indeciso do jardim planetário, a Terceira paisagem se compõe na soma dos espaços negligenciados pelos homens.">
   <meta property="twitter:image" content="https://maisondeseditions.fr/tp/ogp.png">
 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://maisondeseditions.fr/tp/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://maisondeseditions.fr/tp/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://maisondeseditions.fr/tp/favicons/favicon-16x16.png">
+  <link rel="manifest" href="https://maisondeseditions.fr/tp/favicons/site.webmanifest">
+  <link rel="mask-icon" href="https://maisondeseditions.fr/tp/favicons/safari-pinned-tab.svg" color="#333333">
+  <link rel="shortcut icon" href="https://maisondeseditions.fr/tp/favicon.ico">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-config" content="https://maisondeseditions.fr/tp/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
   <link rel="canonical" href="https://maisondeseditions.fr/tp/pt.php">
 
   <link rel="stylesheet" href="css/terceirapaisagem.css"> 
