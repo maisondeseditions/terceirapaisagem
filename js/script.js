@@ -34,7 +34,7 @@
         var fn_ref = document.createElement('div');
         fn_ref.className = "fn_ref";
         fn_ref.id = id;
-        fn_ref.innerHTML = `<span class='fn_ref_number'>${fn_call.textContent}</span>` + fn.innerHTML + ` <a class="fn-back" href="#fn_call-${id}">↩</a>`;
+        fn_ref.innerHTML = `<span class='fn_ref_number'>${fn_call.textContent}</span>` + fn.innerHTML + ` <a class="fn-back" href="#fn_call-${id}">&#8617;&#xfe0e;</a>`;
         fns_container.appendChild(fn_ref)
       })
     }
@@ -86,7 +86,7 @@
       }
     }
     window.addEventListener('resize', resize, false);
-
+    resize()
   
   });
 
@@ -96,5 +96,10 @@
 const menulink = document.querySelector('#menulink');
 const tools = document.querySelector('#tools');
 menulink.addEventListener('click', function(){
+  tools.classList.toggle('visible');
+})
+
+tools.addEventListener('click', function(e){
+  if(e.target.matches('a'))
   tools.classList.toggle('visible');
 })

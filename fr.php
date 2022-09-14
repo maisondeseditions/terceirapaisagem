@@ -4,7 +4,25 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Manifeste du Tiers Paysage</title>
+    
+  <title>Manifeste du Tiers Paysage — Gilles Clément</title>
+  <meta name="title" content="Manifeste du Tiers Paysage — Gilles Clément">
+  <meta name="description" content="Fragment indécidé du jardin planétaire, le Tiers paysage est constitué de l'ensemble des lieux délaissés.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://maisondeseditions.fr/tp/fr.php">
+  <meta property="og:title" content="Manifeste du Tiers Paysage — Gilles Clément">
+  <meta property="og:description" content="Fragment indécidé du jardin planétaire, le Tiers paysage est constitué de l'ensemble des lieux délaissés.">
+  <meta property="og:image" content="https://maisondeseditions.fr/tp/ogp.png">
+
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://maisondeseditions.fr/tp/fr.php">
+  <meta property="twitter:title" content="Manifeste du Tiers Paysage — Gilles Clément">
+  <meta property="twitter:description" content="Fragment indécidé du jardin planétaire, le Tiers paysage est constitué de l'ensemble des lieux délaissés.">
+  <meta property="twitter:image" content="https://maisondeseditions.fr/tp/ogp.png">
+
+  <link rel="canonical" href="https://maisondeseditions.fr/tp/fr.php">
+
   <link rel="stylesheet" href="css/terceirapaisagem.css">
   <link rel="stylesheet" href="css/print.css" media="print">
   
@@ -44,12 +62,14 @@
       <span>menu</span>
     </button>
     <ul id="menu">
-      <li><a href="?print">Imprimer (A4)</a></li>
-      <li><a href="?printa5">Imprimer (A5, livret)</a></li>
+      <!-- <li><a href="?print">Imprimer (A4)</a></li>
+      <li><a href="?printa5">Imprimer (A5, livret)</a></li> -->
       <li><a href="#">Télécharger</a></li>
-      <li><a href="#">Commander</a></li>
+      <!-- <li><a href="#">Commander</a></li> -->
       <li>—</li>
       <li><a href="pt.php">Portugûes</a></li>
+      <li>—</li>
+      <li><a href="#gilles-clement">À propos</a></li>
     </ul>
   </nav>
 
@@ -464,7 +484,7 @@
     <hr>
     <p>
       Manifeste du Tiers paysage<br>
-      <a href="https://maisondeseditions.fr/">Maison des éditions</a> — 2022 — ISBN xxxxxxxxxxxxxx
+      <a href="https://maisondeseditions.fr/">Maison des éditions</a> — 2022 — ISBN 978-2-9566344-8-5
     </p>
     <p>
       Traduction en portugais brésilien : Lucia Leistner ―
@@ -475,6 +495,9 @@
       Caractères typographiques : <a href="http://velvetyne.fr/fonts/compagnon/">Compagnon</a> (Juliette Duhé, Léa Pradine, Valentin Papon, Chloé Lozano, Sébastien Riollier) &amp; <a href="https://software.sil.org/gentium/">Gentium Book</a> (SIL International).
     </p>
     <p>Le texte original est accessible <a href="_admin_13517_tierspaypublications_92045_manifeste_du_tiers_paysage">en archive</a>. Pour plus d’informations, visitez <a href="http://www.gillesclement.com/">le site de l’auteur</a>. Le texte en version portugais brésilien est disponible selon les termes de la licence Creative Commons “<a href="https://creativecommons.org/licenses/by/4.0/deed.pt_BR">Atribuição</a>”.</p>
+    <p>
+      <a href="https://maisondeseditions.fr" id="maisondeseditions"><img src="images/logo.svg" alt="Maison des éditions"></a>
+    </p>
   
   </footer>
 
