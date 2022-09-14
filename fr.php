@@ -64,9 +64,9 @@
     <ul id="menu">
       <!-- <li><a href="?print">Imprimer (A4)</a></li>
       <li><a href="?printa5">Imprimer (A5, livret)</a></li> -->
-      <li><a href="#">Télécharger</a></li>
+      <!-- <li><a href="#">Télécharger</a></li> -->
       <!-- <li><a href="#">Commander</a></li> -->
-      <li>—</li>
+      <!-- <li>—</li> -->
       <li><a href="pt.php">Portugûes</a></li>
       <li>—</li>
       <li><a href="#gilles-clement">À propos</a></li>
@@ -496,7 +496,7 @@
     </p>
     <p>Le texte original est accessible <a href="_admin_13517_tierspaypublications_92045_manifeste_du_tiers_paysage">en archive</a>. Pour plus d’informations, visitez <a href="http://www.gillesclement.com/">le site de l’auteur</a>. Le texte en version portugais brésilien est disponible selon les termes de la licence Creative Commons “<a href="https://creativecommons.org/licenses/by/4.0/deed.pt_BR">Atribuição</a>”.</p>
     <p>
-      <a href="https://maisondeseditions.fr" id="maisondeseditions"><img src="images/logo.svg" alt="Maison des éditions"></a>
+      <a href="https://maisondeseditions.fr" id="footer-maisondeseditions"><img src="images/logo.svg" alt="Maison des éditions"></a>
     </p>
   
   </footer>

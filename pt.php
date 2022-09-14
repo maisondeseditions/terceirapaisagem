@@ -37,6 +37,7 @@
     <script src="paged/reloadInPlace.js"></script>
     <script src="paged/hyphenationHook.js"></script>
     <script src="paged/handlers.js"></script>
+    <script src="paged/imageTranslation.js"></script>
     <link rel="stylesheet" href="paged/pagedjs.css">
   <?php endif ?>
 
@@ -63,9 +64,9 @@
     <ul id="menu">
       <!-- <li><a href="?print">Imprimir (A4)</a></li>
       <li><a href="?printa5">Imprimir (A5, folheto)</a></li> -->
-      <li><a href="#">Descarregar</a></li>
+      <!-- <li><a href="#">Descarregar</a></li> -->
       <!-- <li><a href="#">Encomendar</a></li> -->
-      <li>—</li>
+      <!-- <li>—</li> -->
       <li><a href="fr.php">Français</a></li>
       <li>—</li>
       <li><a href="#gilles-clement">Sobre</a></li>
@@ -706,7 +707,7 @@
   
     <p>O texto original em francês <a href="_admin_13517_tierspaypublications_92045_manifeste_du_tiers_paysage.pdf">é acessível em arquivo</a>. Para mais informações, ver <a href="http://www.gillesclement.com/">site do autor</a>. <br> O texto em versão português do Brasil é acessível sob os termos da licença Creative Commons “<a href="https://creativecommons.org/licenses/by/4.0/deed.pt_BR">Atribuição</a>”.</p>
     <p>
-      <a href="https://maisondeseditions.fr" id="maisondeseditions"><img src="images/logo.svg" alt="Maison des éditions"></a>
+      <a href="https://maisondeseditions.fr" id="footer-maisondeseditions"><img src="images/logo.svg" alt="Maison des éditions"></a>
     </p>
   </footer>
   
