@@ -224,9 +224,10 @@ a {
 /* ------------------------------------------ homepage */
 .composite { width: auto; }
 .composite i { 
-  background-image:  var(--gradient);
+  color: var(--lightgreen);
+  /* background-image:  var(--gradient);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;  */
 }
 #home h2 {
   font-weight: 200;
@@ -542,7 +543,7 @@ figure .image {
 #gilles-clement {
   scroll-margin-top: 2em ;
 }
-footer #maisondeseditions {
+#footer-maisondeseditions {
   position: static;
   width: 50px;
   transform: none;

@@ -3,7 +3,7 @@
 body{
   --paged-layout : booklet;
   font-size: 14px;
-  line-height: 22px;
+  line-height: 18px;
 }
 
 @media print {
@@ -162,8 +162,8 @@ margin-top: 0 ;
     margin-inline: auto;
   }
   #fig-4 img {
-    /* width: 80%; */
-    margin-inline: auto;
+    width: 100%;
+    /* margin-inline: auto; */
     margin-bottom: .5em;
   }
   .text #fig-8 {
