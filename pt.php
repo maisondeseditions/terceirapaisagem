@@ -82,7 +82,7 @@
       <p>Tradução de <br class="min">Lúcia Leistner</p>
     </div>
     <figure id="echo">
-      <img src="images-pt/echo.nb.png" alt="Echo d’un tiers paysage">
+      <img src="images-resized-pt/echo.nb.png" alt="Echo d’un tiers paysage">
     </figure>
   </header>
 
@@ -135,19 +135,19 @@
     <p>Em nada se assemelham formalmente esses fragmentos de paisagem. Porém, entre eles há um ponto em comum: todos constituem um refúgio para a diversidade que vem sendo rechaçada de qualquer outro lugar. Tudo isso nos leva a reuni-los em um termo comum. Proponho Terceira paisagem, terceiro termo originado por uma análise que dispôs os dados principais visíveis ou à sombra, ou bem à luz.</p>
     <figure id="fig-1">
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-01-a.png" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-01-a.png" alt="">
         <figcaption>
           <p>Paisagem em periferia do limousin<br>Luz dominante</p>
         </figcaption>
       </span>
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-01-b.png" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-01-b.png" alt="">
         <figcaption>
           <p>Paisagem dominante no limousin<br>Equilíbrio sombra/luz</p>
         </figcaption>
       </span>
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-01-c.png" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-01-c.png" alt="">
         <figcaption>
           <p>Paisagem no entorno de vassiviere<br>Sombra dominante</p>
         </figcaption>
@@ -168,7 +168,7 @@
     <p><span class="enum">7 </span>A cidade produz baldios proporcionais à sua extensão. Os baldios no coração da cidade são menores e raros; nas periferias, vastos e abundantes.</p>
     <figure id="fig-2">
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-02.jpg" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-02.jpg" alt="">
         <figcaption>
           <p>Desenvolvimento concêntrico do tecido urbano</p>
           <p>◼ Baldios</p>
@@ -178,13 +178,13 @@
     <p><span class="enum">8 </span>As zonas rurais apresentam baldios — e vegetação primária — mais significativos à medida que seu relevo é mais pronunciado. Eles se apresentam mais esparsos quando o relevo é tênue.</p>
     <figure id="fig-3">
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-03-a.png" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-03-a.png" alt="">
         <figcaption>
           <p>Baldios raros ou ausentes</p>
         </figcaption>
       </span>
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-03-b.png" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-03-b.png" alt="">
         <figcaption>
           <p>Baldios abundantes e vastos</p>
         </figcaption>
@@ -202,25 +202,25 @@
     <p>As <em>áreas de vegetação primária</em> são territórios nunca explorados. Eles evoluem lentamente, ou simplesmente não mais evoluem. As espécies que lá se desenvolvem testemunham o apogeu da vida em uma determinada condição do meio ambiente (clímax). Algumas florestas primárias subsistem ainda em nosso mundo, as outras espécies ditas primárias se encontram repartidas nas pastagens alpinas, nos cerrados climácicos, nas tundras, etc. As áreas de vegetação primária apresentam um aspecto uniforme apesar de abrigarem usualmente uma forte diversidade.</p>
     <figure id="fig-4">
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-04-a.png" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-04-a.png" alt="">
         <figcaption>
           <p>52 espécies presentes nos espaços intocados </p>
         </figcaption>
       </span>
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-04-b.png" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-04-b.png" alt="">
         <figcaption>
           <p>16 espécies presentes em uma plantação sem tratamentos</p>
         </figcaption>
       </span>
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-04-c.png" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-04-c.png" alt="">
         <figcaption>
           <p>5 espécies presentes em uma plantação com tratamentos (por vezes 1)</p>
         </figcaption>
       </span>
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-04-d.png" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-04-d.png" alt="">
         <figcaption>
           <p>Exemplo tirado de um fragmento de paisagem do limousin – Primavera 2003</p>
         </figcaption>
@@ -247,7 +247,7 @@
     <p><span class="enum">16 </span>As atividades humanas aceleram o processo de um movimento levando a uma situação análoga a uma nova pangeia, diminuindo assim a quantidade de espécies isoladas e, por conseguinte, a quantidade total de espécies.</p>
     <figure id="fig-5">
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-05-a.png" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-05-a.png" alt="">
         <figcaption>
           <p>
             Áreas de vegetação primaria e reservas<br>
@@ -259,7 +259,7 @@
         </figcaption>
       </span>
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-05-b.png" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-05-b.png" alt="">
         <figcaption>
           <p>
             Baldios<br>
@@ -270,7 +270,7 @@
         </figcaption>
       </span>
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-05-c.png" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-05-c.png" alt="">
         <figcaption>
           <p>
             Espaços controlados<br>
@@ -314,7 +314,7 @@
     <p><span class="enum">10 </span>Enquanto reservatório das inúmeras configurações genéticas planetárias, a Terceira paisagem representa o porvir biológico.</p>
     <figure id="fig-6">
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-06.jpg" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-06.jpg" alt="">
       </span>
       <figcaption>
         <p>
@@ -368,7 +368,7 @@
     <p><span class="enum">1 </span>Em decorrência dos intercâmbios internos: <br>— dinâmica natural rumo ao clímax florestal.</p>
     <figure id="fig-7">
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-07.jpg" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-07.jpg" alt="">
       </span>
       <figcaption>
         <div><p>Devoluto jovem</p><p>Diversidade média</p></div>
@@ -381,7 +381,7 @@
     <p><span class="enum">2 </span>Em decorrência dos intercâmbios com o meio: <br>— uma pressão intensa do entorno do território antropizado (práticas poluentes) conduz à perda de diversidade da Terceira paisagem. <br>— uma pressão tênue do entorno do território antropizado (práticas não poluentes) mantém uma diversidade equilibrada da Terceira paisagem que pode influenciar positivamente o meio ambiente.</p>
     <figure id="fig-8">
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-08.jpg" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-08.jpg" alt="">
       </span>
       <figcaption>
         <p>Equilíbrio terceira paisagem<br>E território antropizado<br>(limousin)</p>
@@ -394,7 +394,7 @@
     <p><span class="enum">3 </span>A Terceira paisagem adapta sua forma e constituição segundo as necessidades do mercado e da atualidade política.</p>
     <figure id="fig-9">
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-09.jpg" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-09.jpg" alt="">
       </span>
       <figcaption>        
         <p>Desbravamento<br>perda de diversidade</p>
@@ -413,7 +413,7 @@
     <p><span class="enum">5 </span>A planificação a partir do desenvolvimento produz uma trama territorial, o tecido urbano.</p>
     <figure id="fig-10">
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-10-A.jpg" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-10-A.jpg" alt="">
       </span>
       <figcaption>
         <p>Baldio compacto<br>Estabilidade da quantidade de espécies</p>
@@ -422,7 +422,7 @@
     </figure>
     <figure id="fig-11">
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-10-B.jpg" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-10-B.jpg" alt="">
       </span>
       <figcaption>
         <p>Malha aberta</p>
@@ -436,7 +436,7 @@
     <p><span class="enum">7 </span>As possibilidades de continuidade biológica se reduzem quando a malha se contrai. Em consequência a diversidade diminui.</p>
     <figure id="fig-12">
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-11.jpg" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-11.jpg" alt="">
       </span>
       <figcaption>
         <p>Tecido urbano</p>
@@ -460,7 +460,7 @@
     <p><span class="enum">6 </span>A análise das informações coletadas por microscópios descreve, em particular, os seres mais simples vivendo dentro de um ecossistema.</p>
     <figure id="fig-13">
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-12.jpg" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-12.jpg" alt="">
       </span>
       <figcaption>
         <p>Do  satélite  ao  microscópio</p>
@@ -475,7 +475,7 @@
     <p><span class="enum">2 </span>Os limites surgem nas fronteiras dos baldios com os territórios explorados: <br>— limiar floresta / agricultura ou cidade; <br>— limite cerrado / agricultura ou cidade; <br>— limite agreste / agricultura ou cidade; <br>— limite pantanal / agricultura ou cidade; <br>— limite baldio / agricultura ou cidade.</p>
     <figure id="fig-14">
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-13.jpg" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-13.jpg" alt="">
       </span>
       <figcaption>
         <div>
@@ -504,7 +504,7 @@
     <p><span class="enum">9 </span>A continuidade territorial aparece abundantemente no caso das “reservas” bem constituídas ou no caso da contiguidade destas com os baldios. Nos outros casos ela aparece de forma sequencial (corredores biológicos: sebes, bordas de campos cultivados, beiras de estrada, vegetação ribeirinha), ou ainda sob forma de ilhas.</p>
     <figure id="fig-15">
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-14.jpg" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-14.jpg" alt="">
       </span>
       <figcaption>
         <p>Reserva</p>
@@ -517,7 +517,7 @@
     <p><span class="enum">12 </span>A representação das fronteiras da Terceira paisagem não traduz objetivamente sua espessura biológica, mas pode evocá-la.</p>    
     <figure id="fig-16">
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-15.jpg" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-15.jpg" alt="">
       </span>
       <figcaption>
         <p>Limite administrativo</p>
@@ -539,7 +539,7 @@
     <p><span class="enum">9 </span>A duração da existência de cada ser é tributária do sistema no qual ele se encontra e de sua própria configuração.</p>
     <figure id="fig-17">
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-16.jpg" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-16.jpg" alt="">
       </span>
       <figcaption>
         <p>Evolução constante<br>Adaptação</p>
@@ -552,7 +552,7 @@
     <p><span class="enum">13 </span>Enquanto a evolução constante apresenta um risco de colapso, a evolução inconstante se desenvolve sem lacunas, por reabilitações sucessivas.</p>
     <figure id="fig-18">
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-17.jpg" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-17.jpg" alt="">
       </span>
       <figcaption>
         <p>Colapso<br>Seleção</p>
@@ -566,7 +566,7 @@
     <p><span class="enum">18 </span>O processo global da evolução pode ser compreendido como uma sucessão de fenômenos curtos e lentos (darwinianos e lamarckianos) no que diz respeito aos sistemas.</p>
     <figure id="fig-19">
       <span class="image">
-        <img loading="lazy" src="images-pt/Croquis-18.jpg" alt="">
+        <img loading="lazy" src="images-resized-pt/Croquis-18.jpg" alt="">
       </span>
       <figcaption>
         <div>

@@ -79,7 +79,7 @@
       <h2>Gilles Clément</h2>
     </div>
     <figure id="echo">
-      <img src="images/echo.nb.png" alt="Echo d’un tiers paysage">
+      <img src="images-resized/echo.nb.png" alt="Echo d’un tiers paysage">
     </figure>
   </header>
 
@@ -145,13 +145,13 @@
     <p>Cela justifie de les rassembler sous un terme unique. Je propose Tiers paysage, troisième terme d’une analyse ayant rangé les données principales apparentes sous l’ombre d’un côté, la lumière de l’autre.</p>
     <figure id="fig-1">
       <span class="image">
-        <img loading="lazy" src="images/Croquis-01-a.png" alt="">
+        <img loading="lazy" src="images-resized/Croquis-01-a.png" alt="">
       </span>
       <span class="image">
-        <img loading="lazy" src="images/Croquis-01-b.png" alt="">
+        <img loading="lazy" src="images-resized/Croquis-01-b.png" alt="">
       </span>
       <span class="image">
-        <img loading="lazy" src="images/Croquis-01-c.png" alt="">
+        <img loading="lazy" src="images-resized/Croquis-01-c.png" alt="">
       </span>
     </figure>
     <p>Tiers paysage renvoie à tiers état (et non à tiers-monde). Espace n’exprimant ni le pouvoir ni la soumission au pouvoir.</p>
@@ -177,16 +177,16 @@
     <p><span class="enum">7 </span>La ville produit d’autant plus de délaissés que son tissu est distendu. Les délaissés du coeur des villes sont petits et rares, ceux de la périphérie sont vastes et nombreux.</p>
     <figure id="fig-2">
       <span class="image">
-        <img loading="lazy" src="images/Croquis-02.jpg" alt="">
+        <img loading="lazy" src="images-resized/Croquis-02.jpg" alt="">
       </span>
     </figure>
     <p><span class="enum">8 </span>L’espace rural produit d’autant plus de délaissés – et d’ensembles primaires – que son relief est important. D’autant moins que son relief est faible.</p>
     <figure id="fig-3">
       <span class="image">
-        <img loading="lazy" src="images/Croquis-03-a.png" alt="">
+        <img loading="lazy" src="images-resized/Croquis-03-a.png" alt="">
       </span>
       <span class="image">
-        <img loading="lazy" src="images/Croquis-03-b.png" alt="">
+        <img loading="lazy" src="images-resized/Croquis-03-b.png" alt="">
       </span>
     </figure>
     <p><span class="enum">9 </span>L’importance des territoires refuges à la diversité est directement liée à la possibilité&nbsp;:<br>— d’exploiter le sol mécaniquement en secteur rural&nbsp;; <br>— de couvrir le sol efficacement en secteur urbain.</p>
@@ -203,16 +203,16 @@
     <p class="<?= $media == "printa4" ? "break-before" : "" ?>">Les <em>ensembles primaires</em> sont des espaces n’ayant jamais été soumis à l’exploitation. Ils évoluent lentement ou pas du tout. Les espèces qui s’y développent correspondent au niveau optimum de vie pour les conditions du milieu (climax). Quelques forêts primaires existent encore dans le monde, les autres espaces primaires se répartissent en prairies alpines, landes climaciques, toundras (…). Les ensembles primaires sont unitaires d’aspect en dépit d’une diversité généralement forte.</p>
     <figure id="fig-4">
       <span class="image">
-        <img loading="lazy" src="images/Croquis-04-a.png" alt="">        
+        <img loading="lazy" src="images-resized/Croquis-04-a.png" alt="">        
       </span>
       <span class="image">
-        <img loading="lazy" src="images/Croquis-04-b.png" alt="">        
+        <img loading="lazy" src="images-resized/Croquis-04-b.png" alt="">        
       </span>
       <span class="image">
-        <img loading="lazy" src="images/Croquis-04-c.png" alt="">        
+        <img loading="lazy" src="images-resized/Croquis-04-c.png" alt="">        
       </span>
       <span class="image">
-        <img loading="lazy" src="images/Croquis-04-d.png" alt="">        
+        <img loading="lazy" src="images-resized/Croquis-04-d.png" alt="">        
       </span>
     </figure>
     <p>Les <em>délaissés</em> résultent de l’abandon d’une activité. Ils évoluent naturellement vers un paysage secondaire. Une forêt secondaire peut provenir d’un délaissé. Une <em>forte dynamique</em> caractérise les paysages secondaires. Un jeune délaissé accueille rapidement des espèces pionnières qui bientôt disparaissent au profit d’espèces de plus en plus stables jusqu’à l’obtention d’un équilibre.  Les paysages secondarisés sont hétérogènes et chaotiques.</p>
@@ -235,13 +235,13 @@
     <p><span class="enum">17 </span>L’activité humaine accélère le processus de rencontre menant à la pangée, diminue le nombre d’isolats et, par suite, le nombre d’espèces.</p>
     <figure id="fig-5">
       <span class="image">
-        <img loading="lazy" src="images/Croquis-05-a.png" alt="">
+        <img loading="lazy" src="images-resized/Croquis-05-a.png" alt="">
       </span>
       <span class="image">
-        <img loading="lazy" src="images/Croquis-05-b.png" alt="">
+        <img loading="lazy" src="images-resized/Croquis-05-b.png" alt="">
       </span>
       <span class="image">
-        <img loading="lazy" src="images/Croquis-05-c.png" alt="">
+        <img loading="lazy" src="images-resized/Croquis-05-c.png" alt="">
       </span>
     </figure>
     <p><span class="enum">18 </span>L’anthropisation planétaire toujours croissante entraîne la création de délaissés toujours plus nombreux et d’ensembles primaires toujours plus réduits.</p>
@@ -276,7 +276,7 @@
     <p><span class="enum">10 </span>En tant que réservoir de toutes les configurations génétiques planétaires, le Tiers paysage représente le futur biologique.</p>
     <figure id="fig-6">
       <span class="image">
-        <img loading="lazy" src="images/Croquis-06.jpg" alt="">
+        <img loading="lazy" src="images-resized/Croquis-06.jpg" alt="">
       </span>
     </figure>
     <p><span class="enum">11 </span>Toute altération létale du Tiers paysage compromet les chances d’inventions biologiques, oriente l’évolution en diminuant d’autant le nombre de voies possibles.</p>
@@ -301,19 +301,19 @@
     <p ><span class="enum">1 </span>Par le jeu des échanges internes&nbsp;: <br>— dynamique naturelle d’accès au climax forestier</p>
     <figure id="fig-7">
       <span class="image">
-        <img loading="lazy" src="images/Croquis-07.jpg" alt="">
+        <img loading="lazy" src="images-resized/Croquis-07.jpg" alt="">
       </span>
     </figure>
     <p><span class="enum">2 </span>Par le jeu des échanges avec le milieu environnant&nbsp;: <br>— une pression forte du territoire anthropisé environnant (pratiques polluantes) entraîne une perte de diversité dans le Tiers paysage. <br>— une pression faible du territoire anthropisé environnant (pratiques non polluantes) maintient une diversité équilibrée en Tiers paysage qui peut influencer positivement l’environnement général.</p>
     <figure id="fig-8">
       <span class="image">
-        <img loading="lazy" src="images/Croquis-08.jpg" alt="">
+        <img loading="lazy" src="images-resized/Croquis-08.jpg" alt="">
       </span>
     </figure>
     <p><span class="enum">3 </span>Le Tiers paysage change de forme et de proposition par le jeu du marché, jeu politique.</p>
     <figure id="fig-9">
       <span class="image">
-        <img loading="lazy" src="images/Croquis-09.jpg" alt="">
+        <img loading="lazy" src="images-resized/Croquis-09.jpg" alt="">
       </span>
     </figure>
   </section>
@@ -327,19 +327,19 @@
     <p><span class="enum">5 </span>Les aménagements consécutifs au développement conduisent à un maillage du territoire, membrane urbaine.</p>
     <figure id="fig-10">
       <span class="image">
-        <img loading="lazy" src="images/Croquis-10-A.jpg" alt="">
+        <img loading="lazy" src="images-resized/Croquis-10-A.jpg" alt="">
       </span>
     </figure>
     <figure id="fig-11">
       <span class="image">
-        <img loading="lazy" src="images/Croquis-10-B.jpg" alt="">
+        <img loading="lazy" src="images-resized/Croquis-10-B.jpg" alt="">
       </span>
     </figure>
     <p><span class="enum">6 </span>Aux abords des grandes cités l’urbanisation ferme les mailles. Au plus loin des grandes cités les mailles demeurent ouvertes.</p>
     <p><span class="enum">7 </span>Les chances de continuité biologique diminuent avec la fermeture des mailles. La diversité diminue en proportion.</p>
     <figure id="fig-12">
       <span class="image">
-        <img loading="lazy" src="images/Croquis-11.jpg" alt="">
+        <img loading="lazy" src="images-resized/Croquis-11.jpg" alt="">
       </span>
     </figure>
     <p><span class="enum">8 </span>Seule la multiplication des délaissés issus de l’aménagement le long des mailles permet de constituer des refuges à la diversité.</p>
@@ -357,7 +357,7 @@
     <p><span class="enum">6 </span>L’analyse à partir des microscopes donne, en particulier, l’énoncé des êtres les plus simples vivant au sein d’un écosystème.</p>
     <figure id="fig-13">
       <span class="image">
-        <img loading="lazy" src="images/Croquis-12.jpg" alt="">
+        <img loading="lazy" src="images-resized/Croquis-12.jpg" alt="">
       </span>
     </figure>
     <p><span class="enum">7 </span>Tous les instruments intermédiaires permettent l’inventaire des habitats, puis des habitants.</p>
@@ -369,7 +369,7 @@
     <p><span class="enum">2 </span>Les limites apparaissent aux frontières des délaissés et des territoires exploités&nbsp;:<br> — lisière forêt / agriculture ou ville&nbsp;;<br> — limite maquis / agriculture ou ville&nbsp;;<br> — limite garrigue / agriculture ou ville&nbsp;;<br> — limite landes / agriculture ou ville&nbsp;;<br> — limite friche / agriculture ou ville.</p>
     <figure id="fig-14">
       <span class="image">
-        <img loading="lazy" src="images/Croquis-13.jpg" alt="">
+        <img loading="lazy" src="images-resized/Croquis-13.jpg" alt="">
       </span>
     </figure>
     <p><span class="enum">3 </span>Les limites situées entre les délaissés récents et les délaissés anciens (forêts issues de délaissés) demeurent indistinctes. Du point de vue du Tiers paysage elles n’existent pas.</p>
@@ -397,7 +397,7 @@
     <p><span class="enum">9 </span>La durée de vie de chaque être est tributaire du système dans lequel il se trouve mais aussi de sa configuration propre.</p>
     <figure id="fig-15">
       <span class="image">
-        <img loading="lazy" src="images/Croquis-16.jpg" alt="">
+        <img loading="lazy" src="images-resized/Croquis-16.jpg" alt="">
       </span>
     </figure>
     <p><span class="enum">10 </span>Le Tiers paysage n’évolue pas selon des courbes temporelles simples mais selon les modélités biologiques du milieu.</p>
@@ -496,7 +496,7 @@
     </p>
     <p>Le texte original est accessible <a href="_admin_13517_tierspaypublications_92045_manifeste_du_tiers_paysage">en archive</a>. Pour plus d’informations, visitez <a href="http://www.gillesclement.com/">le site de l’auteur</a>. Le texte en version portugais brésilien est disponible selon les termes de la licence Creative Commons “<a href="https://creativecommons.org/licenses/by/4.0/deed.pt_BR">Atribuição</a>”.</p>
     <p>
-      <a href="https://maisondeseditions.fr" id="footer-maisondeseditions"><img src="images/logo.svg" alt="Maison des éditions"></a>
+      <a href="https://maisondeseditions.fr" id="footer-maisondeseditions"><img src="images-resized/logo.svg" alt="Maison des éditions"></a>
     </p>
   
   </footer>
