@@ -36,7 +36,21 @@
 
   <link rel="stylesheet" href="css/terceirapaisagem.css">
   <link rel="stylesheet" href="css/print.css" media="print">
-  
+  <?php 
+    function best_url($path){
+      if(is_file($path)){
+        $bn = pathinfo($path, PATHINFO_FILENAME);
+        $bna5 = $bn . "-a5";
+        if(is_file("images-translated/svgs/$bna5.svg")){
+          return "images-translated/svgs/$bna5.svg";
+        }
+        if(is_file("images-translated/svgs/$bn.svg")){
+          return "images-translated/svgs/$bn.svg";
+        }
+      } 
+      return $path;
+    }
+  ?>
   <?php $media = "screen" ?>
   <?php if(isset($_GET["print"])): ?>
     <?php $media = "printa4" ?>
@@ -49,20 +63,19 @@
     <script src="paged/hyphenationHook.js"></script>
     <script src="paged/handlers.js"></script>
     <link rel="stylesheet" href="paged/pagedjs.css">
+    <link rel="stylesheet" href="css/fr-a4.css">
   <?php endif ?>
 
   <?php if(isset($_GET["printa5"])): ?>
     <?php $media = "printa5" ?>
-    <script src="paged/hyphens.js"></script>
-    <script src="paged/Hyphenopoly/Hyphenopoly_Loader.js"></script>
     <script src="paged/paged.polyfill.js"></script>
     <script src="paged/createToc.js"></script>
     <script src="paged/footNotes.js"></script>
     <script src="paged/reloadInPlace.js"></script>
-    <script src="paged/hyphenationHook.js"></script>
-    <script src="paged/imposition.js"></script>
+    <!-- <script src="paged/japan.js"></script> -->
     <script src="paged/handlers.js"></script>
     <link rel="stylesheet" href="css/a5.css">
+    <link rel="stylesheet" href="css/fr-a5.css">
     <link rel="stylesheet" href="paged/pagedjs-a5.css">
   <?php endif ?>
 
@@ -75,9 +88,9 @@
     <ul id="menu">
       <!-- <li><a href="?print">Imprimer (A4)</a></li>
       <li><a href="?printa5">Imprimer (A5, livret)</a></li> -->
-      <!-- <li><a href="#">Télécharger</a></li> -->
+      <li><a href="pdf/Manifeste du Tiers Paysage - Gilles Clément - FR.pdf">Télécharger (A4)</a></li>
       <!-- <li><a href="#">Commander</a></li> -->
-      <!-- <li>—</li> -->
+      <li>—</li>
       <li><a href="pt.php">Portugûes</a></li>
       <li>—</li>
       <li><a href="#gilles-clement">À propos</a></li>
@@ -90,7 +103,7 @@
       <h2>Gilles Clément</h2>
     </div>
     <figure id="echo">
-      <img src="images-resized/echo.nb.png" alt="Echo d’un tiers paysage">
+      <img src="images/echo.nb.png" alt="Echo d’un tiers paysage">
     </figure>
   </header>
 
@@ -156,13 +169,13 @@
     <p>Cela justifie de les rassembler sous un terme unique. Je propose Tiers paysage, troisième terme d’une analyse ayant rangé les données principales apparentes sous l’ombre d’un côté, la lumière de l’autre.</p>
     <figure id="fig-1">
       <span class="image">
-        <img loading="lazy" src="images-resized/Croquis-01-a.png" alt="">
+        <img loading="lazy" src="images/Croquis-01-a.png" alt="">
       </span>
       <span class="image">
-        <img loading="lazy" src="images-resized/Croquis-01-b.png" alt="">
+        <img loading="lazy" src="images/Croquis-01-b.png" alt="">
       </span>
       <span class="image">
-        <img loading="lazy" src="images-resized/Croquis-01-c.png" alt="">
+        <img loading="lazy" src="images/Croquis-01-c.png" alt="">
       </span>
     </figure>
     <p>Tiers paysage renvoie à tiers état (et non à tiers-monde). Espace n’exprimant ni le pouvoir ni la soumission au pouvoir.</p>
@@ -188,16 +201,16 @@
     <p><span class="enum">7 </span>La ville produit d’autant plus de délaissés que son tissu est distendu. Les délaissés du coeur des villes sont petits et rares, ceux de la périphérie sont vastes et nombreux.</p>
     <figure id="fig-2">
       <span class="image">
-        <img loading="lazy" src="images-resized/Croquis-02.jpg" alt="">
+        <img loading="lazy" src="images/Croquis-02.jpg" alt="">
       </span>
     </figure>
     <p><span class="enum">8 </span>L’espace rural produit d’autant plus de délaissés – et d’ensembles primaires – que son relief est important. D’autant moins que son relief est faible.</p>
     <figure id="fig-3">
       <span class="image">
-        <img loading="lazy" src="images-resized/Croquis-03-a.png" alt="">
+        <img loading="lazy" src="images/Croquis-03-a.png" alt="">
       </span>
       <span class="image">
-        <img loading="lazy" src="images-resized/Croquis-03-b.png" alt="">
+        <img loading="lazy" src="images/Croquis-03-b.png" alt="">
       </span>
     </figure>
     <p><span class="enum">9 </span>L’importance des territoires refuges à la diversité est directement liée à la possibilité&nbsp;:<br>— d’exploiter le sol mécaniquement en secteur rural&nbsp;; <br>— de couvrir le sol efficacement en secteur urbain.</p>
@@ -211,23 +224,23 @@
       Par nature le Tiers paysage constitue un territoire pour les multiples espèces ne trouvant place ailleurs. Le reliquat d’espèces ne figurant pas dans le Tiers paysage est représenté par les plantes cultivées, les animaux élevés, et les êtres dont l’existence dépend des cultures et des élevages<span class="fn">Le coquelicot, plante des moissons, dépend des pratiques agricoles. Il apparaît sur une terre retournée ou blessée. Pas ailleurs. Avec les messicoles et les adventices des cultures, il appartient à la série des herbes combattues, donc menacées d’extinction mais douées d’un grand pouvoir de régénération.</span>.
       Les espaces de diversité proviennent de trois origines distinctes&nbsp;: les ensembles primaires, les délaissés, les réserves.
     </p>
-    <p class="<?= $media == "printa4" ? "break-before" : "" ?>">Les <em>ensembles primaires</em> sont des espaces n’ayant jamais été soumis à l’exploitation. Ils évoluent lentement ou pas du tout. Les espèces qui s’y développent correspondent au niveau optimum de vie pour les conditions du milieu (climax). Quelques forêts primaires existent encore dans le monde, les autres espaces primaires se répartissent en prairies alpines, landes climaciques, toundras (…). Les ensembles primaires sont unitaires d’aspect en dépit d’une diversité généralement forte.</p>
+    <p class="">Les <em>ensembles primaires</em> sont des espaces n’ayant jamais été soumis à l’exploitation. Ils évoluent lentement ou pas du tout. Les espèces qui s’y développent correspondent au niveau optimum de vie pour les conditions du milieu (climax). Quelques forêts primaires existent encore dans le monde, les autres espaces primaires se répartissent en prairies alpines, landes climaciques, toundras (…). Les ensembles primaires sont unitaires d’aspect en dépit d’une diversité généralement forte.</p>
     <figure id="fig-4">
       <span class="image">
-        <img loading="lazy" src="images-resized/Croquis-04-a.png" alt="">        
+        <img loading="lazy" src="images/Croquis-04-a.png" alt="">        
       </span>
       <span class="image">
-        <img loading="lazy" src="images-resized/Croquis-04-b.png" alt="">        
+        <img loading="lazy" src="images/Croquis-04-b.png" alt="">        
       </span>
       <span class="image">
-        <img loading="lazy" src="images-resized/Croquis-04-c.png" alt="">        
+        <img loading="lazy" src="images/Croquis-04-c.png" alt="">        
       </span>
       <span class="image">
-        <img loading="lazy" src="images-resized/Croquis-04-d.png" alt="">        
+        <img loading="lazy" src="images/Croquis-04-d.png" alt="">        
       </span>
     </figure>
     <p>Les <em>délaissés</em> résultent de l’abandon d’une activité. Ils évoluent naturellement vers un paysage secondaire. Une forêt secondaire peut provenir d’un délaissé. Une <em>forte dynamique</em> caractérise les paysages secondaires. Un jeune délaissé accueille rapidement des espèces pionnières qui bientôt disparaissent au profit d’espèces de plus en plus stables jusqu’à l’obtention d’un équilibre.  Les paysages secondarisés sont hétérogènes et chaotiques.</p>
-    <p>Les <em>réserves</em> sont des ensembles protégés de l’activité humaine, par décision. Ensembles jugés fragiles ou rares, riches d’une diversité en péril. Ou encore ensembles sacrés (interdits), territoires des dieux, comme le sommet des montagnes indiennes, les espace «&nbsp;fadys&nbsp;» malgaches, les vallées à «&nbsp;leyaks&nbsp;» de Bali…</p>
+    <p>Les <em>réserves</em> sont des ensembles protégés de l’activité humaine, par décision. Ensembles jugés fragiles ou rares, riches d’une diversité en péril. Ou encore ensembles sacrés (interdits), territoires des dieux, comme le sommet des montagnes indiennes, <span style="--ls:-1">les espace «&nbsp;fadys&nbsp;» malgaches, les vallées à «&nbsp;leyaks&nbsp;» de Bali…</span></p>
     <p><span class="enum">1 </span>Les réserves et les ensembles primaires se ressemblent. Il s’agit de <em>climax</em>, niveaux <em>stables</em> dont l’aspect se modifie peu dans le temps<span class="fn">Le classement en réserve de milieux instables se justifie par la singularité des biotopes et des espèces de ces écosystèmes. Une tourbière se referme, un terril se boise dans un laps de temps court, parfois à l’échelle d’une vie humaine. Le paysage change, les espèces aussi mais la succession des faciès et des êtres constitue autant de caractères originaux, autant de diversité.</span>.</p>
     <p><span class="enum">2 </span>Les ensembles primaires accueillent encore aujourd’hui la  plus grande diversité planétaire.</p>
     <p style="--ls:-7"><span class="enum">3 </span>Les délaissés ne bénéficient jamais d’un statut de réserve. Ils accueillent des espèces <em>pionnières</em> à cycles rapides. Chacune d’elles prépare la venue des suivantes dont les cycles s’allongent jusqu’à ce que s’installe une permanence.</p>
@@ -246,19 +259,19 @@
     <p><span class="enum">17 </span>L’activité humaine accélère le processus de rencontre menant à la pangée, diminue le nombre d’isolats et, par suite, le nombre d’espèces.</p>
     <figure id="fig-5">
       <span class="image">
-        <img loading="lazy" src="images-resized/Croquis-05-a.png" alt="">
+        <img loading="lazy" src="images/Croquis-05-a.png" alt="">
       </span>
       <span class="image">
-        <img loading="lazy" src="images-resized/Croquis-05-b.png" alt="">
+        <img loading="lazy" src="images/Croquis-05-b.png" alt="">
       </span>
       <span class="image">
-        <img loading="lazy" src="images-resized/Croquis-05-c.png" alt="">
+        <img loading="lazy" src="images/Croquis-05-c.png" alt="">
       </span>
     </figure>
     <p><span class="enum">18 </span>L’anthropisation planétaire toujours croissante entraîne la création de délaissés toujours plus nombreux et d’ensembles primaires toujours plus réduits.</p>
     <p><span class="enum">19 </span>La phase ultime du processus conduit à la disparition totale des milieux primaires, à la généralisation des milieux secondaires. La planète, en cet état, peut être assimilée à un immense délaissé. Fonctionnant à partir d’un nombre d’espèces réduit, en équilibre avec l’activité humaine.</p>
     <p><span class="enum">20 </span>L’inconnue est le nombre et la nature des espèces issues du brassage planétaire supposées pouvoir vivre dans cet équilibre. Équilibre lui-même suspendu à la variation du nombre des humains en action.</p>
-    <p class="<?= $media == "printa4" ? "break-before" : "" ?>"><span class="enum">21 </span>Le Tiers paysage, territoire de diversité, est directement lié à la démographie, sujet tabou.</p>
+    <p class=""><span class="enum">21 </span>Le Tiers paysage, territoire de diversité, est directement lié à la démographie, sujet tabou.</p>
   </section>
   
   <section class="text" id="statut">
@@ -287,7 +300,7 @@
     <p><span class="enum">10 </span>En tant que réservoir de toutes les configurations génétiques planétaires, le Tiers paysage représente le futur biologique.</p>
     <figure id="fig-6">
       <span class="image">
-        <img loading="lazy" src="images-resized/Croquis-06.jpg" alt="">
+        <img loading="lazy" src="images/Croquis-06.jpg" alt="">
       </span>
     </figure>
     <p><span class="enum">11 </span>Toute altération létale du Tiers paysage compromet les chances d’inventions biologiques, oriente l’évolution en diminuant d’autant le nombre de voies possibles.</p>
@@ -312,19 +325,19 @@
     <p ><span class="enum">1 </span>Par le jeu des échanges internes&nbsp;: <br>— dynamique naturelle d’accès au climax forestier</p>
     <figure id="fig-7">
       <span class="image">
-        <img loading="lazy" src="images-resized/Croquis-07.jpg" alt="">
+        <img loading="lazy" src="images/Croquis-07.jpg" alt="">
       </span>
     </figure>
     <p><span class="enum">2 </span>Par le jeu des échanges avec le milieu environnant&nbsp;: <br>— une pression forte du territoire anthropisé environnant (pratiques polluantes) entraîne une perte de diversité dans le Tiers paysage. <br>— une pression faible du territoire anthropisé environnant (pratiques non polluantes) maintient une diversité équilibrée en Tiers paysage qui peut influencer positivement l’environnement général.</p>
     <figure id="fig-8">
       <span class="image">
-        <img loading="lazy" src="images-resized/Croquis-08.jpg" alt="">
+        <img loading="lazy" src="images/Croquis-08.jpg" alt="">
       </span>
     </figure>
     <p><span class="enum">3 </span>Le Tiers paysage change de forme et de proposition par le jeu du marché, jeu politique.</p>
     <figure id="fig-9">
       <span class="image">
-        <img loading="lazy" src="images-resized/Croquis-09.jpg" alt="">
+        <img loading="lazy" src="images/Croquis-09.jpg" alt="">
       </span>
     </figure>
   </section>
@@ -338,19 +351,19 @@
     <p><span class="enum">5 </span>Les aménagements consécutifs au développement conduisent à un maillage du territoire, membrane urbaine.</p>
     <figure id="fig-10">
       <span class="image">
-        <img loading="lazy" src="images-resized/Croquis-10-A.jpg" alt="">
+        <img loading="lazy" src="images/Croquis-10-A.jpg" alt="">
       </span>
     </figure>
     <figure id="fig-11">
       <span class="image">
-        <img loading="lazy" src="images-resized/Croquis-10-B.jpg" alt="">
+        <img loading="lazy" src="images/Croquis-10-B.jpg" alt="">
       </span>
     </figure>
     <p><span class="enum">6 </span>Aux abords des grandes cités l’urbanisation ferme les mailles. Au plus loin des grandes cités les mailles demeurent ouvertes.</p>
     <p><span class="enum">7 </span>Les chances de continuité biologique diminuent avec la fermeture des mailles. La diversité diminue en proportion.</p>
     <figure id="fig-12">
       <span class="image">
-        <img loading="lazy" src="images-resized/Croquis-11.jpg" alt="">
+        <img loading="lazy" src="images/Croquis-11.jpg" alt="">
       </span>
     </figure>
     <p><span class="enum">8 </span>Seule la multiplication des délaissés issus de l’aménagement le long des mailles permet de constituer des refuges à la diversité.</p>
@@ -363,12 +376,12 @@
     <p><span class="enum">1 </span>Le Tiers paysage est sans échelle.</p>
     <p><span class="enum">2 </span>Il couvre l’ensemble des écosystèmes capables d’assurer le maintien d’une diversité.</p>
     <p><span class="enum">3 </span>Une forêt constitue un écosystème <br>Un lichen constitue un écosystème <br>Un rivage… <br>Une écorce… <br>Une montagne… <br>Un rocher… <br>Un nuage…</p>
-    <p><span class="enum">4 </span>Les instruments d’appréciation du Tiers paysage vont du satellite au microscope.</p>
+    <p><span class="enum">4 </span><span style="--ls:-2">Les instruments d’appréciation du Tiers paysage vont du satellite au microscope.</span></p>
     <p><span class="enum">5 </span>L’analyse des informations obtenues à partir des satellites donne, en particulier, l’activité de biomasse pour une région donnée, expression d’une multitude imbriquée d’écosystèmes.</p>
     <p><span class="enum">6 </span>L’analyse à partir des microscopes donne, en particulier, l’énoncé des êtres les plus simples vivant au sein d’un écosystème.</p>
     <figure id="fig-13">
       <span class="image">
-        <img loading="lazy" src="images-resized/Croquis-12.jpg" alt="">
+        <img loading="lazy" src="images/Croquis-12.jpg" alt="">
       </span>
     </figure>
     <p><span class="enum">7 </span>Tous les instruments intermédiaires permettent l’inventaire des habitats, puis des habitants.</p>
@@ -380,7 +393,7 @@
     <p><span class="enum">2 </span>Les limites apparaissent aux frontières des délaissés et des territoires exploités&nbsp;:<br> — lisière forêt / agriculture ou ville&nbsp;;<br> — limite maquis / agriculture ou ville&nbsp;;<br> — limite garrigue / agriculture ou ville&nbsp;;<br> — limite landes / agriculture ou ville&nbsp;;<br> — limite friche / agriculture ou ville.</p>
     <figure id="fig-14">
       <span class="image">
-        <img loading="lazy" src="images-resized/Croquis-13.jpg" alt="">
+        <img loading="lazy" src="images/Croquis-13.jpg" alt="">
       </span>
     </figure>
     <p><span class="enum">3 </span>Les limites situées entre les délaissés récents et les délaissés anciens (forêts issues de délaissés) demeurent indistinctes. Du point de vue du Tiers paysage elles n’existent pas.</p>
@@ -390,9 +403,19 @@
     <p><span class="enum">7 </span>La forêt climacique, les ensembles primaires, les délaissés évoluant vers la forêt et les délaissés jeunes peuvent être cartographiés et représentés de la même façon au titre de territoires refuges pour la diversité.</p>
     <p><span class="enum">8 </span>La contiguïté des ensembles primaires et des délaissés offre à la diversité une continuité territoriale.</p>
     <p><span class="enum">9 </span>La continuité territoriale apparaît de façon massive dans le cas des «&nbsp;réserves&nbsp;» bien constituées ou dans le cas de contiguïté des délaissés avec les réserves et les ensembles primaires. Ailleurs, elle apparaît sous forme de linéaments (corridors biologiques)&nbsp;: haies, bordures de champs, bordures de routes, ripisylves, ou encore sous forme d’îles.</p>
+    <figure id="fig-15">
+      <span class="image">
+        <img loading="lazy" src="images/Croquis-14.jpg" alt="">
+      </span>
+    </figure>
     <p><span class="enum">10 </span>La taille du territoire d’accueil à la diversité est un facteur limitant du nombre des espèces.</p>
     <p><span class="enum">11 </span>Les limites – interfaces, canopées, lisières, orées, bordures – constituent en soi des épaisseurs biologiques. Leur richesse est souvent supérieure à celle des milieux qu’elles séparent.</p>
     <p><span class="enum">12 </span>La représentation des limites du Tiers paysage ne peut pas objectivement traduire leur épaisseur biologique mais elle peut l’évoquer.</p>
+    <figure id="fig-16">
+      <span class="image">
+        <img loading="lazy" src="images/Croquis-15.jpg" alt="">
+      </span>
+    </figure>
   </section>
   
   <section class="text" id="rapport-au-temps">
@@ -406,22 +429,32 @@
     <p><span class="enum">7 </span>D’un point de vue biologique exister correspond à une performance.</p>
     <p><span class="enum">8 </span>La durée de la performance est la durée de la vie de chaque être.</p>
     <p><span class="enum">9 </span>La durée de vie de chaque être est tributaire du système dans lequel il se trouve mais aussi de sa configuration propre.</p>
-    <figure id="fig-15">
+    <figure id="fig-17">
       <span class="image">
-        <img loading="lazy" src="images-resized/Croquis-16.jpg" alt="">
+        <img loading="lazy" src="images/Croquis-16.jpg" alt="">
       </span>
     </figure>
     <p><span class="enum">10 </span>Le Tiers paysage n’évolue pas selon des courbes temporelles simples mais selon les modélités biologiques du milieu.</p>
     <p><span class="enum">11 </span>L’inconstance des systèmes biologiques dans le temps correspond à l’ajustement permanent de leurs composants aux fluctuations du milieu.</p>
     <p style="--ls:-9"><span class="enum">12 </span>L’inconstance des systèmes biologiques est un gage de résistance au temps.</p>
     <p style="--ls:-5"><span class="enum">13 </span>Tandis que l’évolution constante présente un risque d’effondrement, l’évolution inconstante se déploie sans hiatus par rétablissements successifs.</p>
+    <figure id="fig-18">
+      <span class="image">
+        <img loading="lazy" src="images/Croquis-17.jpg" alt="">
+      </span>
+    </figure>
     <p><span class="enum">14 </span>Le Tiers paysage est le siège d’une évolution globalement inconstante.</p>
     <p><span class="enum">15 </span>La majorité des espèces d’un système biologique libre (Tiers paysage) répond à une évolution inconstante par adaptations successives (transformisme). Les espèces (ou systèmes) à évolution constante dont la configuration se durcit au fil du temps sont soumises à la pression sélective du milieu changeant.</p>
     <p><span class="enum">16 </span>Le processus évolutif constant menant aux chocs est de type darwinien. Le processus évolutif inconstant accompagné de transformations est de type lamarckien.</p>
     <p><span class="enum">17 </span>Le processus darwinien s’accompagne de changements violents et courts, le processus lamarckien de modifications modulées et lentes.</p>
     <p><span class="enum">18 </span>Le processus général de l’évolution peut – être entendu comme une succession de phénomènes courts et lents (darwiniens et lamarckiens) concernant les systèmes.</p>
+    <figure id="fig-19">
+      <span class="image">
+        <img loading="lazy" src="images/Croquis-18.jpg" alt="">
+      </span>
+    </figure>
     <p><span class="enum">19 </span>Ce processus concerne aussi les espèces prises individuellement. Au sein d’un système en évolution lente il peut y avoir des cas isolés d’évolutions rapides par pression sélective.</p>
-    <p class="<?= $media == "printa4" ? "break-before" : "" ?>"><span class="enum">20 </span>La dimension temporelle offerte au processus lamarckien permet aux êtres confrontés aux transformations du milieu de chercher des solutions nouvelles de vie.</p>
+    <p class=""><span class="enum">20 </span>La dimension temporelle offerte au processus lamarckien permet aux êtres confrontés aux transformations du milieu de chercher des solutions nouvelles de vie.</p>
     <p><span class="enum">21 </span>Par son dispositif hétérogène, son inconstance et sa démesure temporelle, le Tiers paysage apparaît comme le territoire de l’invention biologique.</p>
   </section>
 
@@ -435,7 +468,7 @@
     <p><span class="enum">5 </span>Le délaissement du Tiers paysage par l’institution coïncide avec&nbsp;:<br>— un point de vue dévalorisant&nbsp;: friche, délaissé, décombre, décharge, terrain vague, etc.<br>— un point de vue moralisant&nbsp;: lieux sacrés, lieux interdits.</p>
     <p><span class="enum">6 </span>Le délaissement du Tiers paysage par l’institution ne modifie pas son devenir, il l’entretient.</p>
     <p><span class="enum">7 </span>Le délaissement du Tiers paysage par l’institution garantit le maintien et le déploiement de la diversité.</p>
-    <p class="<?= $media == "printa4" ? "break-before" : "" ?>"><span class="enum">8 </span>Le délaissement du Tiers paysage par l’institution ne signifie pas délaissement absolu.</p>
+    <p><span class="enum">8 </span>Le délaissement du Tiers paysage par l’institution ne signifie pas délaissement absolu.</p>
     <p><span class="enum">9 </span>L’usage non institutionnel du Tiers paysage fait partie des usages les plus anciens de l’espace.</p>
     <p><span class="enum">10 </span>L’usager non institutionnel du Tiers paysage acquiert un statut partagé par tous les êtres composant ce territoire<br>— Il devient partie intégrante du système évolutif.</p>
     <p><span class="enum">11 </span>Les raisons du délaissement tiennent au regard porté par l’institution sur une catégorie de son territoire&nbsp;:<br>— exploitation impossible ou irrationnelle&nbsp;;<br>— exploitation non rentable&nbsp;;<br>— espace destructuré, incommode, impraticable&nbsp;;<br>— espace de rejet, de déchets, de marge&nbsp;;<br>— espace d’insécurité&nbsp;;<br>— espace non revendicable, privé d’espérance.</p>
@@ -463,7 +496,7 @@
     <p> — Instruire l’esprit du non–faire comme on instruit celui du faire.<br><span style="--ls:-7.2; text-align-last:justify"> — Élever l’indécision à hauteur politique. La mettre en balance avec le pouvoir.</span><br> — Imaginer le projet comme un espace comprenant des réserves et des questions posées.<br> — Considérer le non-aménagement comme un principe vital par lequel tout aménagement se voit traversé des éclairs de la vie.<br> — Approcher la diversité avec étonnement.</p>
     <h4>Sur l’étendue</h4>
     <p>— Considérer l’accroissement des espaces de Tiers paysage issus de l’aménagement comme le contrepoint nécessaire à l’aménagement proprement dit. <br><span style="--ls:-2">— Privilégier la création d’espaces de Tiers paysage de grande dimension afin de couvrir l’étendue des espèces capables d’y vivre et de s’y reproduire.</span> <br>— Prévoir le couplage des délaissés aux réserves pour constituer des territoires de continuité biologique.</p>
-    <h4 class="<?= $media == "printa4" ? "break-before" : "" ?>">Sur le caractère</h4>
+    <h4 >Sur le caractère</h4>
     <p>— Regarder le brassage planétaire – mécanique inhérente au Tiers paysage&nbsp;– comme un moteur de l’évolution.<br>— Enseigner les moteurs de l’évolution comme on enseigne les langues, les sciences, les arts.<br>— Instruire l’usager des précautions nécessaires à la manipulation et à l’exploitation des êtres dont il dépend. La fragilité du système tient à la nature des pratiques et du nombre.</p>
     <h4>Sur le statut</h4>
     <p style="--ls:-5">— Envisager la dimension planétaire.<br> — Protéger la dérèglementation morale, sociale et politique du Tiers paysage.<br> — Présenter le Tiers paysage, fragment indécidé du Jardin planétaire, non comme un bien patrimonial, mais comme un espace commun du futur.</p>
@@ -490,27 +523,36 @@
     </p>
   </section>
   <footer id="colophon">
-    <p>Titre original: « Le tiers paysage »<br>Gilles Clément, 2004</p>
-    <p>Copyleft&nbsp;: cette oeuvre est libre, vous pouvez la copier, la diffuser et la modifier selon les termes de la <a href="http://artlibre.org">Licence Art&nbsp;Libre</a>.</p>
-    <hr>
-    <p>
-      Manifeste du Tiers paysage<br>
-      <a href="https://maisondeseditions.fr/">Maison des éditions</a> — 2022 — ISBN 978-2-9566344-8-5
-    </p>
-    <p>
-      Traduction en portugais brésilien : Lucia Leistner ―
-      Révision de la traduction : Andréa Soler Machado  et Maria Clara Adams ―
-      Illustrations originales de Gilles Clément, restaurées par les Éditions du commun ―
-      Image de couverture : <i>Échos d’un Tiers paysage</i>, Christophe Clottes, issu du protocole de la série « <a href="https://dda-nouvelle-aquitaine.org/Echos-d-un-ilot-2010">Échos d’un îlot</a> »  ―
-      Design &amp; développement : <a href="https://accentgrave.net/">Julien Bidoret</a>  ―
-      Caractères typographiques : <a href="http://velvetyne.fr/fonts/compagnon/">Compagnon</a> (Juliette Duhé, Léa Pradine, Valentin Papon, Chloé Lozano, Sébastien Riollier) &amp; <a href="https://software.sil.org/gentium/">Gentium Book</a> (SIL International).
-    </p>
-    <p>Le texte original est accessible <a href="_admin_13517_tierspaypublications_92045_manifeste_du_tiers_paysage">en archive</a>. Pour plus d’informations, visitez <a href="http://www.gillesclement.com/">le site de l’auteur</a>. Le texte en version portugais brésilien est disponible selon les termes de la licence Creative Commons “<a href="https://creativecommons.org/licenses/by/4.0/deed.pt_BR">Atribuição</a>”.</p>
-    <p>
-      <a href="https://maisondeseditions.fr" id="footer-maisondeseditions"><img src="images-resized/logo.svg" alt="Maison des éditions"></a>
-    </p>
-  
+    <div class="colophon-data">
+      <p>Titre original: « Le tiers paysage »<br>Gilles Clément, 2004</p>
+      <p>Copyleft&nbsp;: cette oeuvre est libre, vous pouvez la copier, la diffuser et la modifier selon les termes de la <a href="http://artlibre.org">Licence Art&nbsp;Libre</a>.</p>
+      <p>
+        Manifeste du Tiers paysage<br>
+        <a href="https://maisondeseditions.fr/">Maison des éditions</a> <?= $media == "printa5" ? "— 2022<br>" : "— 2022 — " ?>ISBN 978-2-9566344-8-5</p>
+      </p>
+      <p>
+        <a href="https://maisondeseditions.fr" id="footer-maisondeseditions"><img src="images/logo.svg" alt="Maison des éditions"></a>
+      </p>
+    </div>
+    <div class="colophon-meta">
+      <p>
+        <span>Traduction en portugais brésilien : Lucia Leistner</span>
+        <span>Révision de la traduction : Andréa Soler Machado  et Maria Clara Adams</span>
+        <span>Illustrations originales de Gilles Clément, restaurées par les Éditions du commun</span>
+        <span>Image de couverture : <i>Échos d’un Tiers paysage</i>, Christophe Clottes, issu du protocole de la série « <a href="https://dda-nouvelle-aquitaine.org/Echos-d-un-ilot-2010">Échos d’un îlot</a> » </span>
+        <span>Design &amp; développement : <a href="https://accentgrave.net/">Julien Bidoret</a> </span>
+        <span>Caractères typographiques : <a href="http://velvetyne.fr/fonts/compagnon/">Compagnon</a> (Juliette Duhé, Léa Pradine, Valentin Papon, Chloé Lozano, Sébastien Riollier) &amp; <a href="https://software.sil.org/gentium/">Gentium Book</a> (SIL International).</span>
+      </p>
+      <p>
+        <span>Le texte original est accessible <a href="pdf/_admin_13517_tierspaypublications_92045_manifeste_du_tiers_paysage.pdf">en archive</a>. Pour plus d’informations, visitez <a href="http://www.gillesclement.com/">le site de l’auteur</a>. </span>
+        <span>Le texte en version portugais brésilien est disponible selon les termes de la licence Creative Commons “<a href="https://creativecommons.org/licenses/by/4.0/deed.pt_BR">Atribuição</a>” et accessible sur le site de la Maison des éditions : <a href="https://maisondeseditions.fr/tp/">maisondeseditions.fr/tp</a>.</span>
+      </p>
+    </div>
   </footer>
+  
+  <div class="backcover">
+    <img src="images/logo.svg" id="backcover-maisondeseditions" alt="Maison des éditions">
+  </div>
 
   <script src="js/script.js"></script>
 </body>

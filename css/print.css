@@ -1,20 +1,21 @@
 @media print {
 
   @page {
-      size: 210mm 297mm;
-      margin-top: 2cm;
-      margin-right: 2cm;
-      margin-bottom: 2cm;
-      margin-left: 4cm;
-      @bottom-left{
-        padding-left: 2em;
-        content: counter(page);
-        font-family: "Compagnon";
-        font-weight: 600;
-      }
-      @footnote {
-        float: bottom;
-      }
+    size: 210mm 297mm;
+    margin-top: 2cm;
+    margin-right: 2cm;
+    margin-bottom: 2cm;
+    margin-left: 4cm;
+    @bottom-left{
+      padding-left: 2em;
+      content: counter(page);
+      font-family: "Compagnon";
+      font-weight: 600;
+      color:punk
+    }
+    @footnote {
+      float: bottom;
+    }
   }  
   
   @page cover {
@@ -47,6 +48,19 @@
     margin-bottom: 3em;
   }
 
+  #colophon {
+    font-size: 11px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2em;
+  }
+  #colophon p {
+    max-width: 100%;
+  }
+  .colophon p {
+    max-width: 100%;
+  }
   /* ------------------------------------------------------------------------ breaks */
   /* figure.nobreak, p {break-inside: avoid} */
 
@@ -163,6 +177,12 @@
 
 
   /* text */
+  section > :first-child {
+    margin-top: 0;
+  }
+  [style]{
+    letter-spacing:calc(var(--ls, 0) * 0.0025em);
+  }
   .text figure {
     margin-bottom: 1em;
   }
@@ -172,6 +192,7 @@
   }
   .text figure::before{
     margin-left: calc(-3em * 2);
+    display: none;
   }
   figcaption,
   .text figure::before{
@@ -218,10 +239,6 @@
   #fig-3 img { width: 80%;}
   
   #fig-4 img { width: 100%;}
-  
-  #fig-5 {
-    break-before: always;
-  }
   
   /* span[data-footnote-marker]{counter-increment: none !important} */
 

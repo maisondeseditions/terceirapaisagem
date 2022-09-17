@@ -12,38 +12,69 @@ body{
     /* margin: 40px 60px 80px 60px; */
   }
   @page:left{
-    margin: 44px 60px 70px 60px;
+    margin: 36px 60px 70px 60px;
   }
   @page:right{
-    margin: 44px 60px 70px 60px;
+    margin: 36px 33px 70px 87px;
   }
-  @page frontcover {
+  @page cover {
     margin: 1cm;
-    @top-center{
+    @bottom-left {
       content: none;
     }
   }
   @page backcover {
-    @top-center{
+    @bottom-left {
       content: none;
     }
   }
+  @page:blank {
+    @bottom-left{
+      content: none;
+    }    
+  }
   @page blank {
-    @top-center{
+    @bottom-left{
       content: none;
     }
   }
   #page-12 .pagedjs_footnote_content{
-margin-top: 0 ;
+    margin-top: 0 ;
   }
-  .front-cover{ page: frontcover; }
-  .back-cover{ page: backcover; }
-  .blank { page: blank; break-before: always;}
-  .pagedjs_added_page {  --color-paper: white; } /* added pages */
 
+  /* .blank { page: blank; break-before: always;} */
+  
+  .pagedjs_added_page {  --color-paper: white; } /* added pages */
+  .backcover {
+    display: block;
+    page: backcover;
+  }
+  #backcover-maisondeseditions {
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    display: block;
+    transform: translateX(-50%);
+  }
+  #blockquote{
+    break-before: right;
+    page: blank;
+  }
+  #index {
+    break-before: right;
+    break-after: left;
+    page: blank;
+  }
   .empty{
     page: blank;
     break-before: always;
+  }
+  #definicoes, #definitions {
+    break-before: right;
+  }
+
+  #origine, #origem {
+    break-before: left;
   }
 
   .empty img{
@@ -64,13 +95,25 @@ margin-top: 0 ;
     justify-content: space-evenly;
   }
 
+  .backcover {
+    break-after: always;
+    page: backcover
+  }
+  
+  #header div {
+    padding: 0;
+  }
+
   /* baseline */
   #blockquote p {
     margin-top: 0;
   } 
   p {
-    margin: 0 0 11px 0;
+    margin: 0 0 calc(8.9px) 0;
     /* hanging-punctuation: force-end; */
+  }
+  a  {
+    text-decoration: none;
   }
 
   /* breaks */
@@ -78,26 +121,27 @@ margin-top: 0 ;
     break-before: always;
   }
   /* index */
-  #index {
+  /* #index {
     break-before: always;
     margin-top: 0;
-  }
+  } */
   #index ul {
-    margin-top: 24px;
+    margin-top: 18px;
   }
+  #index ul .enum {min-width: 2.5em;}
   #index h2, #index h3 {
-    line-height: 21px;
+    line-height: 18px;
   }
   #list-toc-generated .toc-element a {
-    height: 22px;
+    height: 18px;
   }
   /* titres */
   h2 {
-    font-size: 22px;
-    line-height: 1;
-    margin-bottom: 22px;
+    font-size: 26px;
+    line-height: 18px;
+    margin-bottom: 18px;
   }
-  .enum {
+  .text h2  .enum {
     /* font-size: 75%; */
     margin-left: 0;
     display: inline-block;
@@ -110,23 +154,25 @@ margin-top: 0 ;
   }
   .text h2 .enum { font-weight: 200; padding-right: 0;}
   [style]{
-    letter-spacing:calc(var(--ls, 0) * 0.0025em);
+    /* letter-spacing: calc(var(--ls, 0) * 0.0025em); */
+    letter-spacing: 0; 
+    letter-spacing: calc(var(--a5ls, 0) * 0.0025em);
   }
   .text p {
-    text-align: justify;
+    /* text-align: justify; */
     orphans: 2;
     widows: 2;
   }
   .text {
     padding-left: 0;
-    hyphens: auto;
+    /* hyphens: auto;
     -ms-hyphens: auto;
     -moz-hyphens: auto;
-    -webkit-hyphens: auto;
+    -webkit-hyphens: auto; */
   }
-  [data-align-last-split-element='justify']{
+  /* [data-align-last-split-element='justify']{
     text-align-last: left;
-  }
+  } */
   .text > :first-of-type, 
   p:first-child,
   p:first-of-type{ margin-top: 0; }
@@ -145,7 +191,7 @@ margin-top: 0 ;
 
   /* figures */
 
-  .text figure { margin-top: 0;}
+  .text figure { margin: .5em 0;}
 
   .text figure::before {
     margin-left: 0;
@@ -157,38 +203,7 @@ margin-top: 0 ;
     opacity: 1;
   }
 
-  #fig-2 img {
-    width: 95%;
-    margin-inline: auto;
-  }
-  #fig-4 img {
-    width: 100%;
-    /* margin-inline: auto; */
-    margin-bottom: .5em;
-  }
-  .text #fig-8 {
-    margin-top: 0;
-  }
-  #fig-7 img,
-  #fig-8 img,
-  #fig-9 img {
-    /* width: 92%; */
-    margin-inline: auto;
-  }
-  #fig-10 img ,
-  #fig-11 img {
-    width: 90%;
-    margin-inline: auto;
-    /* margin-block: 1em; */
-    /* display: none; */
-  }
-  #fig-13 img {
-    width: 95%;
-  }
-  #fig-14 img {
-    width: 85%;
-    margin-inline: auto;
-  }
+
   /* .text p + figure { margin-top: 2em;} */
   .text figcaption {
     display: none !important;
@@ -198,4 +213,16 @@ margin-top: 0 ;
     font-size: 10px;
     line-height: 1.25;
   }
+
+  .colophon-meta span:not(:last-child)::after{
+    content: ""
+  }
+  .colophon-meta span {display: block;}
+  .colophon-data p:first-child  {margin: 0;}
+  .colophon-data p:nth-child(even),
+  .colophon-meta span:nth-child(even) {padding-left: 2em;}
+  a.external::after{
+    content: ": " attr(data-url)
+  }
+  
 }

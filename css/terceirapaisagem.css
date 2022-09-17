@@ -210,7 +210,7 @@ a {
 
 #header h2, #header p {
   font-family: "Compagnon";
-  font-weight: bold;
+  font-weight: normal;
   margin: 0;
 }
 
@@ -243,7 +243,7 @@ a {
   bottom: 2em;
   width: 50px;
   left: 4em;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 50%);
 }
 /* ------------------------------------------ #blockquote */
 
@@ -375,7 +375,7 @@ ul .enum {
 img {
   max-width: 100%;
   display: block;
-  mix-blend-mode: color-dodge;
+  /* mix-blend-mode: color-dodge; */
 }
 .text figure{
   counter-increment: figures;
@@ -414,20 +414,21 @@ figcaption {
   font-family: Compagnon;
   font-weight: normal;
   margin: 0 auto;
+  display: none !important;
 }
 figcaption p { margin: 0;}
 
 figure .image {
   display: block;
-  background: var(--gradient);
+  /* background: var(--gradient);
   background-size: 100% 100vh;
-  background-attachment: fixed;
+  background-attachment: fixed; */
 }
 .text #fig-5, 
 .text #fig-1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2em;
+  grid-gap: 1em;
 }
 .text #fig-6 figcaption{
   display: grid;
@@ -549,6 +550,13 @@ figure .image {
   transform: none;
   display: block;
   margin-top: 2em;
+  transform: translateX(-50%);
+}
+.colophon-meta span:not(:last-child)::after{
+  content: " — "
+}
+.backcover {
+  display: none;
 }
 @media screen and (max-width:600px) {
   body {

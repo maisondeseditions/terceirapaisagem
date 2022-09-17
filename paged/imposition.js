@@ -16,7 +16,7 @@ class Booklet extends Paged.Handler {
   }
   afterRendered(pages) {
     if (this.pagedbooklet == true) {
-      // do_imposition();
+      do_imposition();
     }
   }
 }
@@ -37,7 +37,7 @@ function do_imposition(){
   var newSize = `
     @media print{
       @page{
-        size: ${width.replace("mm", "") * 2}mm ${height};
+        size: 297mm 210mm;
       }
       .pagedjs_page:nth-of-type(even){
           break-after: always;
@@ -58,7 +58,6 @@ function do_imposition(){
           max-height: 100%;
           min-height: 100%;
           height: 100% !important;
-
       }
 
       .pagedjs_sheet {
@@ -71,7 +70,7 @@ function do_imposition(){
 
     }
     .pagedjs_first_page {
-            margin-left: 0;
+        margin-left: 0;
     }
     body{
         margin: 0
@@ -117,7 +116,7 @@ function do_imposition(){
     bc.id = lastid;
   };
 
-  // since we now have a number of apages that is a multiple of 4
+  // since we now have a number of pages that is a multiple of 4
   // we update the let pages
   pages = document.querySelectorAll(".pagedjs_page");
 

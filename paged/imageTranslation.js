@@ -8,8 +8,8 @@ class TranslationHandler extends Paged.Handler {
         const images = content.querySelectorAll('img');
         images.forEach(image => {
           image.removeAttribute("loading")
-          image.setAttribute("src", image.getAttribute('src').replace('images/', 'images-translated/') + "?" + Math.random());
-          console.log(image);
+          image.setAttribute("src", image.getAttribute('src').replace('images-resized-pt/', 'images-resized-translated/') + "?" + Math.random());
+        //   console.log(image);
         });
     }
 }
