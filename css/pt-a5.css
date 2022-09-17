@@ -1,0 +1,12 @@
+
+.text #fig-2 img { width: 100%;}
+.text #fig-4 img { margin: .5em 0 0 0;}
+.text #fig-5 { break-before: always;}
+.text #fig-11 { margin-top: 0; margin-bottom: -1em; transform: translateY(1em);}
+.text #fig-10 { margin-bottom: 0; margin-top: 0em;}
+.text #fig-4 .image:not(:last-child){ margin-bottom: -.5em; }
+#escala {break-before: always;}
+
+#fig-3 img {  width: 100%;}
+
+[data-page-number="6"] .pagedjs_margin-content {visibility: hidden;}

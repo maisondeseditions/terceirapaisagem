@@ -1,0 +1,20 @@
+.text #fig-5{
+  /* margin-bottom: -1em; */
+ }
+#fig-9 img {
+  /* width: 80%; */
+}
+.text #fig-10 {
+  margin-bottom: 0;
+  margin-top: -1em;
+}
+.text #fig-11 {
+  margin-top: 1em;
+}
+#fig-10 img, #fig-11 img {
+  /* width: 90%; */
+}
+.text #fig-12 {
+  margin: -3em 0 0;
+  transform: translateY(3em);
+}
